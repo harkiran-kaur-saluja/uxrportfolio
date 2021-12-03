@@ -1,0 +1,289 @@
+/* global */
+
+* {
+    font-family: 'Helvetica Now Display', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+/* navigation bar */
+
+nav {
+    display: inline;
+}
+
+.nav {
+    display: inline-block;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+nav img {
+    max-width: 180px;
+    margin-top: 10px;
+    position: left;
+}
+
+.nav-sig {
+  display: inline-block;
+  width: min-content;
+}
+.links {
+  padding-top: 30px;
+  float: right;
+  margin-right: 60px;
+}
+
+nav ul {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+nav ul li button {
+  color: black !important;
+}
+nav a {
+  color: black !important;
+}
+.navLinks {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  color:black;
+}
+.active {
+  text-decoration-line: underline !important; 
+  text-decoration-color: #00ab44 !important;
+  text-decoration-thickness: 2px !important; 
+}
+.links button:hover {
+  outline: none;
+  border: none;
+  text-decoration-line: underline;
+  text-decoration-color: #00ab44 !important;
+  text-decoration-thickness: 2px; 
+}
+.links button:active {
+  text-decoration-line: underline;
+  text-decoration-color: #00ab44 !important;
+  text-decoration-thickness: 2px !important; 
+}
+
+.links a:hover {
+  color: #00ab44;
+}
+nav a:hover {
+  text-decoration: none;
+}
+
+.name {
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+.signature {
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+img {
+  max-width: 450px;
+}
+
+/*home page*/
+
+.intro {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.intro h2{
+  word-spacing: 5px;
+  font-weight: bold;
+}
+
+.firstName {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-size: 50px;
+  padding-left:3px;
+  padding-right:3px;
+  padding-bottom: 3px;
+  background: linear-gradient(to bottom,white 70%, #00ab44 50%);
+}
+
+
+
+.checkOut {
+  border: none;
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: #00ab44;
+  text-decoration-thickness: 4px; 
+  
+}
+.colCheckout {
+  padding-left: 60px;
+}
+hr {
+  border-top: 1px solid;
+}
+
+.seniorPic {
+  max-width: 300px;
+  display: inline;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.rectangle {
+  width: 300px;
+  height: 450px;
+  background-color: #00ab44;
+}
+
+
+/* Code from Bri Camp Gomez https://bricampgomez.com/blog/how-to-overlap-images-in-css/ */
+  .image-stack {
+    display: grid;
+    position: relative; /*imperative for the overlapping to work */
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .image-stack__item:hover {
+    z-index: 1;
+  }
+  .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+  }
+  
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 4 / span 1;
+    padding-top: 0px; /*slightly arbitrary, keeps proportion once resized */
+    z-index: 1;  /*tells the browser to make this image on top */
+  }
+/* changing values for other images*/
+  .image-stack__item--bottom_left {
+    grid-column: 1/ -1;
+    padding-top: 10%;
+    grid-row: 1;
+  }
+  
+  .image-stack__item--top_left {
+    grid-row: 1;
+    grid-column: 4 / span 5;
+    z-index: 1;  /*tells the browser to make this image on top */
+  }
+
+  .image-stack__item--bottom_right {
+    grid-column: 7/ -1;
+    grid-row: 1;
+  }
+  
+  .image-stack__item--top_right {
+    grid-row: 1;
+    padding-top: 30%;
+    grid-column: 3 / span 5;
+    z-index: 1;  /*tells the browser to make this image on top */
+  }
+
+  
+/*about page*/
+
+.aboutText {
+  font-weight: 500;
+  margin-left: 50px;
+  margin-right: 90px;
+  color: black;
+  letter-spacing: .75px;
+}
+
+.contact {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  color: black;
+  letter-spacing: .75px;
+}
+
+.aboutText a {
+  color:#00ab44;
+  text-decoration: underline;
+}
+
+.contact a {
+  color: #00ab44;
+  text-decoration: underline;
+}
+
+.kerryPic{
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+
+
+.aboutText h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.me {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  padding-left:3px;
+  padding-right:3px;
+  padding-bottom: 3px;
+  background: linear-gradient(to bottom,white 70%, #00ab44 50%);
+}
+
+/*project pages*/ 
+.center-img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.userPersona {
+  padding-left: 300px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  margin: 0.5rem;
+  width: 100%;
+  flex: 1;
+}
+
+@media (max-width: 1000px) {
+ .image-stack {
+   display: none;
+ }
+
+ .col-content {
+   width: 100%;
+ }
+ .col-image {
+   display: none;
+ }
+}
