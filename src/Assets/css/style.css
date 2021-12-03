@@ -287,3 +287,8 @@ hr {
    display: none;
  }
 }
+
+.height {
+  max-width: 350px;
+
+}

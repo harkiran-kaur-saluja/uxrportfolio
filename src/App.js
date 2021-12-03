@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
-import "./css/style.css";
-import { NavBar, HomeBody, ProjectsView, About } from './js/components.js';
-import { Persuasive } from './js/persuasive.js';
-import { HumaneOS } from './js/humaneos';
-import { UCRE } from './js/ucre.js';
-import { KidsTeam } from './js/kidsteam.js';
+import "./Assets/css/style.css";
+import { NavBar, HomeBody, ProjectsView, About } from './Assets/js/components.js';
+import { Persuasive } from './Assets/js/persuasive.js';
+import { HumaneOS } from './Assets/js/humaneos';
+import { UCRE } from './Assets/js/ucre.js';
+import { KidsTeam } from './Assets/js/kidsteam.js';
 import 'animate.css';
 
 

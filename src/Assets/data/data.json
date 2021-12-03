@@ -3,9 +3,9 @@
       "ProjectNumber": 1,
       "ProjectName": "Mitigating AI Bias in Voice Recognition.",
       "ProjectRole": "Research Lead",
-      "Image1": ".\\img\\humaneOS\\HumaneOS_smallImage.png",
-      "Image2": ".\\img\\humaneOS\\HumaneOS_banner.png",
-      "ProjectOverview": "This is a description of the project. Here is what we did and how we did it. ",
+      "Image2": ".\\img\\ucre\\alexa.jpg",
+      "Image1": ".\\img\\ucre\\homePageImage.png",
+      "ProjectOverview": "Employed several generative and evaluative methods in order to understand our audience’s experiences, perceptions, and attitudes towards voice recognition technologies.",
       "To": "/01"
     },
     {
@@ -14,7 +14,7 @@
       "ProjectRole": "Design Lead",
       "Image1": ".\\img\\humaneOS\\HumaneOS_banner.png",
       "Image2": ".\\img\\humaneOS\\HumaneOS_smallImage.png",
-      "ProjectOverview": "This is a description of the project. Here is what we did and how we did it. ",
+      "ProjectOverview": "A mobile app that helps users, primarily college students, to integrate healthy breaks within their work schedules. The app allows for users to set their breaks and work sessions. It also prompts users to take breaks by sending and receiving dares from their friends.",
       "To": "/02"
     },
     {
