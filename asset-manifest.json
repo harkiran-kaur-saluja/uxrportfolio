@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/harkiran-kaur-saluja/uxrportfoliostatic/css/main.6716ce03.chunk.css",
-    "main.js": "/harkiran-kaur-saluja/uxrportfoliostatic/js/main.ed44cd91.chunk.js",
-    "main.js.map": "/harkiran-kaur-saluja/uxrportfoliostatic/js/main.ed44cd91.chunk.js.map",
-    "runtime-main.js": "/harkiran-kaur-saluja/uxrportfoliostatic/js/runtime-main.6064853f.js",
-    "runtime-main.js.map": "/harkiran-kaur-saluja/uxrportfoliostatic/js/runtime-main.6064853f.js.map",
-    "static/css/2.a1596f27.chunk.css": "/harkiran-kaur-saluja/uxrportfoliostatic/css/2.a1596f27.chunk.css",
-    "static/js/2.59377e4d.chunk.js": "/harkiran-kaur-saluja/uxrportfoliostatic/js/2.59377e4d.chunk.js",
-    "static/js/2.59377e4d.chunk.js.map": "/harkiran-kaur-saluja/uxrportfoliostatic/js/2.59377e4d.chunk.js.map",
-    "index.html": "/harkiran-kaur-saluja/uxrportfolioindex.html",
-    "static/css/2.a1596f27.chunk.css.map": "/harkiran-kaur-saluja/uxrportfoliostatic/css/2.a1596f27.chunk.css.map",
-    "static/css/main.6716ce03.chunk.css.map": "/harkiran-kaur-saluja/uxrportfoliostatic/css/main.6716ce03.chunk.css.map",
-    "static/js/2.59377e4d.chunk.js.LICENSE.txt": "/harkiran-kaur-saluja/uxrportfoliostatic/js/2.59377e4d.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.6716ce03.chunk.css",
+    "main.js": "./static/js/main.ed44cd91.chunk.js",
+    "main.js.map": "./static/js/main.ed44cd91.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.668e253e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.668e253e.js.map",
+    "static/css/2.a1596f27.chunk.css": "./static/css/2.a1596f27.chunk.css",
+    "static/js/2.59377e4d.chunk.js": "./static/js/2.59377e4d.chunk.js",
+    "static/js/2.59377e4d.chunk.js.map": "./static/js/2.59377e4d.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.a1596f27.chunk.css.map": "./static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.6716ce03.chunk.css.map": "./static/css/main.6716ce03.chunk.css.map",
+    "static/js/2.59377e4d.chunk.js.LICENSE.txt": "./static/js/2.59377e4d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6064853f.js",
+    "static/js/runtime-main.668e253e.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.59377e4d.chunk.js",
     "static/css/main.6716ce03.chunk.css",
