@@ -62,7 +62,7 @@ export function Picture() {
         <div>
             <div className="image-stack">
                 <div className="image-stack__item image-stack__item--top">
-                    <img src="img/general/seniorpic.jpg" className="seniorPic" alt="Harkiran sitting on a rock wearing a striped shirt and dark blue jeans" />
+                    <img src="uxrportfolio/public/img/general/seniorpic.jpg" className="seniorPic" alt="Harkiran sitting on a rock wearing a striped shirt and dark blue jeans" />
                 </div>
                 <div className="image-stack__item--bottom">
                     <div className="rectangle"></div>
