@@ -30,10 +30,10 @@ export function Persuasive () {
                 <p><strong>findings: </strong> </p><ul>list of findings</ul>summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum scelerisque urna, sit amet ultricies odio iaculis quis. Nunc blandit a mauris sit amet porttitor. Aliquam erat volutpat. Donec nec congue leo, eget facilisis elit. Pellentesque vitae aliquam libero. Pellentesque turpis lacus, aliquet sit amet convallis ac, iaculis eget arcu. Aliquam pellentesque auctor mollis. Quisque ac dui libero.<p />
                 {/*2 column layout*/}
                 <div>
-                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder image for balance from humaneOS" />
+                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder for balance from humaneOS" />
                 </div>
                 <div>
-                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder image for balance from humaneOS" />
+                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder for balance from humaneOS" />
                 </div>
             </div>
             <div className="px-5">
@@ -41,10 +41,10 @@ export function Persuasive () {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum scelerisque urna, sit amet ultricies odio iaculis quis. Nunc blandit a mauris sit amet porttitor. Aliquam erat volutpat. Donec nec congue leo, eget facilisis elit. Pellentesque vitae aliquam libero. Pellentesque turpis lacus, aliquet sit amet convallis ac, iaculis eget arcu. Aliquam pellentesque auctor mollis. Quisque ac dui libero.</p>
                 {/*2 column layout*/}
                 <div>
-                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder image for balance from humaneOS" />
+                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder for balance from humaneOS" />
                 </div>
                 <div>
-                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder image for balance from humaneOS" />
+                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder for balance from humaneOS" />
                 </div>
             </div>
             <div className="px-5">
@@ -54,10 +54,10 @@ export function Persuasive () {
                 <p><strong>Key features: </strong> </p><ul>list of features</ul><p />
                 {/*2 column layout*/}
                 <div>
-                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder image for balance from humaneOS" />
+                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder for balance from humaneOS" />
                 </div>
                 <div>
-                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder image for balance from humaneOS" />
+                <img className="px-5 center-img img-fluid" src="./img/humaneOS/lockscreen.png" alt="a placeholder for balance from humaneOS" />
                 </div>
             </div>
             <div className="px-5">
