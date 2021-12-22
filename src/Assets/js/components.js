@@ -120,7 +120,7 @@ function ProjectOverviewLeft(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
-                    <button type="button" className="btn btn-outline-secondary" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
+                    <button type="button" className="button btn btn-outline-secondary" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
                     <br />
                 </div>
             </div>
@@ -145,7 +145,7 @@ function ProjectOverviewRight(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
-                    <button type="button" className="btn btn-outline-secondary" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
+                    <button type="button" className="button btn btn-outline-secondary" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
                     <br />
                 </div>
                 <div className="col col-image">
