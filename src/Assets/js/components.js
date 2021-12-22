@@ -95,21 +95,21 @@ export function ProjectsView(props) {
 }
 
 function ProjectOverviewLeft(props) {
-    console.log('pol: ', props);
     // props should be an array of project objects
     // going to assume some information rn but can flesh it out later
     return (
         <div className="container animate__animated animate__zoomIn">
             <div className="row justify-content-center">
                 <div className="col col-image">
-                    <div className="image-stack">
+                    <img src={props.project.Image2} className="height" alt="a banner for humaneOS" />
+                    {/* <div className="image-stack">
                         <div className="image-stack__item image-stack__item--top_left">
                             <img src={props.project.Image1} className="height" alt="a banner for humaneOS" />
                         </div>
                         <div className="image-stack__item image-stack__item--bottom_left">
                             <img src={props.project.Image2} className="height" alt="a banner for humaneOS" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col col-content">
                     <div className="fs-2">{'0' + props.project.ProjectNumber}</div>
@@ -132,7 +132,6 @@ function ProjectOverviewLeft(props) {
 function ProjectOverviewRight(props) {
     // props should be an array of project objects
     // going to assume some information rn but can flesh it out later
-    console.log('por: ', props);
     return (
         <div className="container animate__animated animate__zoomIn" >
             <div className="row justify-content-center">
@@ -149,14 +148,15 @@ function ProjectOverviewRight(props) {
                     <br />
                 </div>
                 <div className="col col-image">
-                    <div className="image-stack">
+                    <img src={props.project.Image1} className="height" alt="a banner for humaneOS" />
+                    {/* <div className="image-stack">
                         <div className="image-stack__item image-stack__item--top_right">
                             <img src={props.project.Image1} className="height" alt="a banner for humaneOS" />
                         </div>
                         <div className="image-stack__item image-stack__item--bottom_right">
                             <img src={props.project.Image2} className="height" alt="a banner for humaneOS" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
