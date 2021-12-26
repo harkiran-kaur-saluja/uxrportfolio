@@ -4,17 +4,17 @@ export function NavBar(props) {
 
     return (
         <div className="nav">
-            <nav>
+            <nav id="examples">
                 <div className="nav-sig">
                     <p className="signature"><img src="img/general/signaturepic.png" alt="Harkiran in signature style"></img></p>
                     <p className="name">kaur saluja</p>
                 </div>
                 <div className="links">
-                    <ul>
-                        <li><button className="btn btn-link navlink home" onClick={() => { props.handleClickHome() }}>Home</button></li>
-                        <li><button className="btn btn-link navlink work" onClick={() => { props.handleClickWork() }}>Work</button></li>
-                        <li><button className="btn btn-link navlink"><a href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Resume</a></button></li>
-                        <li><button className="btn btn-link navlink about"d onClick={() => { props.handleClickAbout() }}>About</button></li>
+                    <ul className='example'>
+                        <li><button className="navlink home active hover hover-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
+                        <li><button className="navlink work hover hover-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
+                        <li><button className="navlink hover hover-1"><a href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Resume</a></button></li>
+                        <li><button className="navlink about hover hover-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
                     </ul>
                 </div>
             </nav>
@@ -120,7 +120,7 @@ function ProjectOverviewLeft(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
-                    <button type="button" className="button btn btn-outline-secondary" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
+                    <button type="button" className=" btn btn-outline-secondary button" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
                     <br />
                 </div>
             </div>
@@ -144,7 +144,7 @@ function ProjectOverviewRight(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
-                    <button type="button" className="button btn btn-outline-secondary" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
+                    <button type="button" className=" btn btn-outline-secondary button" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
                     <br />
                 </div>
                 <div className="col col-image">

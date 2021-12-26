@@ -61,30 +61,64 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+/* nav a:hover {
   -webkit-text-fill-color: black;
   text-decoration: underline;
   text-decoration-color: #00ab44 !important;
   text-underline-offset: .25rem;
   text-decoration-thickness: 4px; 
-}
+} */
 
-.links button:hover {
+/* .links button:hover {
   outline: none;
   border: none;
   text-decoration: underline;
   text-decoration-color: #00ab44 !important;
   text-underline-offset: .25rem;
   text-decoration-thickness: 4px; 
-}
+} */
 
-.links button:active {
+
+.links .active {
   font-weight: bold; 
+  text-decoration: underline;
+  text-decoration-color: #00ab44 !important;
+  text-underline-offset: .25rem;
+  text-decoration-thickness: 4px; 
+}
+#examples {
+  background-color: white;
 }
 
-.links a:hover {
-  color: #00ab44;
+
+#examples .example .hover {
+  transition: 0.2s ease-in-out;
+  position: relative;
 }
+#examples .example .hover:before, #examples .example .hover:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 5px;
+  margin: 5px 0 0;
+  transition: 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #00ab44;
+}
+#examples .example .hover.hover-1:before, #examples .example .hover.hover-1:after {
+  left: 0;
+}
+
+#examples .example:hover {
+  cursor: pointer;
+}
+#examples .example:hover .hover:before, #examples .example:hover .hover:after {
+  width: 100%;
+  opacity: 1;
+}
+
 
 .name {
     margin-left: 30px;
