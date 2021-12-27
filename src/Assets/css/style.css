@@ -86,38 +86,103 @@ nav a {
   text-underline-offset: .25rem;
   text-decoration-thickness: 4px; 
 }
-#examples {
-  background-color: white;
-}
 
-
-#examples .example .hover {
-  transition: 0.2s ease-in-out;
+#examples .example .hover1 {
+  transition: 0.2s;
   position: relative;
 }
-#examples .example .hover:before, #examples .example .hover:after {
+#examples .example .hover1:before, #examples .example .hover1:after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -3px;
   width: 0px;
   height: 5px;
-  margin: 5px 0 0;
-  transition: 0.2s ease-in-out;
+  margin: 1px 0 0;
+  transition: 0.2s;
   transition-duration: 0.75s;
   opacity: 0;
   background-color: #00ab44;
 }
-#examples .example .hover.hover-1:before, #examples .example .hover.hover-1:after {
-  left: 0;
-}
-
-#examples .example:hover {
-  cursor: pointer;
-}
-#examples .example:hover .hover:before, #examples .example:hover .hover:after {
+#examples .hover1:hover.hover1:before, #examples .hover1:hover.hover1:after {
   width: 100%;
   opacity: 1;
 }
+#examples .example .hover1.hover1-1:before, #examples .example .hover1.hover1-1:after {
+  left: 0;
+}
+
+#examples .example .hover2 {
+  transition: 0.2s;
+  position: relative;
+}
+#examples .example .hover2:before, #examples .example .hover2:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  width: 0px;
+  height: 5px;
+  margin: 1px 0 0;
+  transition: 0.2s;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #00ab44;
+}
+#examples .hover2:hover.hover2:before, #examples .hover2:hover.hover2:after {
+  width: 100%;
+  opacity: 1;
+}
+#examples .example .hover2.hover2-1:before, #examples .example .hover2.hover2-1:after {
+  left: 0;
+}
+
+#examples .example .hover3 {
+  transition: 0.2s;
+  position: relative;
+}
+#examples .example .hover3:before, #examples .example .hover3:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  width: 0px;
+  height: 5px;
+  margin: 1px 0 0;
+  transition: 0.2s;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #00ab44;
+}
+#examples .hover3:hover.hover3:before, #examples .hover3:hover.hover3:after {
+  width: 100%;
+  opacity: 1;
+}
+#examples .example .hover3.hover3-1:before, #examples .example .hover3.hover3-1:after {
+  left: 0;
+}
+
+#examples .example .hover4 {
+  transition: 0.2s;
+  position: relative;
+}
+#examples .example .hover4:before, #examples .example .hover4:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  width: 0px;
+  height: 5px;
+  margin: 1px 0 0;
+  transition: 0.2s;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #00ab44;
+}
+#examples .hover4:hover.hover4:before, #examples .hover4:hover.hover4:after {
+  width: 100%;
+  opacity: 1;
+}
+#examples .example .hover4.hover4-1:before, #examples .example .hover4.hover4-1:after {
+  left: 0;
+}
+
 
 
 .name {

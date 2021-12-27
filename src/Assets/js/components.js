@@ -11,10 +11,10 @@ export function NavBar(props) {
                 </div>
                 <div className="links">
                     <ul className='example'>
-                        <li><button className="navlink home active hover hover-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
-                        <li><button className="navlink work hover hover-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
-                        <li><button className="navlink hover hover-1"><a href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Resume</a></button></li>
-                        <li><button className="navlink about hover hover-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
+                        <li><button className="navlink home active hover1 hover1-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
+                        <li><button className="navlink work hover2 hover2-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
+                        <li><button className="navlink hover3 hover3-1"><a href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Resume</a></button></li>
+                        <li><button className="navlink about hover4 hover4-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
                     </ul>
                 </div>
             </nav>
