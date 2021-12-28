@@ -101,7 +101,7 @@ function ProjectOverviewLeft(props) {
         <div className="container animate__animated animate__zoomIn">
             <div className="row justify-content-center">
                 <div className="col col-image">
-                    <img src={props.project.Image2} className="height" alt="a banner for humaneOS" />
+                    <img src={props.project.Image1} className="height" alt="a banner for humaneOS" />
                     {/* <div className="image-stack">
                         <div className="image-stack__item image-stack__item--top_left">
                             <img src={props.project.Image1} className="height" alt="a banner for humaneOS" />
