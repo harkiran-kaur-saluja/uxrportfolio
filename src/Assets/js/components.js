@@ -94,6 +94,7 @@ export function ProjectsView(props) {
     });
 }
 
+//comment to test 
 function ProjectOverviewLeft(props) {
     // props should be an array of project objects
     // going to assume some information rn but can flesh it out later
