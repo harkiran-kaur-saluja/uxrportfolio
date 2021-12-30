@@ -194,6 +194,11 @@ export function Footer(props) {
             <footer id="sticky-footer" class="flex-shrink-0 py-3 text-white">
             <div class="container text-start">
                 <small>Copyright &copy; 2022 &nbsp; &#10084; &nbsp; Harkiran Kaur Saluja</small>
+
+                <div id="icons" class="container text-end">
+                <a href="https://www.facebook.com/harkiran.kaur.saluja/" class="fa fa-facebook"></a> &nbsp;
+                <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"></a>
+                </div>
             </div>
             </footer>
         </div>

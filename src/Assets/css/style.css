@@ -443,3 +443,13 @@ hr {
 #sticky-footer {
   background-color: #00ab44;
 }
+
+.fa {
+  background-color: white;
+  padding: 8px 10px;
+  color: #00ab44;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
