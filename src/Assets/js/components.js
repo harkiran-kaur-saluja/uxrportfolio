@@ -197,7 +197,7 @@ export function Footer(props) {
 
                 <div id="icons" class="container text-end">
                 <a href="https://www.facebook.com/harkiran.kaur.saluja/" class="fa fa-facebook"></a> &nbsp;
-                <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"></a> 
                 </div>
             </div>
             </footer>

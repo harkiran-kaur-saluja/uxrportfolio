@@ -444,12 +444,20 @@ hr {
   background-color: #00ab44;
 }
 
+small {
+  display: inline;
+}
+#icons {
+  display: inline;
+  padding-left: 920px;
+}
 .fa {
-  background-color: white;
-  padding: 8px 10px;
-  color: #00ab44;
+  padding: 10px;
   font-size: 13px;
+  width: 33px;
   text-align: center;
   text-decoration: none;
-  border-radius: 70%;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #00ab44;
 }
