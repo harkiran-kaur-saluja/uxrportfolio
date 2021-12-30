@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./Assets/css/style.css";
-import { NavBar, HomeBody, ProjectsView, About } from './Assets/js/components.js';
+import { NavBar, HomeBody, ProjectsView, About, Footer } from './Assets/js/components.js';
 import { Persuasive } from './Assets/js/persuasive.js';
 import { HumaneOS } from './Assets/js/humaneos';
 import { UCRE } from './Assets/js/ucre.js';
@@ -83,6 +83,7 @@ function App(props) {
         <Route path="/04"
           element={<HumaneOS />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

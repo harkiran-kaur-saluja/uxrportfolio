@@ -188,6 +188,14 @@ export function About(props) {
     );
 }
 
-
-
-
+export function Footer(props) {
+    return (
+        <div>
+            <footer id="sticky-footer" class="flex-shrink-0 py-3 text-white">
+            <div class="container text-start">
+                <small>Copyright &copy; 2022 &nbsp; &#10084; &nbsp; Harkiran Kaur Saluja</small>
+            </div>
+            </footer>
+        </div>
+    );
+}
