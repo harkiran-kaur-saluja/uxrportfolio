@@ -444,18 +444,25 @@ hr {
   background-color: #00ab44;
 }
 
-small {
-  display: inline;
-}
 
-.container {
-  
+
+.footer_container {
+ display: flex;
 }
 #icons {
+  padding: 5px;
+  flex-basis: 9%;
+  align-items: flex-end;
   display: inline;
-  padding-left: 920px;
-  float: inline-end;
+  /* padding-left: 970px; */
 }
+small {
+  padding: 10px;
+  padding-left: 30px;
+  flex-basis: 91%;
+  align-items: flex-start;
+}
+
 .fa {
   padding: 10px;
   font-size: 13px;
