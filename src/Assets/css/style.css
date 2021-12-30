@@ -421,18 +421,7 @@ hr {
   flex: 1;
 }
 
-@media (max-width: 1000px) {
- .image-stack {
-   display: none;
- }
 
- .col-content {
-   width: 100%;
- }
- .col-image {
-   display: none;
- }
-}
 
 .height {
   max-width: 600px;
@@ -473,3 +462,21 @@ small {
   background-color: #fff;
   color: #00ab44;
 }
+
+@media (max-width: 1000px) {
+  .image-stack {
+    display: none;
+  }
+ 
+  .col-content {
+    width: 100%;
+  }
+  .col-image {
+    display: none;
+  }
+
+  #icons {
+    display: none;
+  }
+  
+ }
