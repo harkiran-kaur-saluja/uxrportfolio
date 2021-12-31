@@ -154,6 +154,43 @@ export function HumaneOS () {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/alert.png" alt="notifiction alert only shown at top"/>
                 <p>Lastly, I wanted to note our idea of flows. This is basically an idea where users can have different displays based on home, school, or work and can easily switch between them. We didn't expand on this idea past sprint 3 for the scope of the project but a similar concept called focus mode came out in an Android update in early 2020, around the same time we came up with this idea.</p>
             </div>
+            <div className="px-5">
+                <h4>sprint 4</h4>
+                <p>This particular sprint was focused on creating pixel-perfect apps now that the foundation for HumaneOS was laid out. Here, we created apps that are essential to an OS and added our style of design to it while still maintaining the design language of HumaneOS. Speaking of design language, another review of it caused us to make this slight change, replacing encouragement with focus:</p>
+                <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness, clarity, and focus.</blockquote>
+                <p>The clock app has the same features iOS and Android versions have: alarm, world clock, stopwatch, and timer. Initially, we had a color scheme of turquoise and golden yellow, but changed it to purple to match the color of the app icon. We tried to implement reminders occurring at a certain time instead of the world times but soon realized that could be done in the tasks app, the calendar, or even through the alarm clock. For the alarm clock, we allowed users to set alarms by either scrolling or dragging through the clock or tapping on the time in the card and setting the time from there.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/clock1.png" alt="alarm and world clock screens"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/clock2.png" alt="stopwatch and timer screens"/>
+                <p>For the wallet app, we wanted all related information to be in one place, such as cards, banks, transactions, and sending/receiving money. When a card is chosen, it is rotated sideways so that it looks like the user is swiping a card and also to take up whitespace. We also had an option to pay for an item in the store by scanning the barcode, but this was later removed because paying for am item requires going to checkout, so the feature wouldn't apply in a real shopping scenario.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/wallet1.png" alt="wallet screens showing card and transaction history"/>
+                <p>Next are the apps that have the category bar. A note that we improved the bar by showing the corresponding color to the left of the photo icon or circle for all the apps with this feature. Starting with the contacts and phone apps, the main new concept we introduced besides the categories are the icons on the right that allow the user to contact a person in their list right from the app. For example, if I wanted to text them, I could hold my finger on their photo icon and drag it above the messages app icon, and the system would automatically go the messages app and open up message history or create a new draft with that person. Holding your finger on a contact displays a card of their contact information.</p>
+                <p>In the dialer, the main new element we provided was prioritizing recent calls in the order of missed, declined, and answered so that the user wouldn't have to spend time searching for which calls they missed. Category colors would still show next to the contact if applicable.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/contacts.png" alt="contacts app screens showing list and app icons on the side"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/phone.png" alt="phone app showing dialer and sorting of missed, declined, and answered calls"/>
+                <p>After looking at the current state of the reminder and Google Photos app, we found the same problem as we did with the messages: cognitive overload. Our tasks app allows the user to see an overview of the amount of tasks and goals that they have created and completed (see below). This helps to show how the user is progressing as they utilize the tasks app. The user will be able to choose whether the item they are adding will be a task or a goal which affects the OS’s behavior. We also added our UI component for categorization to help with clarity.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/tasks1.png" alt="screens showing tasks/goals and category bar"/>
+                <p>Regarding the photos app, referred back to what we learned from the user interviews and decided that the "Photos" tab was where the redesign should happen. We want our design to better leverages its machine learning capabilities to identify similar photos, group them together, suggest the best ones, and facilitate photo comparison. With photo groups, users can clean up the clutter in their photo library, and more quickly compare the photos they take, select the best ones for further actions, and delete the unwanted ones (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/photos1.png" alt="screens showing photos app"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/photos2.png" alt="screens showing photos organized by time"/>
+                <p>We also revised the messages app to fix the category bar changes as well to accommodate for user with colorblindness by implementing pattern mode (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/messages1.png" alt="messages home with categories"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/messages2.png" alt="messages settings to create category"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/messages3.png" alt="messages settings to set colorblindness patterns"/>
+                <p>We also decided to design the music app and put our own spin on it. Once again, we focused on delivering the necessary information as any music app would, but with less cognitive overload. Below is our design:</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/music1.png" alt="music screens showing songs and artists list"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/music2.png" alt="music screens showing albums and playlists list"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/music3.png" alt="music screens showing shazaam-like feature and song playing"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/music4.png" alt="music screens showing top songs and lyrics"/>
+            </div>
+            <div className="px-5">
+                <h4>sprint 5 + final</h4>
+                <p>We spent the final stages of this project cleaning up the apps we already created to have consistency across the entire OS and to make it presentable for the judges, who are professional designers in industry.</p>
+                <p>However, we did manage to design a calendar app and also significantly revise the health app. The calendar also has the category bar and is similar to the tasks app in that the user can tap on the outlined circle to "mark it done" in the event view (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/calendar.png" alt="calendar app: home, event view, day view, week view"/>
+                <p>For health, we primarily focused on what would be consistent with the design language of HumaneOS, hence the mood journal, meditation, stretch, and diet tracker features (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/health.png" alt="2 screens for the health app"/>
+                <p>In order to present our work to the judges, we had to create a slideshow of our apps to "sell" our OS (<a href = "https://drive.google.com/file/d/1VUjzs8k-u6c-zBQ8P3kATfObV5iet_28/view?usp=sharing">link</a>), and the judges would rate it from 1-5 stars, as users would rate apps in the app store. HumaneOS received a 4.8/5 star rating.</p>
+            </div>
         </div>
       );
 }
