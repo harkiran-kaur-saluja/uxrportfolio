@@ -95,6 +95,65 @@ export function HumaneOS () {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/notesCurrent.png" alt="cuurent state of the iOS notes app"/>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/notesFlow.png" alt="overall flow for the notes app"/>
             </div>
+            <div className="px-5">
+                <h4>sprint 3</h4>
+                <p>There were several goals we had for this particular sprint, as the project was quickly intensifying and expectations were getting higher. By the end of the two weeks, we intended to have: </p>
+                <ul>
+                    <li>Consistent UX patterns and UI components</li>
+                    <li>Consistent app layouts and evidence of componentized thinking</li>
+                    <li>Consistent methods of managing apps and system controls</li>
+                    <li>Consistent use of gestures, interactions &amp; use of motion to enhance the experience</li>
+                </ul>
+                <p>Our design language remained evolving! We decided to include clarity in our design language, meaning easy to use or transparent, because we felt this would be helpful for goal-setting.</p>
+                <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness, encouragement, and clarity.</blockquote>
+                <p>Throughout the research and design process, we looked through more apps and softwares that provided inspiration for our OS, thus updating our moodboards (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard1.png" alt="improved moodboard featuring mercury and momentum extension"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard2.png" alt="improved moodboard featuring reflectly app"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard3.png" alt="improved moodboard featuring dribbble design ideas"/>
+                <p>Starting off with the styleguide, we wanted fonts and icons that was readable (legible, good contrast with the background), san-serif, would add to the visual aspects of the design, and give a more modern feel to users. This is why we decided to go with the Helvetica Now font and have material icons (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/styleguide1.png" alt="styleguide with fonts and icons"/>
+                <p>The tagging/folder circles from the previous sprint help us improve the concept of readability (see below). We wanted bright and vibrant colors, but not to the point where they would be too off-putting to users.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/styleguide2.png" alt="styleguide for category bar"/>
+                <p>Another element of good readability is descriptive but concise subheadings or subtitles (see first image below). After presenting the category concept in sprint 2, we received feedback that we didn't take users with colorblindness into account. We then created different styleguides for different types of colorblindness as well as the option to see patterns instead of color (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/styleguide3.png" alt="regular colors styleguide"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/styleguide4.png" alt="deuteranopia styleguide"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/styleguide5.png" alt="protanopia styleguide"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/styleguide6.png" alt="tritanopia styleguide"/>
+                <p>In order to think about how we can have a consistent layout throughout all of our apps, and also see which ones can use the category bar, we grouped typical OS apps together by type:</p>
+                <ul>
+                    <li>List: Messages, Contacts, Mail, Notes, Tasks</li>
+                    <li>Media: Photos, Media Player, Arcade</li>
+                    <li>Display: App Store, Music, Social Media apps, Health, News</li>
+                    <li>Utility: Waller, Dialer, Clock, Camera, Calculator, Browser</li>
+                    <li>Other: Springboard, Lockscreen, Global Search, Voice Assistant, Weather, Calendar, Maps</li>
+                </ul>
+                <p>We then used this categorization to create UX patterns for the list and display apps and ensured we had at least one of each type by the end of the project (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/patterns1.png" alt="ux pattern example for list apps"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/patterns2.png" alt="ux pattern example for display apps"/>
+                <p>For the UI Components, there is one generic design for each group of components (see below). For example, we have components for the buttons, input bar, grid, dock bar, and cards in different shapes. We wanted to have a consistent size, color, and style for our components and but also have the flexibility to customize them based on the actual usage. We saw how we grouped apps into List, Media, Display, and Utility types. Buttons will remain the same size and style, but the color and the text inside will be tailored to match the functionality.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/components.png" alt="ui components guide"/>
+                <p>To define how users will start, stop, manage and change multiple apps, modalities or system utilities, we started off by creating a new and intuitive way to clear recently opened apps. We thought that having to access the panel of recent apps and swipe up on each of them took too long and wasn't efficient enough since it was on a separate screen. There are also no buttons on the screen (like Android) and we wanted to make clearing apps easier. Hence, we wanted a way for users to quickly clear their recent apps and be able to clear multiple apps at a time. Below are visuals of what we designed (from concept to idea):</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/controls1.jfif" alt="whiteboard drawing of system controls"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/controls2.png" alt="digital concept for system controls"/>
+                <p>The solution above has the following steps to clearing recent apps and can be done from any screen, not just home:</p>
+                <ol>
+                    <li>Swipe diagonally to view recent apps list</li>
+                    <li>Swipe left on one app to close</li>
+                    <li>Tap and hold to select multiple apps and then swipe left to close selected apps, tap on selected app to unselect</li>
+                    <li>Tap on icon to open the app</li>
+                    <li>Can do it from the left side if you’re left handed (would need to change in settings)</li>
+                </ol>
+                <p>Swiping up in our OS (see below) and in iOS returns the user to home, as it’s the easiest way for users to get to the home screen since their thumb is near the bottom of the phone. Thus, we didn’t want to cause confusion and we didn’t want to have users swipe left or right cause that would involve displaying the next screen of apps (see second image below), so we thought the corner would be easy. Furthermore, a lot of our app controls involve actions on the bottom of the screen, so we wanted to keep the consistency.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/controls3.png" alt="swiping up the screen in an app returns the user to the home screen"/>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/controls4.png" alt="swiping left or right will let user switch between recently used apps"/>
+                <p>For notifications, the user will swipe down from the top to be shown a list of their notifications (see below).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/controls5.png" alt="system controls for notifications"/>
+                <p>We integrated the global search into the notification screen (see below). The user will tap and swipe down from anywhere on the notification screen to bring up the global search bar. Tapping the search bar will bring up the keyboard and the space for search results. We used to have the search bar at the very bottom and once the user taps it, it would jump to the very top to make room for the keyboard and search results. We found this to be very inconsistent as the search bar would keep jumping up and down and decided to have the search bar appear at the top. It would be hidden to have notifications be the main focus.</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/search.png" alt="global search feature"/>
+                <p>We decided to integrate the global search into the notification screen instead of the springboard because we are reserving that gesture for a new operating system function that will be introduced next, and came out in iOS 14 in Fall 2020. This regards how notification alerts are received, and they'll only show up at the top of the screen (shown below). We wanted to make the notifications take up less space but still get the point across. The alerts will show the app icon with the notification information, whether that be a text, email, or social media message (messages will also show the name of the person sending it).</p>
+                <img className="px-5 center-img img-fluid" src="img/humaneOS/alert.png" alt="notifiction alert only shown at top"/>
+                <p>Lastly, I wanted to note our idea of flows. This is basically an idea where users can have different displays based on home, school, or work and can easily switch between them. We didn't expand on this idea past sprint 3 for the scope of the project but a similar concept called focus mode came out in an Android update in early 2020, around the same time we came up with this idea.</p>
+            </div>
         </div>
       );
 }
