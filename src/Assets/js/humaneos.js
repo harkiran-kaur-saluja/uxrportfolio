@@ -1,8 +1,10 @@
 // renders the content for the Humane OS page
 import 'animate.css';
-export function HumaneOS () {
+export function HumaneOS (props) {
     return (
         <div>
+
+            
             <div className="px-5">
                 <h2 className="animate__animated animate__flipInX" >humane <span className="firstName">os</span></h2>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/HumaneOS_banner.png" alt="a banner for humaneOS"/>
@@ -15,12 +17,14 @@ export function HumaneOS () {
                     <li><p><strong>team size: </strong>7 members</p></li>
                 </ul>
             </div>
-            <div className="px-5">
-                <h4>executive summary</h4>
+
+            <h4 className="px-5 collapsible" onClick={props.handleClick}>executive summary<span className="plus">+</span></h4>
+            <div className="px-5 content">
                 <p>HumaneOS creates an experience that fosters goal-setting and achieving by relying on mindfulness, clarity, and focus. In this project, which consisted of 5 agile sprints, I worked in a team of seven and helped design an entire operating system that included ten to fifteen mobile apps. Throughout this journey, I worked on defining user needs, ideating design solutions with different mental models, and used Figma to create the OS. At the end of the project, we presented our apps to a panel of professional designers, who gave us a score.</p>
             </div>
-            <div className="px-5">
-                <h4>sprint 1</h4>
+
+            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 1<span className="plus">+</span></h4>
+            <div className="px-5 content">
                 <p>Our goal for this sprint was to create the design language for our new mobile operating system - not iOS, Android or Windows, but something entirely new. As we began brainstorming our mobile design language principles, we started to ask ourselves: <strong className = "bolded-words">What is it? and often more importantly, what isn't it?</strong></p>
                 <p>First, we talked about what device we could have our OS and its features on. The idea of having an OS on wearables, such as an Apple Watch or Fitbit, was definitely on our list. One of our team members went so far as to talking about <em>Black Mirror</em>, and how our interface doesn't need to be on a physical screen. However, the rest of us realized that the more futuristic it was, the harder it would be to present.</p>
                 <p>We then discussed the pros and cons of iOS and Android. Here is the list from our brainstorm that day:
@@ -47,8 +51,9 @@ export function HumaneOS () {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard.jpeg" alt="our moodboard for humaneOS"/>
                 <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by using positive encouragement, because many existing goal-oriented devices can feel judgmental or naggy.</blockquote>
             </div>
-            <div className="px-5">
-                <h4>sprint 2</h4>
+
+            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 2<span className="plus">+</span></h4>
+            <div className="px-5 content">
                 <p>Our primary focus for this sprint was <strong className = "bolded-words">defining the overall user experience principles and best practices</strong> that will be used for our OS and all of our apps. To achieve this we had to: 
                 </p><ul>
                 <li>Define the target users contexts, typical behaviors and needs by developing personas</li>
@@ -95,8 +100,9 @@ export function HumaneOS () {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/notesCurrent.png" alt="cuurent state of the iOS notes app"/>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/notesFlow.png" alt="overall flow for the notes app"/>
             </div>
-            <div className="px-5">
-                <h4>sprint 3</h4>
+
+            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 3<span className="plus">+</span></h4>
+            <div className="px-5 content">
                 <p>There were several goals we had for this particular sprint, as the project was quickly intensifying and expectations were getting higher. By the end of the two weeks, we intended to have: </p>
                 <ul>
                     <li>Consistent UX patterns and UI components</li>
@@ -154,8 +160,9 @@ export function HumaneOS () {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/alert.png" alt="notifiction alert only shown at top"/>
                 <p>Lastly, I wanted to note our idea of <strong className = "bolded-words">flows</strong>. This is basically an idea where users can have different displays based on home, school, or work and can easily switch between them. We didn't expand on this idea past sprint 3 for the scope of the project but a similar concept called focus mode came out in an <strong className = "bolded-words">Android update in early 2020</strong>, around the same time we came up with this idea.</p>
             </div>
-            <div className="px-5">
-                <h4>sprint 4</h4>
+
+            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 4<span className="plus">+</span></h4>
+            <div className="px-5 content">
                 <p>This particular sprint was focused on creating <strong className = "bolded-words">pixel-perfect apps</strong> now that the foundation for HumaneOS was laid out. Here, we created apps that are essential to an OS and added our style of design to it while still maintaining the design language of HumaneOS. Speaking of design language, another review of it caused us to make this slight change, replacing encouragement with focus:</p>
                 <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness, clarity, and focus.</blockquote>
                 <p>The <strong className = "bolded-words">clock</strong> app has the same features iOS and Android versions have: alarm, world clock, stopwatch, and timer. Initially, we had a color scheme of turquoise and golden yellow, but changed it to purple to match the color of the app icon. We tried to implement reminders occurring at a certain time instead of the world times but soon realized that could be done in the tasks app, the calendar, or even through the alarm clock. For the alarm clock, we allowed users to set alarms by either scrolling or dragging through the clock or tapping on the time in the card and setting the time from there.</p>
@@ -183,8 +190,9 @@ export function HumaneOS () {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/music3.png" alt="music screens showing shazaam-like feature and song playing"/>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/music4.png" alt="music screens showing top songs and lyrics"/>
             </div>
-            <div className="px-5">
-                <h4>sprint 5 + final</h4>
+
+            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 5 + final<span className="plus">+</span></h4>
+            <div className="px-5 content">
                 <p>We spent the final stages of this project cleaning up the apps we already created to have consistency across the entire OS and to make it presentable for the judges, who are <strong className = "bolded-words">professional designers</strong> in industry.</p>
                 <p>However, we did manage to design a <strong className = "bolded-words">calendar</strong> app and also significantly revise the <strong className = "bolded-words">health</strong> app. The calendar also has the category bar and is similar to the tasks app in that the user can tap on the outlined circle to "mark it done" in the event view (see below).</p>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/calendar.png" alt="calendar app: home, event view, day view, week view"/>

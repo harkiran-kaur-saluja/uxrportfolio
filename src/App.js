@@ -11,6 +11,8 @@ import 'animate.css';
 
 
 
+
+
 function App(props) {
 
   // hooks
@@ -25,6 +27,22 @@ function App(props) {
     navigate("/");
   }
 
+  function handleClickCollapse() {
+    let coll = document.getElementsByClassName("collapsible");
+    let i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        let content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  }
   function handleClickWork() {
     document.querySelector(".home").classList.remove("active");
     document.querySelector(".about").classList.remove("active");
@@ -72,16 +90,16 @@ function App(props) {
           } />
 
         <Route path="/01"
-          element={<UCRE />} />
+          element={<UCRE handleClick={handleClickCollapse}/>} />
 
         <Route path="/02"
-          element={<Persuasive />} />
+          element={<Persuasive handleClick={handleClickCollapse}/>} />
 
         <Route path="/03"
-          element={<KidsTeam />} />
+          element={<KidsTeam handleClick={handleClickCollapse}/>} />
 
         <Route path="/04"
-          element={<HumaneOS />} />
+          element={<HumaneOS handleClick={handleClickCollapse}/>} />
       </Routes>
       <Footer />
     </div>

@@ -467,6 +467,38 @@ small {
   color:#00ab44;
 }
 
+.collapsible {
+  display:flex;
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 94%;
+  border: none;
+  text-align: left;
+  align-self: center;
+  outline: none;
+  font-size: 15px;
+  margin: 10px 3em;
+}
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  background-color: #00ab44;
+  color: #fff;
+ 
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  
+}
+
 @media (max-width: 1000px) {
   .image-stack {
     display: none;
@@ -482,5 +514,4 @@ small {
   #icons {
     display: none;
   }
-  
  }
