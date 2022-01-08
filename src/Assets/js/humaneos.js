@@ -9,7 +9,6 @@ export function HumaneOS (props) {
                 <h2 className="animate__animated animate__flipInX" >humane <span className="firstName">os</span></h2>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/HumaneOS_banner.png" alt="a banner for humaneOS"/>
                 <h4>project background</h4>
-                <h6>how might we..?</h6>
                 <ul>
                     <li><p><strong>my role: </strong> Product Designer</p></li>
                     <li><p><strong>skills used: </strong> Figma, ideation, wireframing, prototyping, communication and presentation, agile</p></li>
@@ -18,12 +17,16 @@ export function HumaneOS (props) {
                 </ul>
             </div>
 
-            <h4 className="px-5 collapsible" onClick={props.handleClick}>executive summary<span className="plus">+</span></h4>
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">executive summary</span>
+            </div>
             <div className="px-5 content">
                 <p>HumaneOS creates an experience that fosters goal-setting and achieving by relying on mindfulness, clarity, and focus. In this project, which consisted of 5 agile sprints, I worked in a team of seven and helped design an entire operating system that included ten to fifteen mobile apps. Throughout this journey, I worked on defining user needs, ideating design solutions with different mental models, and used Figma to create the OS. At the end of the project, we presented our apps to a panel of professional designers, who gave us a score.</p>
             </div>
 
-            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 1<span className="plus">+</span></h4>
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">sprint 1</span>
+            </div>
             <div className="px-5 content">
                 <p>Our goal for this sprint was to create the design language for our new mobile operating system - not iOS, Android or Windows, but something entirely new. As we began brainstorming our mobile design language principles, we started to ask ourselves: <strong className = "bolded-words">What is it? and often more importantly, what isn't it?</strong></p>
                 <p>First, we talked about what device we could have our OS and its features on. The idea of having an OS on wearables, such as an Apple Watch or Fitbit, was definitely on our list. One of our team members went so far as to talking about <em>Black Mirror</em>, and how our interface doesn't need to be on a physical screen. However, the rest of us realized that the more futuristic it was, the harder it would be to present.</p>
@@ -52,7 +55,9 @@ export function HumaneOS (props) {
                 <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by using positive encouragement, because many existing goal-oriented devices can feel judgmental or naggy.</blockquote>
             </div>
 
-            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 2<span className="plus">+</span></h4>
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">sprint 2</span>
+            </div>
             <div className="px-5 content">
                 <p>Our primary focus for this sprint was <strong className = "bolded-words">defining the overall user experience principles and best practices</strong> that will be used for our OS and all of our apps. To achieve this we had to: 
                 </p><ul>
@@ -71,17 +76,17 @@ export function HumaneOS (props) {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/lockscreen.png" alt="the lockscreen for humaneOS"/>
                 <p>We also created <strong className = "bolded-words">three personas</strong> and user stories to help guide our design principles. The first was for the messages app, the second was for the health app, and the third was for the notes app.</p>
                 {/*2 column layout for each persona and journey*/}
-                <div className="userPersona">
-                    <img src="img/humaneOS/persona1.png" alt="our first user persona"/>
-                    <img src="img/humaneOS/journey1.png" alt="our first user journey"/>
+                <div className="row justify-content-center">
+                    <img className="col-6 imgLeft" src="img/humaneOS/persona1.png" alt="our first user persona"/>
+                    <img className="col-6 imgRight" src="img/humaneOS/journey1.png" alt="our first user journey"/>
                 </div>
-                <div className="userPersona">
-                    <img src="img/humaneOS/persona2.png" alt="our second user persona"/>
-                    <img src="img/humaneOS/journey2.png" alt="our second user journey"/>
+                <div className="row justify-content-center">
+                    <img className="col-6 imgLeft" src="img/humaneOS/persona2.png" alt="our second user persona"/>
+                    <img className="col-6 imgRight" src="img/humaneOS/journey2.png" alt="our second user journey"/>
                 </div>
-                <div className="userPersona">
-                    <img src="img/humaneOS/persona3.png" alt="our third user persona"/>
-                    <img src="img/humaneOS/journey3.png" alt="our third user journey"/>
+                <div className="row justify-content-center">
+                    <img className="col-6 imgLeft" src="img/humaneOS/persona3.png" alt="our third user persona"/>
+                    <img className="col-6 imgRight" src="img/humaneOS/journey3.png" alt="our third user journey"/>
                 </div>
                 <h4>Current states + initial designs</h4>
                 <p>In order to design the <strong className = "bolded-words">messages</strong> app, we looked at the <strong className = "bolded-words">current state</strong> of this app on iOS, identified the problem, and presented our solution.</p>
@@ -101,7 +106,9 @@ export function HumaneOS (props) {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/notesFlow.png" alt="overall flow for the notes app"/>
             </div>
 
-            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 3<span className="plus">+</span></h4>
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">sprint 3</span>
+            </div>
             <div className="px-5 content">
                 <p>There were several goals we had for this particular sprint, as the project was quickly intensifying and expectations were getting higher. By the end of the two weeks, we intended to have: </p>
                 <ul>
@@ -161,7 +168,9 @@ export function HumaneOS (props) {
                 <p>Lastly, I wanted to note our idea of <strong className = "bolded-words">flows</strong>. This is basically an idea where users can have different displays based on home, school, or work and can easily switch between them. We didn't expand on this idea past sprint 3 for the scope of the project but a similar concept called focus mode came out in an <strong className = "bolded-words">Android update in early 2020</strong>, around the same time we came up with this idea.</p>
             </div>
 
-            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 4<span className="plus">+</span></h4>
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">sprint 4</span>
+            </div>
             <div className="px-5 content">
                 <p>This particular sprint was focused on creating <strong className = "bolded-words">pixel-perfect apps</strong> now that the foundation for HumaneOS was laid out. Here, we created apps that are essential to an OS and added our style of design to it while still maintaining the design language of HumaneOS. Speaking of design language, another review of it caused us to make this slight change, replacing encouragement with focus:</p>
                 <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness, clarity, and focus.</blockquote>
@@ -191,7 +200,9 @@ export function HumaneOS (props) {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/music4.png" alt="music screens showing top songs and lyrics"/>
             </div>
 
-            <h4 className="px-5 collapsible" onClick={props.handleClick}>sprint 5 + final<span className="plus">+</span></h4>
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">sprint 5 + final</span>
+            </div>
             <div className="px-5 content">
                 <p>We spent the final stages of this project cleaning up the apps we already created to have consistency across the entire OS and to make it presentable for the judges, who are <strong className = "bolded-words">professional designers</strong> in industry.</p>
                 <p>However, we did manage to design a <strong className = "bolded-words">calendar</strong> app and also significantly revise the <strong className = "bolded-words">health</strong> app. The calendar also has the category bar and is similar to the tasks app in that the user can tap on the outlined circle to "mark it done" in the event view (see below).</p>
