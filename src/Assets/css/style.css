@@ -4,6 +4,10 @@
     font-family: 'Helvetica Now Display', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
+a {
+  color: #00ab44;
+}
+
 /* navigation bar */
 
 nav {
@@ -399,11 +403,11 @@ hr {
 
 /*project pages*/ 
 .center-img {
-  max-width: 90%;
+  max-width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin: 40px;
+  margin-bottom: 20px;
 }
 
 .userPersona {

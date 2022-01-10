@@ -7,7 +7,7 @@ export function HumaneOS (props) {
             
             <div className="px-5">
                 <h2 className="animate__animated animate__flipInX" >humane <span className="firstName">os</span></h2>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/HumaneOS_banner.png" alt="a banner for humaneOS"/>
+                <img className="px-4 center-img img-fluid" src="img/humaneOS/HumaneOS_banner.png" alt="a banner for humaneOS"/>
                 <h4>project background</h4>
                 <ul>
                     <li><p><strong>my role: </strong> Product Designer</p></li>
@@ -70,7 +70,7 @@ export function HumaneOS (props) {
                 <p>While we kept humane as our design language, our conversations and ideations during design studio led ux to change our description to this: </p>
                 <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness and encouragement.</blockquote>
                 <p>As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored around 10+ apps, some of which can be seen below. An example is that Reflectly, is a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/inspiration.png" alt="existing app inspiration for humaneOS"/>
+                <img className="px-5 justify-content-center center-img img-fluid" src="img/humaneOS/inspiration.png" alt="existing app inspiration for humaneOS"/>
                 <p>One of our biggest observations was that all those apps tend to use an earthy tone, very thin lines and fonts, and most importantly, illustrations. As a matter of fact, all of those apps above choose to use <strong className = "bolded-words">illustrations</strong> to present a cheerful mood and chill vibe. Besides illustrations, at most 3 options will be presented on the screen for user to choose at each step regardless scenarios. We think the philosophy behind this is great, reducing the distraction for users, and we try to follow this practice into our OS. Lastly, we noticed that <strong className = "bolded-words">animated transitions</strong> form a smoother use flow of the apps, a more intimate user experience, therefore making the user stick around.</p>
                 <p>After sprint 1 we had low-fidelity prototypes on pencil and paper for the lock screen, so after coming together we wanted to produce a high-fidelity design.</p>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/lockscreen.png" alt="the lockscreen for humaneOS"/>
@@ -120,6 +120,7 @@ export function HumaneOS (props) {
                 <p>Our design language remained evolving! We decided to include clarity in our design language, meaning easy to use or transparent, because we felt this would be helpful for goal-setting.</p>
                 <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness, encouragement, and clarity.</blockquote>
                 <p>Throughout the research and design process, we looked through more apps and softwares that provided inspiration for our OS, thus updating our <strong className = "bolded-words">moodboards</strong> (see below).</p>
+                
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard1.png" alt="improved moodboard featuring mercury and momentum extension"/>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard2.png" alt="improved moodboard featuring reflectly app"/>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard3.png" alt="improved moodboard featuring dribbble design ideas"/>
@@ -209,7 +210,7 @@ export function HumaneOS (props) {
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/calendar.png" alt="calendar app: home, event view, day view, week view"/>
                 <p>For health, we primarily focused on what would be consistent with the design language of HumaneOS, hence the mood journal, meditation, stretch, and diet tracker features (see below).</p>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/health.png" alt="2 screens for the health app"/>
-                <p>In order to present our work to the judges, we had to create a slideshow of our apps to "sell" our OS (<strong className = "bolded-words"><a href = "https://drive.google.com/file/d/1VUjzs8k-u6c-zBQ8P3kATfObV5iet_28/view?usp=sharing">link</a></strong>), and the judges would rate it from 1-5 stars, as users would rate apps in the app store. HumaneOS received a <strong className = "bolded-words">.8/5 star rating.</strong></p>
+                <p>In order to present our work to the judges, we had to create a slideshow of our apps to "sell" our OS (<strong className = "bolded-words"><a href = "https://drive.google.com/file/d/1VUjzs8k-u6c-zBQ8P3kATfObV5iet_28/view?usp=sharing">link</a></strong>), and the judges would rate it from 1-5 stars, as users would rate apps in the app store. HumaneOS received a <strong className = "bolded-words">4.8/5 star rating.</strong></p>
             </div>
         </div>
       );
