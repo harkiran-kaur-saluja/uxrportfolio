@@ -1,5 +1,5 @@
 import 'animate.css';
-export function KidsTeam() {
+export function KidsTeam(props) {
     return (
         <div>
             <div className="px-5">
@@ -15,11 +15,14 @@ export function KidsTeam() {
                     <li><p><strong>mentors: </strong>Jason Yip, Kung Jin Lee, Wendy Roldan</p></li>
                 </ul>
             </div>
-            <div className="px-5">
-                <h4>projects I worked on</h4>
-               
-                <u>Reading Sidekick with Alexa (partner: Amazon)</u>
-               
+        
+            <h4 className="px-5">projects I worked on</h4>
+            
+            
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">Reading Sidekick with Alexa (partner: Amazon)</span>
+            </div>
+            <div className="px-5 content">
                 <p>One of the projects I'm proudest of is an Alexa feature that was released in the summer of 2021, the Reading
                     Sidekick. We developed this with Amazon to complement child reading and build language fluency. During the
                     co-design process, we asked the children to bring books from home that they like to read and asked them what
@@ -48,9 +51,12 @@ export function KidsTeam() {
                 </ul>
                 <p>see news release <a href="https://www.aboutamazon.com/news/devices/alexas-new-reading-sidekick-makes-learning-to-read-fun">here</a>
                 </p>
-                <p>
-                    <u>Would You Rather (WYR)</u>
-                </p>
+                
+                
+                <div className="collapsible" onClick={props.handleClick}>
+                    <span className="px-4 section-title">Would You Rather (WYR)</span>
+                </div>
+                
                 <p>In this project, I worked with Lucy Simko (UW CSE PhD student), Camille Cobb (Assistant Professor at University
                     of Illinois-Urbana Champaign who was a postdoctoral researcher at Carnegie Mellon's CyLab at the time), and
                     Professor Alexis Hiniker of the UW iSchool. This was in addition to working with Professor Yip and other
@@ -94,9 +100,12 @@ export function KidsTeam() {
                     <li>Arguments for a WYR choice reveal mental models and participants sense of agency over technology</li>
                     <li>Choices and hesitations convey participants preferences and values</li>
                 </ul>
-                <p>
-                    <u>KidsTeam Online</u>
-                </p>
+            </div>
+
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">KidsTeam Online</span>
+            </div>
+            <div className="px-5 content">
                 <p>When the pandemic hit in the US, KidsTeam moved online, and this sparked another project led by Kung Jin Lee, a
                     PhD Candidate in the UW iSchool at the time. Our work was presented at the
                     <strong className="bolded-words"> CHI 2021 conference </strong>
@@ -151,9 +160,13 @@ export function KidsTeam() {
                     well as the settings of the researchers and participants (see below).
                 </p>
                 <img className="px-5 center-img img-fluid" src="img/kidsTeam/conceptualModel.png" alt="the cover for KidsTeam" />
-                <p>
-                    <u>Master of Human-Computer Interaction + Design (MHCID) and KidsTeam</u>
-                </p>
+            </div>
+
+            
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">Master of Human-Computer Interaction + Design (MHCID) and KidsTeam</span>
+            </div>
+            <div className="px-5 content">
                 <p>Led by Wendy Roldan, I was on a team of researchers who worked with the 2020-2021 MHCID cohort taking a
                     prototyping studio course to understand how to employ design practices to foster virtual connection. In this
                     project, MHCID students designed physical or digital products to meet this goal and received two rounds of
@@ -210,16 +223,22 @@ export function KidsTeam() {
                     career.
                 </p>
             </div>
-            <div className="px-5">
-                <h4>publications</h4>
+            
+
+           
+            <div className="collapsible" onClick={props.handleClick}>
+                <span className="px-4 section-title">publications</span>
+            </div>
+            <div className="px-5 content">
                 <p>Simko, L., Chin, B., Na, S., <strong className="bolded-words">Saluja, H.K.</strong>, Zhu, T.Q., Hiniker, A., Yip, J.C., &amp; Cobb, C. (2021). Would You Rather: A focus group method for eliciting and discussing formative design insights with children. Proceedings of the 2021 IDC Interaction Design and Children. Association for Computing Machinery.<a href="https://dl.acm.org/doi/abs/10.1145/3459990.3460708">[link]</a></p>
                 <br />
                 <p>Lee, K.J., Roldan, W., Zhu, T.Q., <strong className="bolded-words">Saluja, H.K.</strong>, Na, S., Chin, B., Zeng, Y., Lee, J.H., &amp; Yip, J.C., (2021). The Show Must Go On: A conceptual model of conducting synchronous participatory design with children online. Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery. <a href="https://dl.acm.org/doi/abs/10.1145/3411764.3445715?casa_token=LRefEHOGNhUAAAAA:mX3-A8vvhWnXO8Sg7Ppz6Ff_ntmZkQl0olwcwJ4eK_Bzsk3VBmOJ_C7VjC9J-RID6fEIwMpuEfyhGw">[link]</a>
                 <br />
                 <strong>Received Best Paper Award (Top 1% of 2,800 papers)</strong></p>
-                
-                
             </div>
+                
+                
+            
 
         </div>
     );
