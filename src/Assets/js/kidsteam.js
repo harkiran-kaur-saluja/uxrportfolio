@@ -210,7 +210,7 @@ export function KidsTeam(props) {
                     <em> Designing at a Distance: Involving Remote Users in HCI/Design Education</em>.
                 </p>
                 
-                <strong className="bolded-words"> takeaways: what I learned</strong>
+                <h4> takeaways: what I learned</h4>
                 <p>
                     Prior to KidsTeam, I had no knowledge of the research process or even research in general. I had worked with
                     children prior to this experience and was interested in HCI, hence my interest in Professor Yip's work.
