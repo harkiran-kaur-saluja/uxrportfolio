@@ -19,6 +19,7 @@ function App(props) {
   let navigate = useNavigate();
 
   // event handling functions
+ 
   function handleClickHome() {
     document.querySelector(".about").classList.remove("active");
     document.querySelector(".work").classList.remove("active");

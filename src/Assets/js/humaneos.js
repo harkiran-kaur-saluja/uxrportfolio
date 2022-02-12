@@ -1,6 +1,7 @@
 // renders the content for the Humane OS page
 import 'animate.css';
 export function HumaneOS (props) {
+    window.scrollTo(0, 0);
     return (
         <div>
 

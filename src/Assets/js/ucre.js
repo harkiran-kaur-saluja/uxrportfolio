@@ -1,5 +1,6 @@
 import 'animate.css';
 export function UCRE() {
+    window.scrollTo(0, 0);
     return (
         <div>
             <div className="px-5">
