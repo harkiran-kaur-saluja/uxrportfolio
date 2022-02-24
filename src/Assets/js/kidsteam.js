@@ -52,12 +52,11 @@ export function KidsTeam(props) {
                 </ul>
                 <p>see news release <a href="https://www.aboutamazon.com/news/devices/alexas-new-reading-sidekick-makes-learning-to-read-fun">here</a>
                 </p>
-                
-                
-               
-                <span className="px-4 section-title">Would You Rather (WYR)</span>
-              
-                
+            </div>  
+            <div className="collapsible" onClick={props.handleClick}>
+                    <span className="px-4 section-title">Would You Rather (WYR)</span>
+            </div> 
+            <div className="px-5 content">   
                 <p>In this project, I worked with Lucy Simko (UW CSE PhD student), Camille Cobb (Assistant Professor at University
                     of Illinois-Urbana Champaign who was a postdoctoral researcher at Carnegie Mellon's CyLab at the time), and
                     Professor Alexis Hiniker of the UW iSchool. This was in addition to working with Professor Yip and other
