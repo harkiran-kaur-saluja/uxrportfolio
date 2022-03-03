@@ -42,7 +42,7 @@ export function KidsTeam(props) {
                     when they doesn't understand something they are reading, they don't stop to look it up or ask someone - they
                     just keep reading. We took this information and helped them create something that wouldn't interrupt the kids
                     too much when reading. Our final creation was an Alexa with eyes and speakers projecting a house with a
-                    character from Aiken's book in it, along with some text.
+                    character from the child's book in it, along with some text.
                 </p>
                 <p>key findings:</p>
                 <ul>
