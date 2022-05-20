@@ -29,7 +29,7 @@ export function HomeBody(props) {
             <div className="row">
                 <div className="intro col animate__animated animate__backInUp col-content">
                     <h2>Hi! I'm <span className="firstName">harkiran</span></h2>
-                    <p>HCI + design researcher who aims to build a strong and empathetic understanding to complex problems.</p>
+                    <p>HCI + design researcher who aims to build a strong and empathetic understanding to complex problems and who is eager to learn and grow.</p>
                     <p>Master of Human-Computer Interaction student at Carnegie Mellon University, graduating in August 2022.</p>
                     <p>Currently researching and advocating for underrepresented voices in the HCI community.</p>
                     <br />
@@ -173,16 +173,16 @@ export function About(props) {
                 <br />
                 <p>Hello there! I’m Harkiran (she/her, pronounced harr-KI-run). I grew up in Southern California and later moved to Seattle to pursue my passion for technology. In June of 2021, I graduated from the University of Washington with a <a href="https://ischool.uw.edu/programs/informatics%22%3E">Bachelor of Science in Informatics</a>: Human-Computer Interaction and a minor in Gender, Women, &amp; Sexuality Studies.</p>
 
-                <p>Currently, I am pursuing my <a href="https://hcii.cmu.edu/academics/mhci%22%3E">Master of Human-Computer Interaction</a> at Carnegie Mellon University, where I conduct research as part of the <a href="https://www.thecoalalab.com/#people%22%3E">CoALA Lab</a> and overall dive deeper into HCI so that I can become the best practitioner I can be.</p>
+                <p>Currently, I am pursuing my <a href="https://hcii.cmu.edu/academics/mhci%22%3E">Master of Human-Computer Interaction</a> at Carnegie Mellon University, where I conduct research as part of the Social AI Group and overall dive deeper into HCI so that I can become the best practitioner I can be.</p>
 
                 <p>In the future, my aim through research is to use co-design to improve children's education inside and outside of the classroom. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=FyUvGMgAAAAJ&hl=en&oi=ao%22%3E">here</a>!
                 </p>
 
-                <p>Lately, I’ve been spending my free time watching Schitt’s Creek!</p>
+                <p>Outside of my work, I love to watch sports, play word games, and make puns!</p>
                 <br />
             </div>
             <div>
-                <p className="contact"><strong>Want to chat? Feel free to connect with me on <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/%22%3E">LinkedIn</a> or email me at <a href="mailto: hsaluja@andrew.cmu.edu">hsaluja@andrew.cmu.edu</a>.</strong></p>
+                <p className="contact"><strong>I'm always looking to learn from you! If you want to chat, feel free to connect with me on <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/%22%3E">LinkedIn</a> or email me at <a href="mailto: hsaluja@andrew.cmu.edu">hsaluja@andrew.cmu.edu</a>.</strong></p>
             </div>
         </div>
     );
