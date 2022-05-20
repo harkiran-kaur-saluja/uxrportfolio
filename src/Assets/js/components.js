@@ -29,9 +29,9 @@ export function HomeBody(props) {
             <div className="row">
                 <div className="intro col animate__animated animate__backInUp col-content">
                     <h2>Hi! I'm <span className="firstName">harkiran</span></h2>
-                    <p>HCI + design researcher interested in the connection between technology and education.</p>
+                    <p>HCI + design researcher who aims to build a strong and empathetic understanding to complex problems.</p>
                     <p>Master of Human-Computer Interaction student at Carnegie Mellon University, graduating in August 2022.</p>
-                    <p>Currently researching the intersection between algorithms, education, and participatory design.</p>
+                    <p>Currently researching and advocating for underrepresented voices in the HCI community.</p>
                     <br />
                     <button className="button" onClick={() => { props.handleClick() }}>Check out my work</button>
                 </div>
