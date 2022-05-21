@@ -5,7 +5,7 @@ import "./Assets/css/style.css";
 import { NavBar, HomeBody, ProjectsView, About, Footer } from './Assets/js/components.js';
 import { Persuasive } from './Assets/js/persuasive.js';
 import { HumaneOS } from './Assets/js/humaneos';
-import { UCRE } from './Assets/js/ucre.js';
+import { UCRE } from './Assets/js/ucre1.js';
 import { KidsTeam } from './Assets/js/kidsteam.js';
 import 'animate.css';
 

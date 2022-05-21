@@ -1,4 +1,11 @@
 import 'animate.css';
+import {FaUserFriends} from "react-icons/fa";
+import {FaBars} from "react-icons/fa";
+import {FaIndent} from "react-icons/fa";
+import {FaBrain} from "react-icons/fa";
+import {FaCopy} from "react-icons/fa";
+
+import {IconContext} from "react-icons"
 export function UCRE() {
     window.scrollTo(0, 0);
     return (
@@ -6,15 +13,9 @@ export function UCRE() {
             <div className="px-5">
                 <h2 className="animate__animated animate__flipInX" >giving users a voice: <span className="firstName">mitigating AI bias in voice recognition technologies</span></h2>
                 <img className="px-5 center-img img-fluid" src="./img/ucre/ucreCoverPage.png" alt="a group of smart phones showing the high-fidelity wireframes of our solution" />
-                <h4>project background</h4>
-                <ul>
-                    <li> <p><strong>my role: </strong> Research Lead</p></li>
-                    <li><p><strong>skills used: </strong> semi-structured contextual interviews, generative think aloud, remote research, speed dating, empathy mapping, affinity diagramming, storyboarding</p></li>
-                    <li><p><strong>project length: </strong>3 months</p></li>
-                    <li><p><strong>team size: </strong>4 members (myself, Ryan Adibi, Anita Sun, Nick Chen)</p></li>
-                </ul>
             </div>
 
+           
             
             <div className="px-5">
                 <br />
@@ -25,21 +26,35 @@ export function UCRE() {
             </div>
 
             <div className="px-5">
+                <h4>project background</h4>
+                <ul>
+                    <li> <p><strong>my role: </strong> Research Lead</p></li>
+                    <li><p><strong>skills used: </strong> semi-structured contextual interviews, generative think aloud, remote research, speed dating, empathy mapping, affinity diagramming, storyboarding</p></li>
+                    <li><p><strong>project length: </strong>3 months</p></li>
+                    <li><p><strong>team size: </strong>4 members (myself, Ryan Adibi, Anita Sun, Nick Chen)</p></li>
+                </ul>
+            </div>
+
+            <div className="px-5">
                 <br />
                 <h4>background research</h4>
                 <p>To kick off the project, our team conducted background research on voice assistants and the issues with AI in speech recognition. We also 4 generative think-alouds in order to better understand the problem space</p>
-                <ul style={{ "list-style-type": "disc" }}>
-                    <li><span>General research, empathy mapping</span></li>
-                    <li><strong><span>Who we spoke to:</span></strong><span style={{ "line-height": "107%", "font-family": "\"Times New Roman\",serif", "font-size": "16px" }}>&nbsp;people who have previous experience with voice technologies, focusing on those with non-American accents</span></li>
-                    <li><strong><span>What we wanted to learn:&nbsp;</span></strong><span style={{ "line-height": "107%", "font-family": "\"Times New Roman\",serif", "font-size": "16px" }}>the different types of biases in voice technologies, how individuals interact with voice recognition software in daily scenarios, how users who do not have English as their first language interact with voice technologies, users’ hidden needs and concerns, how users hope that the voice technologies could be improved</span></li>
-                    <li><strong><span>Think-aloud tasks&nbsp;</span></strong>
+                <ul style={{ "list-style-type": "none" }}>
+                    <li><span>&nbsp;<IconContext.Provider value={{ style: {fontSize: '30px', color: "#00ab44"}}}> <FaBars /> </IconContext.Provider></span><strong><span>Tags:</span></strong><span>&nbsp;general research, empathy mapping</span></li>
+                    <br/>
+                    <li><span>&nbsp;<IconContext.Provider value={{ style: {fontSize: '30px', color: "#00ab44"}}}> <FaUserFriends /> </IconContext.Provider></span><strong><span>Who we spoke to:</span></strong><span>&nbsp;people who have previous experience with voice technologies, focusing on those with non-American accents</span></li>
+                    <br/>
+                    <li><span>&nbsp;<IconContext.Provider value={{ style: {fontSize: '30px', color: "#00ab44"}}}> <FaIndent /> </IconContext.Provider></span><strong><span>What we wanted to learn:&nbsp;</span></strong><span>the different types of biases in voice technologies, how individuals interact with voice recognition software in daily scenarios, how users who do not have English as their first language interact with voice technologies, users’ hidden needs and concerns, how users hope that the voice technologies could be improved</span></li>
+                    <br/>
+                    <li><span>&nbsp;<IconContext.Provider value={{ style: {fontSize: '30px', color: "#00ab44"}}}> <FaBrain /> </IconContext.Provider></span><strong><span>Think-aloud tasks&nbsp;</span></strong>
                         <ol style={{ "list-style-type": "circle" }}>
-                            <li><span>1. Briefly introduce yourself in your native language and ask [voice assistant] to translate your introduction into English</span></li>
-                            <li><span>2. Create three separate reminders for your daily schedule using [voice assistant].</span></li>
-                            <li><span>3.</span><span>Ask your [voice assistant] to recommend a place to have dinner tonight.</span></li>
+                            <li><span>Briefly introduce yourself in your native language and ask [voice assistant] to translate your introduction into English</span></li>
+                            <li><span>Create three separate reminders for your daily schedule using [voice assistant].</span></li>
+                            <li><span>Ask your [voice assistant] to recommend a place to have dinner tonight.</span></li>
                         </ol>
                     </li>
-                    <li><strong><span>Findings&nbsp;</span></strong>
+                    <br/>
+                    <li><span>&nbsp;<IconContext.Provider value={{ style: {fontSize: '30px', color: "#00ab44"}}}> <FaCopy /> </IconContext.Provider></span><strong><span>Findings&nbsp;</span></strong>
                         <ol style={{ "list-style-type": "circle" }}>
                             <li><span>Voice recognition technology fails to recommend restaurants in the user’s current location, instead recommends some place in the country of the language the user’s phone is set up in.</span></li>
                             <li><span>Voice assistants fail to recognize / pronounce users’ names when the users’ names are not in English. They also fail to capture the subtle nuances of pronunciation of certain words/phrases in different cultural backgrounds.</span></li>

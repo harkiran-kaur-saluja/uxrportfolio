@@ -169,7 +169,7 @@ export function About(props) {
         <div>
             <div className="aboutText">
                 <h2>about <span className="me">me</span></h2>
-                <img className="kerryPic animate__animated animate__pulse" src="./img/general/pophealthpic.jpeg" alt="Harkiran in a pink sweatshirt sitting in front of the Kerry Park view" />
+                <img className="kerryPic animate__animated animate__pulse" src="./img/general/pophealthpic.jpeg" alt="Harkiran in a yellow and blue sweatshirt standing in front of a view of the Seattle Skyline" />
                 <br />
                 <p>Hello there! I’m Harkiran (she/her, pronounced harr-KI-run). I grew up in Southern California and later moved to Seattle to pursue my passion for technology. In June of 2021, I graduated from the University of Washington with a <a href="https://ischool.uw.edu/programs/informatics%22%3E">Bachelor of Science in Informatics</a>: Human-Computer Interaction and a minor in Gender, Women, &amp; Sexuality Studies.</p>
 
