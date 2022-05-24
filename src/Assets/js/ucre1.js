@@ -21,8 +21,9 @@ export function UCRE() {
                 <br />
                 <h4>executive summary</h4>
                 <p>Today, voice recognition technologies have been integrated into our everyday lives. With a simple command of “Hey, Siri”, “Alexa”, or “OK Google,” we can achieve so much, from turning off the lights to calling our loved ones. However, voice recognition technologies are not exempt from shortcomings. Our generative background research suggested that many voice recognition technologies today do not work well with non-American accents, predominantly uses female voices as default for assistance, and have prevalent data privacy concerns; many of these issues at hand are embedded in the algorithm.</p>
-                <p>Thus, we pose the question: <strong>How might we harness the everyday users’ power to alleviate AI biases in voice recognition technology?</strong></p>
-                <p>To answer this question, we employed 6 generative and evaluative methods in order to understand our audience’s experiences, perceptions, and attitudes towards voice recognition technologies. We dove deep into what barriers people face when using these systems as well as what solutions would most benefit these users.</p>
+                <p>Thus, we pose the question:</p>
+                <h4 className="mainQuestion"><strong>How might we harness the everyday users’ power to alleviate AI biases in voice recognition technology?</strong></h4>                 
+                <p>To answer this question, we employed <span className='bolded-words'>6</span> generative and evaluative methods in order to understand our audience’s experiences, perceptions, and attitudes towards voice recognition technologies. We dove deep into what barriers people face when using these systems as well as what solutions would most benefit these users.</p>
             </div>
 
             <div className="px-5">
@@ -38,7 +39,7 @@ export function UCRE() {
             <div className="px-5">
                 <br />
                 <h4>background research</h4>
-                <p>To kick off the project, our team conducted background research on voice assistants and the issues with AI in speech recognition. We also 4 generative think-alouds in order to better understand the problem space</p>
+                <p>To kick off the project, our team conducted background research on voice assistants and the issues with AI in speech recognition. We also facikitated 4 generative think-alouds in order to better understand the problem space</p>
                 <ul style={{ "list-style-type": "none" }}>
                     <li><span>&nbsp;<IconContext.Provider value={{ style: {fontSize: '30px', color: "#00ab44"}}}> <FaBars /> </IconContext.Provider></span><strong><span>Tags:</span></strong><span>&nbsp;general research, empathy mapping</span></li>
                     <br/>

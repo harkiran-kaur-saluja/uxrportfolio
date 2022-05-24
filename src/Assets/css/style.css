@@ -223,7 +223,7 @@ img {
   padding-left:3px;
   padding-right:3px;
   padding-bottom: 3px;
-  background: linear-gradient(to bottom,white 70%, #00ab44 50%);
+  background: linear-gradient(to bottom,white 65%, #00ab44 50%);
 }
 
 .button {
@@ -425,6 +425,10 @@ hr {
   flex: 1;
 }
 
+.mainQuestion {
+  color: #00ab44;
+  text-align: center;
+}
 
 
 .height {
