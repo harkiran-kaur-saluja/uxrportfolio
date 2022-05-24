@@ -430,6 +430,11 @@ hr {
   text-align: center;
 }
 
+.role {
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
 
 .height {
   max-width: 600px;

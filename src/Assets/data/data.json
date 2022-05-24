@@ -1,8 +1,10 @@
+
 [
     {
       "ProjectNumber": 1,
       "ProjectName": "Mitigating AI Bias in Voice Recognition.",
       "ProjectRole": "Research Lead",
+      "Tags": "remote contextual inquiry, generative think-aloud, 'speed dating'",
       "Image1": ".\\img\\ucre\\alexa.jpg",
       "ProjectOverview": "Employed several generative and evaluative methods in order to understand our audience’s experiences, perceptions, and attitudes towards voice recognition technologies.",
       "To": "/01"
@@ -11,6 +13,7 @@
       "ProjectNumber": 2,
       "ProjectName": "Balance.",
       "ProjectRole": "UX Researcher + Designer",
+      "Tags": "focus groups, literature review, semi-structured interviews, usability testing",
       "Image1": ".\\img\\persuasive\\balance_cover_picture.png",
       "ProjectOverview": "A mobile app that helps users, primarily college students, to integrate healthy breaks within their work schedules. The app allows for users to set their breaks and work sessions. It also prompts users to take breaks by sending and receiving dares from their friends.",
       "To": "/02"
@@ -19,6 +22,7 @@
       "ProjectNumber": 3,
       "ProjectName": "KidsTeam UW.",
       "ProjectRole": "Undergraduate UX Research Assistant",
+      "Tags": "participatory design, semi-structured interviews, qualitative data analysis",
       "Image1": ".\\img\\kidsTeam\\kidsTeamCoverPic.png",
       "ProjectOverview": "Projects aimed to understand the interactions with and perceptions of technology through co-design sessions, interviews, and qualitative coding of rich data, which further informs our approach to designing technologies with input from (and built for) children",
       "To": "/03"
@@ -27,6 +31,7 @@
       "ProjectNumber": 4,
       "ProjectName": "HumaneOS.",
       "ProjectRole": "Product Designer",
+      "Tags": "persona creation, wireframing, prototyping",
       "Image1": ".\\img\\humaneOS\\HumaneOS_banner.png",
       "ProjectOverview": "A mobile OS that hones in on mindfulness, clarity, and focus. ",
       "To": "/04"

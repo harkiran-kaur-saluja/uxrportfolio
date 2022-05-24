@@ -73,7 +73,6 @@ export function Picture() {
 }
 
 export function ProjectsView(props) {
-    console.log('po: ', props);
     //props is an object array
     return props.data.map((project) => {
         if (project.ProjectNumber % 2 === 1) {
@@ -94,7 +93,11 @@ export function ProjectsView(props) {
     });
 }
 
-//comment to test 
+// - UCRE project: remote contextual inquiry, generative think-aloud, "speed dating"
+// - Balance: focus groups, literature review, semi-structured interviews, usability testing
+// - KidsTeam: participatory design, semi-structured interviews, qualitative data analysis 
+// - HumaneOS: persona creation, wireframing, prototyping
+// //comment to test 
 function ProjectOverviewLeft(props) {
     // props should be an array of project objects
     // going to assume some information rn but can flesh it out later
@@ -121,6 +124,9 @@ function ProjectOverviewLeft(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
+                    <div className="h5">Tags:</div>
+                    <div> {makeTags(props.project.Tags)}</div>
+                    <br/>
                     <button type="button" className=" btn btn-outline-secondary button" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
                     <br />
                 </div>
@@ -145,6 +151,9 @@ function ProjectOverviewRight(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
+                    <div className="h5">Tags:</div>
+                    <div> {makeTags(props.project.Tags)}</div>
+                    <br/>
                     <button type="button" className=" btn btn-outline-secondary button" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
                     <br />
                 </div>
@@ -202,4 +211,11 @@ export function Footer(props) {
             </footer>
         </div>
     );
+}
+
+function makeTags(taglist) {
+    let tags = taglist.split(",")
+    return tags.map((tag) => {
+        return (<button className='btn btn-outline-success' disabled>{tag}</button>);
+    });
 }
