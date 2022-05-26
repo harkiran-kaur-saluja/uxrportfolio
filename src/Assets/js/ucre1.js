@@ -10,22 +10,37 @@ export function UCRE() {
     window.scrollTo(0, 0);
     return (
         <div>
-            <div className="px-5">
-                <h2 className="animate__animated animate__flipInX" >giving users a voice: <span className="firstName">mitigating AI bias in voice recognition technologies</span></h2>
-                <img className="px-5 center-img img-fluid" src="./img/ucre/ucreCoverPage.png" alt="a group of smart phones showing the high-fidelity wireframes of our solution" />
+            <div className="container">
+                <div className="row"> 
+                    <div className="title">
+                        <h2 className="align-middle animate__animated animate__flipInX">
+                            giving users a voice: 
+                            <span className="firstName">mitigating AI bias in voice recognition technologies</span>
+                        </h2>
+                    </div>
+                   
+                </div>
             </div>
 
            
-            
-            <div className="px-5">
-                <br />
-                <h4>executive summary</h4>
-                <p>Today, voice recognition technologies have been integrated into our everyday lives. With a simple command of “Hey, Siri”, “Alexa”, or “OK Google,” we can achieve so much, from turning off the lights to calling our loved ones. However, voice recognition technologies are not exempt from shortcomings. Our generative background research suggested that many voice recognition technologies today do not work well with non-American accents, predominantly uses female voices as default for assistance, and have prevalent data privacy concerns; many of these issues at hand are embedded in the algorithm.</p>
-                <p>Thus, we pose the question:</p>
-                <h4 className="mainQuestion"><strong>How might we harness the everyday users’ power to alleviate AI biases in voice recognition technology?</strong></h4>                 
-                <p>To answer this question, we employed <span className='bolded-words'>6</span> generative and evaluative methods in order to understand our audience’s experiences, perceptions, and attitudes towards voice recognition technologies. We dove deep into what barriers people face when using these systems as well as what solutions would most benefit these users.</p>
-            </div>
+            <div className="container">
+                <div className="row row-cols-2">
+                    <div className='col align-middle'>
+                        <h4 className="display-6 ">Executive Summary</h4>
+                    </div>
+                    <div className='col lead'>
+                        <p >Today, voice recognition technologies have been integrated into our everyday lives. With a simple command of “Hey, Siri”, “Alexa”, or “OK Google,” we can achieve so much, from turning off the lights to calling our loved ones. However, voice recognition technologies are not exempt from shortcomings. Our generative background research suggested that many voice recognition technologies today do not work well with non-American accents, predominantly uses female voices as default for assistance, and have prevalent data privacy concerns; many of these issues at hand are embedded in the algorithm.</p>
+                        
+                    </div>
+                   
+                </div>
+            </div>  
 
+
+
+            <p>Thus, we pose the question:</p>
+                    <h4 className="mainQuestion"><strong>How might we harness the everyday users’ power to alleviate AI biases in voice recognition technology?</strong></h4>                 
+                    <p>To answer this question, we employed <span className='bolded-words'>6</span> generative and evaluative methods in order to understand our audience’s experiences, perceptions, and attitudes towards voice recognition technologies. We dove deep into what barriers people face when using these systems as well as what solutions would most benefit these users.</p>
             <div className="px-5">
                 <h4>project background</h4>
                 <ul>
@@ -35,6 +50,9 @@ export function UCRE() {
                     <li><p><strong>team size: </strong>4 members (myself, Ryan Adibi, Anita Sun, Nick Chen)</p></li>
                 </ul>
             </div>
+
+
+
 
             <div className="px-5">
                 <br />

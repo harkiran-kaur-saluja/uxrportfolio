@@ -33,7 +33,7 @@ export function HomeBody(props) {
                     <p>Master of Human-Computer Interaction student at Carnegie Mellon University, graduating in August 2022.</p>
                     <p>Currently researching and advocating for underrepresented voices in the HCI community.</p>
                     <br />
-                    <button className="button" onClick={() => { props.handleClick() }}>Check out my work</button>
+                    <button className="btn btn-outline-secondary button" onClick={() => { props.handleClick() }}>Check out my work</button>
                 </div>
                 <div className='col col-image'>
                     <Picture />
@@ -116,7 +116,7 @@ function ProjectOverviewLeft(props) {
                     </div> */}
                 </div>
                 <div className="col col-content">
-                    <div className="fs-2">{'0' + props.project.ProjectNumber}</div>
+                    <div className="fs-2 num">{'0' + props.project.ProjectNumber}</div>
                     <br />
                     <div className="h2">{props.project.ProjectName}</div>
                     <br />
@@ -124,7 +124,6 @@ function ProjectOverviewLeft(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
-                    <div className="h5">Tags:</div>
                     <div> {makeTags(props.project.Tags)}</div>
                     <br/>
                     <button type="button" className=" btn btn-outline-secondary button" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
@@ -143,7 +142,7 @@ function ProjectOverviewRight(props) {
         <div className="container animate__animated animate__zoomIn" >
             <div className="row justify-content-center">
                 <div className="col col-content">
-                    <div className="fs-2">{'0' + props.project.ProjectNumber}</div>
+                    <div className="fs-2 num">{'0' + props.project.ProjectNumber}</div>
                     <br />
                     <div className="h2">{props.project.ProjectName}</div>
                     <br />
@@ -151,7 +150,6 @@ function ProjectOverviewRight(props) {
                     <br />
                     <div className="lead">{props.project.ProjectOverview}</div>
                     <br />
-                    <div className="h5">Tags:</div>
                     <div> {makeTags(props.project.Tags)}</div>
                     <br/>
                     <button type="button" className=" btn btn-outline-secondary button" onClick={() => { props.handleClickIndv(props.project) }}>View Project</button>
@@ -216,6 +214,6 @@ export function Footer(props) {
 function makeTags(taglist) {
     let tags = taglist.split(",")
     return tags.map((tag) => {
-        return (<button className='btn btn-outline-success' disabled>{tag}</button>);
+        return (<span><button className='tag my-1' disabled>{tag}</button><span>&nbsp;&nbsp;&nbsp;</span></span>);
     });
 }
