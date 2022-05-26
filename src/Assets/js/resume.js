@@ -6,8 +6,7 @@ export function Resume(props) {
             <div className="row">
                 <div className="col">
                     {/*name and description*/}
-                    <span className='firstName'>Harkiran Saluja</span>
-                    <br/>
+                    <h1><strong>Harkiran Saluja</strong></h1>
                     <br/>
                     <h4>I am a <strong className="bolded-words">user experience researcher </strong>focused on building a strong empathetic understanding to 
 complex problems and eager to learn and grow. I love playing word games and making dad jokes.</h4>

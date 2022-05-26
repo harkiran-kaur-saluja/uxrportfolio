@@ -481,7 +481,11 @@ hr {
 }
 /* footer */
 #sticky-footer {
+  width: 100%;
+  position: relative;
+  bottom:0;
   background-color: #00ab44;
+  
 }
 
 

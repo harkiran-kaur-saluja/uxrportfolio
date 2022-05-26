@@ -39,6 +39,8 @@ export function HomeBody(props) {
                     <Picture />
                 </div>
             </div>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+               {/*
             <div className="container">
                 <hr />
                 <div className="row">
@@ -47,11 +49,13 @@ export function HomeBody(props) {
                     </div>
                     {/* <div className="col colCheckout">
                         <button className="button" onClick={() => { props.handleClick() }} >SEE ALL WORK</button>
-                    </div> */}
+                    </div> 
                 </div>
             </div>
+         
             <br /><br /><br />
             <ProjectsView data={props.data} handleClickIndv={props.handleClickIndv} />
+                */}
         </div>
 
     );
