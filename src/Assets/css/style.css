@@ -463,6 +463,19 @@ hr {
   font-weight: bold;
 }
 
+.buttonLink {
+  background-color: #00ab44;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
 .num {
   font-weight: 900;
 }
