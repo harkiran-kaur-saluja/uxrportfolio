@@ -29,11 +29,12 @@ export function HomeBody(props) {
             <div className="row">
                 <div className="intro col animate__animated animate__backInUp col-content">
                     <h2>Hi! I'm <span className="firstName">harkiran</span></h2>
-                    <p>HCI + design researcher who aims to build a strong and empathetic understanding to complex problems and who is eager to learn and grow.</p>
-                    <p>Master of Human-Computer Interaction student at Carnegie Mellon University, graduating in August 2022.</p>
-                    <p>Currently researching and advocating for underrepresented voices in the HCI community.</p>
+                    <br/>
+                    <h5 className="quick-intro"><strong className="bolded-words">User experience researcher</strong> eager to learn and grow.</h5>
+                    <h5 className="quick-intro">Master's student at Carnegie Mellon University.</h5>
+                    <h5 className="quick-intro">Pun enthusiast.</h5>
                     <br />
-                    <button className="btn btn-outline-secondary button" onClick={() => { props.handleClick() }}>Check out my work</button>
+                    <button className="btn btn-outline-secondary button" onClick={() => { props.handleClick() }}><strong>Check out my work</strong></button>
                 </div>
                 <div className='col col-image'>
                     <Picture />

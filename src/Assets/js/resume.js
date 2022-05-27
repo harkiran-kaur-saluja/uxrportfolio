@@ -7,13 +7,10 @@ export function Resume(props) {
                 <div className="col">
                     {/*name and description*/}
                     <h1><strong>Harkiran Saluja</strong></h1>
+                    <h4><strong className="bolded-words">UX Researcher</strong></h4>
                     <br/>
-                    <h4>I am a <strong className="bolded-words">user experience researcher </strong>focused on building a strong empathetic understanding to 
-complex problems and eager to learn and grow. I love playing word games and making dad jokes.</h4>
-                    <br/>
-                    <br/>
-                    <a className='buttonLink my-2' href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Download Resume</a>
-                    <br/>
+                    <button className="btn btn-outline-secondary button"><a href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Download Resume</a></button> &emsp;
+                    <button className="btn btn-outline-secondary button"><a href="https://www.linkedin.com/in/harkiran-kaur-saluja/">LinkedIn</a></button>
                     <br/>
                 </div>
                 <div className="col">
@@ -164,7 +161,7 @@ inform research methods for children.
                         Lee, K.J., Roldan, W., Zhu, T.Q., <strong>Saluja, H.K.</strong>, Na, S., Chin, B., Zeng, Y., Lee, J.H., & Yip, 
                         J.C., (2021). The Show Must Go On: A conceptual model of conducting synchronous 
                         participatory design with children online. Proceedings of the 2021 CHI Conference 
-                        on Human Factors in Computing Systems. Association for Computing Machinery
+                        on Human Factors in Computing Systems. Association for Computing Machinery.
                         </p>
                             
                     </div>
