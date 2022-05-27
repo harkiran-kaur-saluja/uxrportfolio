@@ -9,8 +9,8 @@ export function Resume(props) {
                     <h1><strong>Harkiran Saluja</strong></h1>
                     <h4><strong className="bolded-words">UX Researcher</strong></h4>
                     <br/>
-                    <button className="btn btn-outline-secondary button"><a href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Download Resume</a></button> &emsp;
-                    <button className="btn btn-outline-secondary button"><a href="https://www.linkedin.com/in/harkiran-kaur-saluja/">LinkedIn</a></button>
+                    <a className="btn btn-outline-secondary button" href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Download Resume</a>&emsp;
+                    <a className="btn btn-outline-secondary button" href="https://www.linkedin.com/in/harkiran-kaur-saluja/">LinkedIn</a>
                     <br/>
                 </div>
                 <div className="col">
