@@ -7,14 +7,14 @@ export function NavBar(props) {
             <nav id="examples">
                 <div className="nav-sig">
                     <p className="signature"><img src="img/general/signaturepic.png" alt="Harkiran in signature style"></img></p>
-                    <p className="name">kaur saluja</p>
+                    <h6 className="name">kaur saluja</h6>
                 </div>
                 <div className="links">
                     <ul className='example'>
-                        <li><button className="fs-5 navlink home active hover1 hover1-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
-                        <li><button className="fs-5 navlink work hover2 hover2-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
-                        <li><button className="fs-5 navlink resume hover3 hover3-1" onClick={() => { props.handleClickResume() }}>Resume</button></li>
-                        <li><button className="fs-5 navlink about hover4 hover4-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
+                        <li><button className="fs-6 navlink home active hover1 hover1-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
+                        <li><button className="fs-6 navlink work hover2 hover2-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
+                        <li><button className="fs-6 navlink resume hover3 hover3-1" onClick={() => { props.handleClickResume() }}>Resume</button></li>
+                        <li><button className="fs-6 navlink about hover4 hover4-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
                     </ul>
                 </div>
             </nav>
@@ -204,12 +204,20 @@ export function Footer(props) {
     return (
         <div>
             <footer id="sticky-footer" class="flex-shrink-0 py-3 text-white">
-            <div class="footer_container">
-                <small>Copyright &copy; 2022 &nbsp; &#10084; &nbsp; Harkiran Kaur Saluja</small>
-                <div id="icons">
-                <a href="https://www.facebook.com/harkiran.kaur.saluja/" class="fa fa-facebook"> </a> &nbsp;
-                <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"> </a> 
+            <div class="container">
+                <div className="col">
+                    <p>
+                        <img src="img/general/signatureWhite.png" alt="Harkiran in white signature style"></img> &emsp;
+                        <div id="icons">
+                            <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"> </a> &nbsp;&nbsp;
+                            <a href="https://medium.com/@harkiran.kaur" class="fa fa-medium"> </a>
+                        </div>
+                    </p>
+
+                    <p className="footer_email">I'm always looking to learn from you! <br/> Feel free to reach out at <a href="mailto: harkiran.saluja@gmail.com" className="footer_email">harkiran.saluja@gmail.com</a>.</p>
                 </div>
+                <small>Copyright 2022 &nbsp; &copy; &nbsp; Harkiran Kaur Saluja</small>
+
             </div>
             </footer>
         </div>

@@ -153,15 +153,15 @@ inform research methods for children.
                         <p>
                             Simko, L., Chin, B., Na, S., <strong>Saluja, H.K.</strong>, Zhu, T.Q., Hiniker, A., Yip, J.C., & Cobb, C. (2021). 
                             Would You Rather: A focus group method for eliciting and discussing formative 
-                            design insights with children. Proceedings of the 2021 IDC Interaction Design and 
-                            Children. Association for Computing Machinery.
+                            design insights with children. <em>Proceedings of the 2021 IDC Interaction Design and 
+                            Children.</em> Association for Computing Machinery.
                         </p>
                         <br/>
                         <p>
                         Lee, K.J., Roldan, W., Zhu, T.Q., <strong>Saluja, H.K.</strong>, Na, S., Chin, B., Zeng, Y., Lee, J.H., & Yip, 
                         J.C., (2021). The Show Must Go On: A conceptual model of conducting synchronous 
-                        participatory design with children online. Proceedings of the 2021 CHI Conference 
-                        on Human Factors in Computing Systems. Association for Computing Machinery.
+                        participatory design with children online. <em>Proceedings of the 2021 CHI Conference 
+                        on Human Factors in Computing Systems.</em> Association for Computing Machinery.
                         </p>
                             
                     </div>

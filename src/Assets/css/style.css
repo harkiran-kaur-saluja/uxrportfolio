@@ -505,26 +505,37 @@ hr {
 
 
 .footer_container {
- display: flex;
+  display: flex;
 }
+
+.footer_email {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+  color: black;
+}
+
 #icons {
-  padding: 5px;
+  padding: 10px;
   flex-basis: 9%;
   align-items: flex-end;
-  display: inline;
+  display: inline-block;
   /* padding-left: 970px; */
 }
 small {
-  padding: 10px;
-  padding-left: 30px;
-  flex-basis: 91%;
-  align-items: flex-start;
+  padding-left: 8px;
+  /* flex-basis: 91%;
+  align-items: flex-start; */
 }
 
 .fa {
-  padding: 10px;
-  font-size: 13px;
-  width: 33px;
+  padding: 11px;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
