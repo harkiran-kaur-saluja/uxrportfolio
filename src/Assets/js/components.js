@@ -180,22 +180,33 @@ export function About(props) {
     return (
         <div>
             <div className="aboutText">
-                <h2>about <span className="me">me</span></h2>
-                <img className="kerryPic animate__animated animate__pulse" src="./img/general/pophealthpic.jpeg" alt="Harkiran in a yellow and blue sweatshirt standing in front of a view of the Seattle Skyline" />
-                <br />
-                <p>Hello there! I’m Harkiran (she/her, pronounced harr-KI-run). I grew up in Southern California and later moved to Seattle to pursue my passion for technology. In June of 2021, I graduated from the University of Washington with a <a href="https://ischool.uw.edu/programs/informatics%22%3E">Bachelor of Science in Informatics</a>: Human-Computer Interaction and a minor in Gender, Women, &amp; Sexuality Studies.</p>
+                <h2>about <span className="me">me</span></h2> <br/>
 
-                <p>Currently, I am pursuing my <a href="https://hcii.cmu.edu/academics/mhci%22%3E">Master of Human-Computer Interaction</a> at Carnegie Mellon University, where I conduct research as part of the Social AI Group and overall dive deeper into HCI so that I can become the best practitioner I can be.</p>
+                <h1 className="big_intro">Originally from Southern California.<br/> Currently in Pittsburgh, Pennsylvania.</h1>
 
-                <p>In the future, my aim through research is to use co-design to improve children's education inside and outside of the classroom. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=FyUvGMgAAAAJ&hl=en&oi=ao%22%3E">here</a>!
-                </p>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <img className="kerryPic animate__animated animate__pulse" src="./img/general/pophealthpic.jpeg" alt="Harkiran in a yellow and blue sweatshirt standing in front of a view of the Seattle Skyline" />
+                        </div>
+                        <div className="col">
+                            <br/>
+                            <p>Hi there! I’m <strong className="bolded-words">Harkiran</strong> (she/her, pronounced harr-KI-run) - a UX specialist hoping to further my career in the research space.<br/><br/>
 
-                <p>Outside of my work, I love to watch sports, play word games, and make puns!</p>
-                <br />
+                            I grew up in Southern California, which allowed me to have an idiosyncratic perspective on the world as a Sikh-American. I learned that different individials have different stories that we can take inspiration and new ideas from. <br/><br/>
+                            
+                            In 2018, I moved to Seattle to pursue my passion for technology. My college experience enabled me to find a love for HCI, research, and teaching/mentoring. For two years, I conducted participatory design activities with children. I graduated from the University of Washington with a Bachelor of Science in Informatics and a minor in Gender, Women, &amp; Sexuality Studies. <br/><br/>
+
+                            Currently, I am pursuing my <strong className="bolded-words">Master of Human-Computer Interaction</strong> at Carnegie Mellon University, where I conduct research on the voices of underrepresented minorities in the HCI community. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=3XzUUr8AAAAJ&hl=en&oi=ao">here</a>. <br/><br/>
+
+                            Outside of research, I love to watch tennis and basketball, play word games, and make puns.<br/><br/>
+
+                            I'm always looking to learn from and collaborate with others. Feel free to reach out and let's chat!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p className="contact"><strong>I'm always looking to learn from you! If you want to chat, feel free to connect with me on <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/%22%3E">LinkedIn</a> or email me at <a href="mailto: hsaluja@andrew.cmu.edu">hsaluja@andrew.cmu.edu</a>.</strong></p>
-            </div>
+        <br />
         </div>
     );
 }

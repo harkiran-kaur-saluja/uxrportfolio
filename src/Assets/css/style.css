@@ -365,6 +365,12 @@ hr {
   
 /*about page*/
 
+.big_intro {
+  font-weight: bold;
+  line-height: 50px;
+  opacity: 85%;
+}
+
 .aboutText {
   font-weight: 500;
   margin-left: 50px;
@@ -373,13 +379,13 @@ hr {
   letter-spacing: .75px;
 }
 
-.contact {
+/* .contact {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
   color: black;
   letter-spacing: .75px;
-}
+} */
 
 .aboutText a {
   color:#00ab44;
@@ -392,11 +398,13 @@ hr {
 }
 
 .kerryPic{
-  max-width: 400px;
+  max-width: 410px;
   display: block;
-  margin-left: auto;
+  margin-left: 40px;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 32px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 8px 16px #c4c4c4)
 }
 
 
