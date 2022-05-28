@@ -11,10 +11,10 @@ export function NavBar(props) {
                 </div>
                 <div className="links">
                     <ul className='example'>
-                        <li><button className="navlink home active hover1 hover1-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
-                        <li><button className="navlink work hover2 hover2-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
-                        <li><button className="navlink resume hover3 hover3-1" onClick={() => { props.handleClickResume() }}>Resume</button></li>
-                        <li><button className="navlink about hover4 hover4-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
+                        <li><button className="fs-5 navlink home active hover1 hover1-1" onClick={() => { props.handleClickHome() }}>Home</button></li>
+                        <li><button className="fs-5 navlink work hover2 hover2-1" onClick={() => { props.handleClickWork() }}>Work</button></li>
+                        <li><button className="fs-5 navlink resume hover3 hover3-1" onClick={() => { props.handleClickResume() }}>Resume</button></li>
+                        <li><button className="fs-5 navlink about hover4 hover4-1"d onClick={() => { props.handleClickAbout() }}>About</button></li>
                     </ul>
                 </div>
             </nav>
@@ -40,23 +40,23 @@ export function HomeBody(props) {
                     <Picture />
                 </div>
             </div>
-            <br/><br/><br/><br/><br/><br/><br/><br/>
-               {/*
+            <br/><br/><br/>
+               
             <div className="container">
                 <hr />
                 <div className="row">
-                    <div className="col colCheckout">
-                        <span className="checkOut">Latest Work</span>
+                    <div className="col">
+                        <h4 className=" checkOut">Latest Work</h4>
                     </div>
-                    {/* <div className="col colCheckout">
-                        <button className="button" onClick={() => { props.handleClick() }} >SEE ALL WORK</button>
-                    </div> 
+                    <div className="col colCheckout">
+                        {/*<button className="button" onClick={() => { props.handleClick() }} >SEE ALL WORK< /button> */}
+                    </div>
                 </div>
             </div>
          
-            <br /><br /><br />
+            <br />
             <ProjectsView data={props.data} handleClickIndv={props.handleClickIndv} />
-                */}
+                
         </div>
 
     );
