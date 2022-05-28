@@ -46,7 +46,7 @@ export function HomeBody(props) {
                 <hr />
                 <div className="row">
                     <div className="col">
-                        <h4 className=" checkOut">Latest Work</h4>
+                        <h5 className=" checkOut">Latest Work</h5>
                     </div>
                     <div className="col colCheckout">
                         {/*<button className="button" onClick={() => { props.handleClick() }} >SEE ALL WORK< /button> */}
