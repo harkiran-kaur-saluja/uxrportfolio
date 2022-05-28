@@ -590,6 +590,9 @@ small {
 }
 
 @media (max-width: 1000px) {
+  .tag {
+    display: none;
+  }
   .image-stack {
     display: none;
   }

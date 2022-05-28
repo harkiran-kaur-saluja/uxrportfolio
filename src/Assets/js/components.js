@@ -217,13 +217,13 @@ export function Footer(props) {
             <footer id="sticky-footer" class="flex-shrink-0 py-3 text-white">
             <div class="container">
                 <div className="col">
-                    <p>
-                        <img src="img/general/signatureWhite.png" alt="Harkiran in white signature style"></img> &emsp;
-                        <div id="icons">
-                            <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"> </a> &nbsp;&nbsp;
-                            <a href="https://medium.com/@harkiran.kaur" class="fa fa-medium"> </a>
-                        </div>
-                    </p>
+                   
+                    <img src="img/general/signatureWhite.png" alt="Harkiran in white signature style"></img> &emsp;
+                    <div id="icons">
+                        <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"> </a> &nbsp;&nbsp;
+                        <a href="https://medium.com/@harkiran.kaur" class="fa fa-medium"> </a>
+                    </div>
+                    <br/><br/>
 
                     <p className="footer_email">I'm always looking to learn from you! <br/> Feel free to reach out at <a href="mailto: harkiran.saluja@gmail.com" className="footer_email">harkiran.saluja@gmail.com</a>.</p>
                 </div>
