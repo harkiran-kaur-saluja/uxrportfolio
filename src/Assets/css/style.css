@@ -521,7 +521,9 @@ hr {
   font-weight: bold;
   font-size: 20px;
 }
-
+#footerIcon {
+  width: 150px;
+}
 a:hover {
   color: black;
 }
