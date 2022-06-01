@@ -235,7 +235,7 @@ export function Footer(props) {
     );
 }
 
-function makeTags(taglist) {
+export function makeTags(taglist) {
     let tags = taglist.split(",")
     return tags.map((tag) => {
         return (<span><button className='tag my-1' disabled>{tag}</button><span>&nbsp;&nbsp;&nbsp;</span></span>);

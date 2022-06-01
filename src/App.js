@@ -6,7 +6,7 @@ import { NavBar, HomeBody, ProjectsView, About, Footer } from './Assets/js/compo
 import { Resume } from './Assets/js/resume.js';
 import { Persuasive } from './Assets/js/persuasive.js';
 import { HumaneOS } from './Assets/js/humaneos.js';
-import { UCRE } from './Assets/js/ucre.js';
+import { UCRE } from './Assets/js/ucre1.js';
 import { KidsTeam } from './Assets/js/kidsteam.js';
 import 'animate.css';
 

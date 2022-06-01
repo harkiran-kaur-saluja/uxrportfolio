@@ -30,8 +30,8 @@ export function UCRE() {
                 <p>To kick off the project, our team conducted background research on voice assistants and the issues with AI in speech recognition. We also 4 generative think-alouds in order to better understand the problem space</p>
                 <ul style={{ "list-style-type": "disc" }}>
                     <li><span>General research, empathy mapping</span></li>
-                    <li><strong><span>Who we spoke to:</span></strong><span style={{ "line-height": "107%", "font-family": "\"Times New Roman\",serif", "font-size": "16px" }}>&nbsp;people who have previous experience with voice technologies, focusing on those with non-American accents</span></li>
-                    <li><strong><span>What we wanted to learn:&nbsp;</span></strong><span style={{ "line-height": "107%", "font-family": "\"Times New Roman\",serif", "font-size": "16px" }}>the different types of biases in voice technologies, how individuals interact with voice recognition software in daily scenarios, how users who do not have English as their first language interact with voice technologies, users’ hidden needs and concerns, how users hope that the voice technologies could be improved</span></li>
+                    <li><strong><span>Who we spoke to:</span></strong><span>&nbsp;people who have previous experience with voice technologies, focusing on those with non-American accents</span></li>
+                    <li><strong><span>What we wanted to learn:&nbsp;</span></strong><span>the different types of biases in voice technologies, how individuals interact with voice recognition software in daily scenarios, how users who do not have English as their first language interact with voice technologies, users’ hidden needs and concerns, how users hope that the voice technologies could be improved</span></li>
                     <li><strong><span>Think-aloud tasks&nbsp;</span></strong>
                         <ol style={{ "list-style-type": "circle" }}>
                             <li><span>1. Briefly introduce yourself in your native language and ask [voice assistant] to translate your introduction into English</span></li>
@@ -68,7 +68,7 @@ export function UCRE() {
                             <li><span >Voice recognition technologies have trouble with correctly recognizing non-American names.</span></li>
                             <li><span >Users would love to contribute the recordings of their voices to the database in order to improve the diversity of input data of voice recognition technologies.</span></li>
                             <li><span >Users are concerned about privacy issues with contributing their voices to public databases.</span></li>
-                            <li><span >heir voice to alleviate AI biases in voice technologies.</span></li>
+                            <li><span >Their voice to alleviate AI biases in voice technologies.</span></li>
                             <li><span >It is a challenge to improve speech recognition technology and the voices can also be quite gendered.</span></li>
                         </ol>
                     </li>
