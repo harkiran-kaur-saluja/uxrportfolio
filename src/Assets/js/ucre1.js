@@ -135,7 +135,7 @@ export function UCRE() {
                         <div className="ps-5 col-3">
                             <img className="weary" src="./img/ucre/Group 8.png"/>
                         </div>
-                        <div className="col">
+                        <div className="col align-middle align-self-center">
                             <p className="lead">Voice recognition technology fails to recommend restaurants in the user’s current location, instead recommends some place in the country of the language the user’s phone is set up in.</p>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export function UCRE() {
                         <div className="ps-5 col-3">
                             <img  className="weary" src="./img/ucre/Group 8.png"/>
                         </div>
-                        <div className="col">
+                        <div className="col align-middle align-self-center">
                             <p className="lead">Voice assistants fail to recognize / pronounce users’ names when the users’ names are not in English. They also fail to capture the subtle nuances of pronunciation of certain words/phrases in different cultural backgrounds.</p>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ export function UCRE() {
                         <div className="ps-5 col-3">
                             <img  className="weary" src="./img/ucre/Group 8.png"/>
                         </div>
-                        <div className="col">
+                        <div className="col align-middle align-self-center">
                             <p className="lead">The training data of voice assistants are not very expansive and do not enable the devices to handle different dialects and accents, hence one of the reasons why voice technologies display racial and gender bias. Words, even in English, are misidentified due to the way the speaker pronounces and says certain words and phrases.</p>
                         </div>
                     </div>

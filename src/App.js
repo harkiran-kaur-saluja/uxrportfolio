@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 import "./Assets/css/style.css";
 import { NavBar, HomeBody, ProjectsView, About, Footer } from './Assets/js/components.js';
 import { Resume } from './Assets/js/resume.js';
-import { Persuasive } from './Assets/js/persuasive.js';
+import { Persuasive } from './Assets/js/persuasive1.js';
 import { HumaneOS } from './Assets/js/humaneos.js';
 import { UCRE } from './Assets/js/ucre1.js';
 import { KidsTeam } from './Assets/js/kidsteam.js';
