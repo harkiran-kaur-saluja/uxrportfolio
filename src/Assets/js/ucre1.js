@@ -54,7 +54,7 @@ export function UCRE() {
             </div>
             <br/><br/><br/>
             <div>
-                <img className="img-fluid" src="./img/ucre/Frame 4.png"/>
+                <img className="img-fluid" src="./img/ucre/Frame 4.png" alt=""/>
             </div>
             <div className='under'>
             </div>
@@ -133,7 +133,7 @@ export function UCRE() {
                 <div className="container">
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img className="weary" src="./img/ucre/Group 8.png"/>
+                            <img className="weary"alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Voice recognition technology fails to recommend restaurants in the user’s current location, instead recommends some place in the country of the language the user’s phone is set up in.</p>
@@ -142,7 +142,7 @@ export function UCRE() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Voice assistants fail to recognize / pronounce users’ names when the users’ names are not in English. They also fail to capture the subtle nuances of pronunciation of certain words/phrases in different cultural backgrounds.</p>
@@ -151,7 +151,7 @@ export function UCRE() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">The training data of voice assistants are not very expansive and do not enable the devices to handle different dialects and accents, hence one of the reasons why voice technologies display racial and gender bias. Words, even in English, are misidentified due to the way the speaker pronounces and says certain words and phrases.</p>
@@ -206,7 +206,7 @@ export function UCRE() {
                 <div className="container">
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead" >Voice recognition technologies are difficult to use for users who do not have an American accent. They also have trouble with correctly recognizing non-American names.</p>
@@ -215,7 +215,7 @@ export function UCRE() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 16.png"/>
+                            <img  className="weary" alt="" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Users would love to contribute the recordings of their voices to the database in order to improve the diversity of input data of voice recognition technologies.</p>
@@ -224,7 +224,7 @@ export function UCRE() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Users are concerned about privacy issues with contributing their voices to public databases.</p>
@@ -233,7 +233,7 @@ export function UCRE() {
                     <br/>
                     <div className="row">
                         <div className=" ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">It is a challenge to improve speech recognition technology and the voices can also be quite gendered.</p>
@@ -279,7 +279,7 @@ export function UCRE() {
             <strong><h3 className='px-5 big_intro font-weight-bold'>TAKEAWAYS: WHAT I LEARNED</h3></strong>
                 <br/>
                 <br/>
-                <img className="px-5 img-fluid" src="./img/ucre/Frame 8.png"/>
+                <img className="px-5 img-fluid" src="./img/ucre/Frame 8.png"alt=""/>
                 <br/>
                 <br/>
             </div>

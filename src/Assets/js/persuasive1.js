@@ -54,7 +54,7 @@ export function Persuasive() {
             </div>
             <br/><br/><br/>
             <div>
-                <img className="img-fluid" src="./img/ucre/Frame 4.png"/>
+                <img className="img-fluid" src="./img/ucre/Frame 4.png" alt="project process"/>
             </div>
             <div className='under'>
             </div>
@@ -134,7 +134,7 @@ export function Persuasive() {
                 <div className="container">
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img className="weary" src="./img/ucre/Group 16.png"/>
+                            <img className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Participants were asked to embark on small tasks with varying levels of frustration, and those who completed the tasks were more willing to take breaks than either participants who had done an easier task or those who failed to complete the frustrating task.</p>
@@ -143,7 +143,7 @@ export function Persuasive() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">We build a somewhat stable form of self-esteem in our foundational years which stays with us through all the different transitions in life and people with low self-esteem are more prone to mental health issues like depression.</p>
@@ -152,7 +152,7 @@ export function Persuasive() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Appeals to dynamic norms (changes in the ways in which people/peers are acting) can foster behavior change, even if the new behaviors violate current norms.</p>
@@ -161,7 +161,7 @@ export function Persuasive() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 8.png"/>
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Primary reasons given for taking breaks were tiredness, boredom, hunger or thirst, poor concentration, the need to rest, and to socialize. Participants listed several reasons as to why they did not take mental breaks, such as time, workloads, deadlines, and the task being almost completed.</p>
@@ -170,7 +170,7 @@ export function Persuasive() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 16.png"/>
+                            <img  className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">The reasons for why people took breaks can be categorized into one&rsquo;s personal state and potential activity. There is a relationship between the frequency and time taking breaks with one&rsquo;s overall approach to time structure and procrastination, as well as self-esteem.</p>
@@ -179,7 +179,7 @@ export function Persuasive() {
                     <br/>
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img  className="weary" src="./img/ucre/Group 16.png"/>
+                            <img  className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
                             <p className="lead">Timely reminders are effective in prompting users to take breaks from sitting. Solutions for this should involve the user having control over their behavior and should support the user rather than distract them.</p>
