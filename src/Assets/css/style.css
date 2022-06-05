@@ -320,6 +320,22 @@ hr {
   color: white;
 } */
 
+.underline {
+ 
+  text-decoration-line: underline;
+  text-decoration-color: #00ab4480;
+  text-decoration-thickness: 10px;
+  text-underline-position: above;
+}
+
+.bgGrey {
+  background-color: #e5e5e5;
+}
+
+.circleNum {
+  background-color: #a7d3d9;
+  border-radius: 50px;
+}
 
 /* Code from Bri Camp Gomez https://bricampgomez.com/blog/how-to-overlap-images-in-css/ */
   .image-stack {
@@ -522,6 +538,16 @@ mark {
   background-repeat: no-repeat;
   backdrop-filter: brightness(30%);
 }
+
+.persuasive-problem {
+  background-image: url("../img/balance_problem_pic_bg.png");
+  backdrop-filter: opacity(70%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+}
+
+
 .br {
  padding-right: 50px;
  border-right: 2px solid #626764 ;

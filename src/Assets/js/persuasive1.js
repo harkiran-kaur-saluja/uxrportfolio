@@ -2,7 +2,7 @@ import 'animate.css';
 
 
 export function Persuasive() {
-    window.scrollTo(0, 0);
+    //window.scrollTo(0, 0);
     return (
         <div>
             <div >
@@ -54,79 +54,74 @@ export function Persuasive() {
             </div>
             <br/><br/><br/>
             <div>
-                <img className="img-fluid" src="./img/ucre/Frame 4.png" alt="project process"/>
+                <img className="img-fluid" src="./img/persuasive/Frame 9.png" alt="project process"/>
             </div>
             <div className='under'>
             </div>
-            <div className="ucre-problem white">
+            <div className="persuasive-problem white">
                 
                 <div className='px-5'>
                     <h3 className="big_intro problem-u white">THE PROBLEM</h3>
                     <br/>   <br/>
-                    <h3 className="problem-b white display-5 font-weight-bold"><strong> While there is a wealth of research on work, there is no universal work strategy, and by extension, there is no universal method of taking breaks. {/*<a href="https://www.washingtonpost.com/graphics/2018/business/alexa-does-not-understand-your-accent/?utm_term=.ca17667575d1" className='white'>(SOURCE)</a>*/}
+                    <h3 className="problem-b white display-5 font-weight-bold"><strong> People fail to give themselves breaks from work, which results in a lack of physical and mental self-care.
                     </strong></h3>
                     
                 </div>
                 
             </div>
             <br/> <br/> <br/>
-
-
-            {/* <div className="px-5">
-                <h1 className='big_intro'>Hands-off interaction has allowed for users to achieve simple tasks, but a lack of diverse voice data contributes to discrimination.</h1>
+            
+            <div className="px-5">
+            <br/> <br/>
+                <h1 className='big_intro'>Time, workload, deadlines, and the task being almost completed make up several reasons as to why people do not take mental breaks.</h1>
                 <br/><br/>
+                <div className="container align-middle align-self-center ">
+                   
+                    <div className="col align-middle align-self-center ps-5">
+                        <img className="mx-auto d-block" src="./img/persuasive/Group 23.png" alt="google Assistant"/>
+                    </div>
+                
+                    <br/> <br/>
+                      
+                </div>
+                <div>
+                    <strong><h3 className='big_intro font-weight-bold' >THE OPPORTUNITY</h3></strong>
+                    <br/> 
+                    <h3 className='highlight'><mark>How might we encourage people to have a healthier relationship with their work?</mark></h3>
+                </div>    
+                <br/> <br/><br/> <br/>
+            </div>
+            <div className="px-5">
+                <div className="col-sm-6">
+                    <strong><h3 className='big_intro font-weight-bold' >FOCUS GROUP + USER INTERVIEWS</h3></strong>
+                    <br/> 
+                    <div className='underline'><h3 className='highlight'>Who is our target audience and what is the current state of their relationship with work? </h3></div>
+                    
+                </div>                
+                <br/><br/>
+                <p className="lead">After narrowing down our target audience to college students, we conducted a virtual focus group with twelve members from this demographic that focused on metaphors. Through this, we were able to gain perspectives on using a screen for work versus play, peer influence, refreshing the mind, taking breaks, and wellness and productivity.</p>
+
                 <div className="container">
                     <div className="row">
                         <div className="col align-middle align-self-center ps-5">
-                            <img className="ps-5" src="./img/ucre/image 9.png" alt="google Assistant"/>
+                            <img src="./img/persuasive/balance_slide 1.png" alt="metaphors"/>
                         </div>
                         <div className="col align-middle align-self-center pe-5">
-                            <span><p className="pe-5 lead">One such example we tested involved participants saying their name to Google Assistant</p></span>
+                            <span><p className="pe-5 lead">An example of metaphors one participant associated with refreshing the mind</p></span>
                         </div>
                     </div>
                     <br/> <br/>
                 </div>
 
-                <div>
-                    <strong><h3 className='big_intro font-weight-bold' >THE OPPORTUNITY</h3></strong>
-                    <br/> 
-                    <h3 className='highlight'><mark>How might we harness the everyday users’ power to alleviate AI biases in voice recognition technologies?</mark></h3>
-                </div>                
-                <br/><br/>
-            </div> */}
-            <br/>
-
-            <div className="px-5">
-                
-                <strong><h3 className='big_intro font-weight-bold' >BACKGROUND RESEARCH</h3></strong>
-                <div className='container'>
-                    <div className='row'>
-                        <div className="col align-middle align-self-center">
-                            <p className="h2"><mark>To start off, we conducted a literature review of eleven academic papers that spanned topics relating to taking breaks, stress, self-esteem, workaholism, health, and screen time.</mark></p>
-                        </div>
-                        
-                        {/* <div className="col">
-                            <div className="row">
-                                <h5><strong>Who we spoke to</strong></h5>
-                                <p>people who have previous experience with voice technologies, focusing on those with non-American accents</p>
-                            </div>
-                            <br/>
-                            <div className="row">
-                                <h5><strong>What we wanted to learn</strong></h5>
-                                <p>the different types of biases in voice technologies, how individuals interact with voice recognition software in daily scenarios, how users who do not have English as their first language interact with voice technologies, users’ hidden needs and concerns, how users hope that the voice technologies could be improved</p>
-                            </div>
-                            <br/>
-                            <div className="row">
-                                <h5><strong>Think aloud tasks</strong></h5>
-                                <p> 1. Briefly introduce yourself in your native language and ask [voice assistant] to translate your introduction into English</p>
-                                <p>2. Create three separate reminders for your daily schedule using [voice assistant].</p>
-                                <p>3. Ask your [voice assistant] to recommend a place to have dinner tonight.</p>
-                            </div>
-                            <br/>
-                        </div> */}
-                    </div>
-                </div>
             </div>
+            
+            
+            
+            <div className='px-5'>
+                <p className="lead">Our team was focused on facilitating behavior change that reduces “workaholic” behaviors, and we defined work habits that erode one’s mental and/or physical health, ultimately making the person less productive at work. As our team aims to help “workaholic” university students take breaks from screen-based work, our semi-structured user interviews sought to identify the pain points and habits of university students related to work and breaks.</p>
+            </div>
+
+            
             <br/><br/>
             <div className="px-5">
                 <strong><h3 className='big_intro font-weight-bold'>WE LEARNED THAT...</h3></strong>
@@ -134,10 +129,10 @@ export function Persuasive() {
                 <div className="container">
                     <div className="row">
                         <div className="ps-5 col-3">
-                            <img className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
+                            <img className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">Participants were asked to embark on small tasks with varying levels of frustration, and those who completed the tasks were more willing to take breaks than either participants who had done an easier task or those who failed to complete the frustrating task.</p>
+                            <p className="lead">When a group of people work together, it only takes one person to influence the entire group to take a break, but it doesn’t work the other way around; it’s not easy for one person to convince the entire group to get back to work.</p>
                         </div>
                     </div>
                     <br/>
@@ -146,25 +141,7 @@ export function Persuasive() {
                             <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">We build a somewhat stable form of self-esteem in our foundational years which stays with us through all the different transitions in life and people with low self-esteem are more prone to mental health issues like depression.</p>
-                        </div>
-                    </div>
-                    <br/>
-                    <div className="row">
-                        <div className="ps-5 col-3">
-                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
-                        </div>
-                        <div className="col align-middle align-self-center">
-                            <p className="lead">Appeals to dynamic norms (changes in the ways in which people/peers are acting) can foster behavior change, even if the new behaviors violate current norms.</p>
-                        </div>
-                    </div>
-                    <br/>
-                    <div className="row">
-                        <div className="ps-5 col-3">
-                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
-                        </div>
-                        <div className="col align-middle align-self-center">
-                            <p className="lead">Primary reasons given for taking breaks were tiredness, boredom, hunger or thirst, poor concentration, the need to rest, and to socialize. Participants listed several reasons as to why they did not take mental breaks, such as time, workloads, deadlines, and the task being almost completed.</p>
+                            <p className="lead">The idea of guilt - that breaks should not be taken because of some moral obligation to work, as if the work is a governing factor in their lives. For instance, even when taking a break, participants reported continuing to think about work.</p>
                         </div>
                     </div>
                     <br/>
@@ -173,7 +150,56 @@ export function Persuasive() {
                             <img  className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">The reasons for why people took breaks can be categorized into one&rsquo;s personal state and potential activity. There is a relationship between the frequency and time taking breaks with one&rsquo;s overall approach to time structure and procrastination, as well as self-esteem.</p>
+                            <p className="lead">Students are aware of the importance of wellness and productivity, stating that without taking care of oneself, it is impossible to be productive. Overall wellness of body and mind is key to the quality of their work and breaks are a key to productivity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/><br/><br/>
+            <div className='under'></div>
+            <br/><br/><br/>
+
+            <div className='px-5'>
+                <div className="col-sm-7">
+                    <strong><h3 className='big_intro font-weight-bold' >LITERATURE REVIEW  +  EXPERT CONSULTS</h3></strong>
+                    <br/> 
+                    <h3 className='highlight underline'>What are the factors that affect break-taking and what techniques can be employed to mitigate them?</h3>
+                </div>  
+                <br/><br/><br/>
+                <p className='lead'>
+                Our literature review focused on understanding topics relating to taking breaks, stress, self-esteem, workaholism, health, and screen time. To gain professional perspectives on these topics and some direction on what techniques to implement, we consulted three experts in the areas of stress management and psychology. As a result, we received confirmation that the techniques of self-affirmation and social proof may help people’s relationships with work.
+                </p>
+
+            </div>
+            <br/><br/>
+            <div className="px-5">
+                <strong><h3 className='big_intro font-weight-bold'>WE LEARNED THAT...</h3></strong>
+                <br/> <br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Primary reasons given for taking breaks were tiredness, boredom, hunger or thirst, poor concentration, the need to rest, and to socialize.</p>
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Social proof could be used to reduce stress, and a possible avenue of this would be dynamic norms. Self-affirmation can protect against different types of identity threats, which can improve one’s ability to feel successful in their work and their breaks. Type of affirmation does matter.</p>
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">People do not see breaks as a reward for any sort of hard work. They see the break only as a stoppage point for the reward of finishing a task. Our self-concept can be reframed to be curious about ourselves and others in terms of who we are as people, not as workers.</p>
                         </div>
                     </div>
                     <br/>
@@ -188,66 +214,270 @@ export function Persuasive() {
                 </div>
             </div>
             <br/><br/><br/>
+            <div className='under'></div>            
+            <div className="bgGrey">
+                <br/><br/>
+                <div className="px-5">
+                    <strong><h3 className='big_intro font-weight-bold'>SOLUTION IMPLICATIONS</h3></strong>
+                </div>
+                <br/><br/><br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="1" src="./img/persuasive/Group 30.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">People don’t take breaks because they think their work is more important than their health or because they think their self-worth is linked to their work/productivity. Instead of encouraging people to take breaks, why not help them break out of this “workaholism?”</p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="2" src="./img/persuasive/Group 31.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">People don't want to be told what to do, especially during their break time. They want their breaks to be just that – a break from work pressures, canvas to-dos, and pressurizing managers.</p>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+
+            </div>
+
             <div className="px-5">
-                <strong><h3 className='big_intro font-weight-bold'>OUR METHODS</h3></strong>
+                <div className="col-sm-6">
+                    <strong><h3 className='big_intro font-weight-bold' >PARALLEL PROTOTYPING</h3></strong>
+                    <br/> 
+                    <div className='underline'><h3 className='highlight'>Which flow best enables break-taking among users?</h3></div>
+                    
+                </div>                
+                <br/><br/>
+                <p className="lead">With so many different ways to execute social proof and self-affirmation when it comes to promoting healthy break-taking, we proposed parallel protptyping to identify elements that resonated with users most so that we could combine them into one flow. We decided to create a mobile app because our research found that students tend to use their phones a lot while working and taking breaks.</p>
+
+                <div className="container ">
+                    <div className="row">
+                        <div className="col">
+                            <img src="./img/persuasive/balance_low_fi_1 1.png" alt="a sketch"/>
+                        </div>
+                        <div className="col">
+                            <img src="./img/persuasive/balance_low_fi_2 1.png" alt="a sketch"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <img src="./img/persuasive/balance_low_fi_3 1.png" alt="a sketch"/>
+                        </div>
+                        <div className="col align-self-center">
+                            <span><p className="lead">Select prototypes during the initial prototyping stage</p></span>
+                        </div>
+                    </div>
+                    <br/> <br/>
+                </div>
+            </div>
+
+
+            <div>
+                <br/><br/>
+                <div className="px-5">
+                    <strong><h3 className='big_intro font-weight-bold'>WE LEARNED THAT...</h3></strong>
+                </div>
+                <br/><br/><br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="happy face" src="./img/ucre/Group 16.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">We should focus on using social proof as a means of demonstrating that since one’s friends take breaks and that the action of break taking is a normal, socially acceptable practice, that the user should also take breaks.</p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Self-affirmation does not simply involve sending explicity positive messages, and social proof needs to be implemented in a non-ardous and more implicit manner. </p>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+                <div>
+                    <br/><br/>
+                    <div className="px-5">
+                        <strong><h3 className='big_intro font-weight-bold'>IDEAS</h3></strong>
+                    </div>
+                    <br/><br/><br/>
+                    <div className="container">
+                        <div className="row">
+                            <div className="ps-5 col-3">
+                                <img  className="weary" alt="lightbulb" src="./img/persuasive/Group 27.png"/>
+                            </div>
+                            <div className="col align-middle align-self-center">
+                                <p className="lead">Send challenges or funny activities to promote self-affirmation instead of having positive messages. Allow for them to be shared to multiple friends at a time and for the viewing of past challenges completed.</p>
+                            </div>
+                        </div>
+                        <br/><br/>
+                        <div className="row">
+                            <div className="ps-5 col-3">
+                                <img  className="weary"  alt="lightbulb" src="./img/persuasive/Group 27.png"/>
+                            </div>
+                            <div className="col align-middle align-self-center">
+                                <p className="lead">Address time management by encouraging users to better manage their entire schedules while scheduling breaks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+                <div className="under"></div>
+                <br/><br/><br/>
+            </div>
+
+            <div className="px-5">
+                <div className="col-sm-6">
+                    <strong><h3 className='big_intro font-weight-bold' >USABILITY TESTING</h3></strong>
+                    <br/> 
+                    <div className='underline'><h3 className='highlight'>How can we ensure an enjoyable break-taking experience?</h3></div>
+                    
+                </div>                
+                <br/><br/>
+                <p className="lead">Our app built upon the initial ideas by focusing more on understanding user values as well as fun and efficient ways of taking breaks. Below are select screens from the next iteration of design ideas.  </p>
+
+                <div className="container ">
+                    <div className="row">
+                        <div className="col">
+                            <img src="./img/persuasive/image 10.png" alt="a sketch"/>
+                        </div>
+                        <div className="col">
+                            <img src="./img/persuasive/image 11.png" alt="a sketch"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <img src="./img/persuasive/image 12.png" alt="a sketch"/>
+                        </div>
+                        <div className="col">
+                            <img src="./img/persuasive/image 13.png" alt="a sketch"/>
+                        </div>
+                        <div className="col align-self-center">
+                            <span><p className="lead">Select screens showing values, work session setup, and challenges</p></span>
+                        </div>
+                    </div>
+                    <br/> <br/>
+                </div>
+
+            </div>
+            <div>
+                <br/><br/>
+                <div className="px-5">
+                    <strong><h3 className='big_intro font-weight-bold'>WE LEARNED THAT...</h3></strong>
+                </div>
+                <br/><br/><br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">People with busy work days will want to adjust breaks according to their schedule rather than stick to a Pomodoro every time. </p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img  className="weary" alt="sad face" src="./img/ucre/Group 8.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Even though users like the idea of having friends, social proof is highly user dependent and would work for some and not others.</p>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+                <div>
+                    <br/><br/>
+                    <div className="px-5">
+                        <strong><h3 className='big_intro font-weight-bold'>IDEAS</h3></strong>
+                    </div>
+                    <br/><br/><br/>
+                    <div className="container">
+                        <div className="row">
+                            <div className="ps-5 col-3">
+                                <img  className="weary" alt="lightbulb" src="./img/persuasive/Group 27.png"/>
+                            </div>
+                            <div className="col align-middle align-self-center">
+                                <p className="lead">Integrate Google Calendar to help manage busy schedules and suggest break times. </p>
+                            </div>
+                        </div>
+                        <br/><br/>
+                        <div className="row">
+                            <div className="ps-5 col-3">
+                                <img  className="weary"  alt="lightbulb" src="./img/persuasive/Group 27.png"/>
+                            </div>
+                            <div className="col align-middle align-self-center">
+                                <p className="lead">Create a more personalized user experience to promote social proof.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+                <div className="under"></div>
+            </div>
+
+            <div className='bgGrey'>
+                <br/><br/>
+                <div className="px-5">
+                    <strong><h3 className="big_intro font-weight-bold">FINAL SOLUTION</h3></strong>
+                    <br/>
+                    <h4>Balance is a a social mobile app that encourages students to nominate their friends for fun mini-challenges and dares that they can participate in during their break times. It integrates persuasive design principles to promote healthier break-taking habits.</h4>
+                </div>
+                <br/><br/><br/>
+            </div>
+            <br/><br/><br/>
+
+            <div>
+                <div className="px-5">
+                    <strong><h3 className='big_intro font-weight-bold'>HOW BALANCE WORKS</h3></strong>
+                    <br/><br/>
+                    <div className='underline'><h3 className='highlight'>Setting Up for a Personalized Experience</h3></div>
+                    <br/><br/>
+                    <p className='lead col-sm-7'>Users start off by inputting their values and interests and providing calendar access to ensure recommended break times. </p>
+                    <div>
+                        <img className="img-fluid p-5" src="./img/persuasive/Group 32.png" alt="phone screens"/>
+                    </div>
+                </div>
                 <br/>
-                <p className="lead">Our background research drew our attention to the common issues surrounding work routines. Our team decided to conduct expert consultations with Mark Seery, a social psychologist from the University at Buffalo, The State University of New York; Kai Crosson, a Department of Energy research psychologist in their human resources department; and Eric James, a researcher at the Metropolitan State University in Denver studying organizational communication (watched his TED Talk). Through these, we hoped to get a better understanding of how self-affirmation and social proof may help people&rsquo;s relationships with work. Our main goal was to change how people see their work and breaks by using the principles these experts study. </p>
-            </div>
-            <br/> <br/>
-            <div className='container'>
-                <div className='row'>
-                    <div className="col align-middle align-self-center">
-                        <p className="highlight"><mark>Mark Seery</mark></p>
+                <div className="px-5">
+                    <div className='underline'><h3 className='highlight'>Create Work and Break Sessions.</h3></div>
+                    <br/><br/>
+                    <p className='lead col-sm-7'>Work and break sessions, along with the number of sessions can be set up according to the user’s schedule and preference through a Pomodoro style.  </p>
+                    <div>
+                        <img className="img-fluid p-5" src="./img/persuasive/Group 33.png" alt="phone screens"/>
                     </div>
-                    
-                    <div className="col">
-                        <div className="row">
-                            <p><strong>
-                                Mark Seery studies how people deal with stress. We wanted his perspective on people&rsquo;s states when doing stressful work. He agreed that social proof could be used to reduce stress, and he pointed to the idea that a possible avenue of social proof would be dynamic norms.</strong>
-                            </p>
-                            <ul>
-                                <li>By saying that some percentage of one&rsquo;s friends are just starting to do something, it still holds the social proof that their friends are doing something, but it makes the goal feel less challenging because people are only just starting. This response significantly bolstered our hope that social proof could work.</li>
-                                <li>A dynamic social norm can only encourage behavior change if people view the norm as likely to endure; if people view the changed norm as a brief fad, behavior is unlikely to change.</li>
-                            </ul>
-                        </div>
+                </div>
+                <br/>
+                <div className="px-5">
+                    <div className='underline'><h3 className='highlight'>Have a Fun and Quick Break.</h3></div>
+                    <br/><br/>
+                    <p className='lead col-sm-7'>During the break, users can create, view, and respond to dares from their friends that were sent to them during their work session.  </p>
+                    <div>
+                        <img className="img-fluid p-5" src="./img/persuasive/Group 34.png" alt="phone screens"/>
                     </div>
                 </div>
             </div>
-            <div className='container'>
-                <div className='row'>
-                    <div className="col align-middle align-self-center">
-                        <p className="highlight"><mark>Kai Crosson</mark></p>
-                    </div>
-                    
-                    <div className="col">
-                        <div className="row">
-                            <p><strong>Kai Crosson endorsed norms as a powerful idea as well, directing us to investigate normative and informational norms.</strong></p>
-                            <ul>
-                                <li>She did have a lot of hope for our self-affirmation ideas and reflected on the ways that self-affirmation can protect against different types of identity threats, which can improve their ability to feel successful in their work and their breaks.</li>
-                                <li>With breaks, she had the insight that people do not see breaks as a reward for any sort of hard work. They see the break only as a stoppage point for the reward of finishing a task. For this reason, we wanted to reframe the break as the beneficial act, not the finishing of a task.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <br/><br/><br/>
+            <div>
+                <strong><h3 className='px-5 big_intro font-weight-bold'>TAKEAWAYS: WHAT I LEARNED</h3></strong>
+                <br/><br/>
+                <img className="px-5 img-fluid" src="./img/persuasive/Frame 8.png"alt=""/>
+                <br/><br/>
             </div>
-            <div className='container'>
-                <div className='row'>
-                    <div className="col align-middle align-self-center">
-                        <p className="highlight"><mark>Eric James</mark></p>
-                    </div>
-                    
-                    <div className="col">
-                        <div className="row">
-                            <p><strong>Eric James&rsquo;s TED Talk allowed us to gain a perspective from outside the psychology field and bring in a societal perspective.</strong></p>
-                            <ul>
-                                <li>He argues that unfortunately, many people identify as their job. This can be dangerous because it means that our only role in life is how we fit into society and the pressure could be a cause of workaholism.</li>
-                                <li>Our self-concept can be reframed to be curious about ourselves and others in terms of who we are as people, not as workers.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br/> <br/>
+            <p className='px-5 blockquote-footer'>Illustration credits: unDraw</p>
+            <br/><br/>
+
+
+
+         
+            
             
         </div>
     );

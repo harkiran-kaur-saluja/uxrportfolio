@@ -273,15 +273,12 @@ export function UCRE() {
                 <br/><br/>
                 <img className="img-fluid" src="./img/ucre/ucreWireframes.png" alt="high-fi wireframes showcasing onboarding process" />
             </div>
-            <br/>
-            <br/><br/>
+            <br/><br/><br/>
             <div>
-            <strong><h3 className='px-5 big_intro font-weight-bold'>TAKEAWAYS: WHAT I LEARNED</h3></strong>
-                <br/>
-                <br/>
+                <strong><h3 className='px-5 big_intro font-weight-bold'>TAKEAWAYS: WHAT I LEARNED</h3></strong>
+                <br/><br/>
                 <img className="px-5 img-fluid" src="./img/ucre/Frame 8.png"alt=""/>
-                <br/>
-                <br/>
+                <br/><br/>
             </div>
             <p className='px-5 blockquote-footer'>Illustration credits: unDraw</p>
             <br/><br/>
