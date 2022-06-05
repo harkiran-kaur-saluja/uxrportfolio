@@ -2,7 +2,7 @@ import 'animate.css';
 
 
 export function Persuasive() {
-    //window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     return (
         <div>
             <div >
