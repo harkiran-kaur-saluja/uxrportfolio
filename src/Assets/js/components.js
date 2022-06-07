@@ -329,9 +329,9 @@ export function Footer(props) {
                         <img id="footerIcon" src="img/general/signatureWhite-03.png" alt="Harkiran in white signature style"></img>
                         &emsp;
                         <div id="icons">
-                            <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/" class="fa fa-linkedin"></a>
+                            <a href="https://www.linkedin.com/in/harkiran-kaur-saluja/"class="fa fa-linkedin"> </a>
                             &nbsp;&nbsp;
-                            <a href="https://medium.com/@harkiran.kaur" class="fa fa-medium"></a>
+                            <a href="https://medium.com/@harkiran.kaur" class="fa fa-medium"> </a>
                         </div>
                         <br/><br/>
 
