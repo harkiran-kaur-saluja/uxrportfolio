@@ -62,8 +62,7 @@ export function HomeBody(props) {
                     </h2>
                     <br/>
                     <h5 className="quick-intro">
-                        <strong className="bolded-words">User experience researcher</strong>
-                        eager to learn and grow.</h5>
+                        <strong className="bolded-words">User experience researcher</strong> eager to learn and grow.</h5>
                     <h5 className="quick-intro">Master's student at Carnegie Mellon University.</h5>
                     <h5 className="quick-intro">Pun enthusiast.</h5>
                     <br/>

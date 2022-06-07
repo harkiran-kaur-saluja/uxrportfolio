@@ -7,7 +7,7 @@ import { Resume } from './Assets/js/resume.js';
 import { Persuasive } from './Assets/js/persuasive1.js';
 import { HumaneOS } from './Assets/js/humaneos.js';
 import { UCRE } from './Assets/js/ucre1.js';
-import { KidsTeam } from './Assets/js/kidsteam.js';
+import { KidsTeam } from './Assets/js/kidsteam1.js';
 import 'animate.css';
 
 
