@@ -281,7 +281,7 @@ export function About(props) {
                 </h2>
                 <br/>
 
-                <h1 className="big_intro">Originally from Southern California.<br/>
+                <h1 className="big_intro animate__animated animate__backInUp">Originally from Southern California.<br/>
                     Currently in Pittsburgh, Pennsylvania.</h1>
 
                 <div className="container">
@@ -292,7 +292,7 @@ export function About(props) {
                         <div className="col">
                             <br/>
                             <p>Hi there! I’m
-                                <strong className="bolded-words">Harkiran</strong>
+                                <strong className="bolded-words"> Harkiran</strong>
                                 (she/her, pronounced harr-KI-run) - a UX specialist hoping to further my career in the research space.<br/><br/>
 
                                 I grew up in Southern California, which allowed me to have an idiosyncratic perspective on the world as a Sikh-American. I learned that different individials have different stories that we can take inspiration and new ideas from.
@@ -302,9 +302,8 @@ export function About(props) {
                                 <br/><br/>
 
                                 Currently, I am pursuing my
-                                <strong className="bolded-words">Master of Human-Computer Interaction</strong>
-                                at Carnegie Mellon University, where I conduct research on the voices of underrepresented minorities in the HCI community. Feel free to check out my publications
-                                <a href="https://scholar.google.com/citations?user=3XzUUr8AAAAJ&hl=en&oi=ao">here</a>.
+                                <strong className="bolded-words"> Master of Human-Computer Interaction</strong>
+                                at Carnegie Mellon University, where I conduct research on the voices of underrepresented minorities in the HCI community. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=3XzUUr8AAAAJ&hl=en&oi=ao">here</a>.
                                 <br/><br/>
 
                                 Outside of research, I love to watch tennis and basketball, play word games, and make puns.<br/><br/>

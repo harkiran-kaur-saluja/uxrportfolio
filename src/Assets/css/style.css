@@ -574,6 +574,9 @@ mark {
 .green {
   color: #00ab44;
 }
+.black {
+  color: #000;
+}
 
 .weary {
   max-width: 150px;
@@ -582,6 +585,35 @@ mark {
 
 .ucre-problem {
   background-image: url("../img/ucre_problem_pic.png");
+  backdrop-filter: opacity(70%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+}
+.alexa-problem {
+  background-image: url("../img/alexa.png");
+  backdrop-filter: opacity(70%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+}
+
+.wyr-problem {
+  background-image: url("../img/wyr cover.png");
+  backdrop-filter: opacity(70%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+}
+.kto-problem {
+  background-image: url("../img/kidsteamOnline.png");
+  backdrop-filter: opacity(70%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+}
+.mhcid-problem {
+  background-image: url("../img/image 15.png");
   backdrop-filter: opacity(70%);
   background-size: contain;
   background-repeat: no-repeat;

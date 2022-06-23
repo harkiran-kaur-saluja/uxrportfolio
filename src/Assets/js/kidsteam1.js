@@ -15,12 +15,12 @@ export function KidsTeam() {
                 <div className='row'>
                     <div className="col br">
                         <h3 className='highlight'>
-                            <mark>I studied participatory design with children.</mark>
+                            <mark>I conducted research in a co-design group that focused on creating new and inclusive technologies for kids. </mark>
                         </h3>
 
                         <br/><br/>
 
-                        <p className='lead'>We aim to understand the interactions with and perceptions of technology through co-design sessions, interviews, and qualitative coding of rich data, which further informs our approach to designing technologies with input from (and built for) children.</p>
+                        <p className='lead'>Under the guidance of Dr. Jason Yip, we employed experimental participatory design research methods to evaluate, test, and prototype concepts while working as design partners with children aged 7-11. This work was conducted in a group called KidsTeam, which is part of the Children, Technology, Research, Learning + Families (CTRL + F) Lab based in Seattle. I was a part of multiple projects as a researcher in this lab. </p>
 
                     </div>
 
@@ -28,37 +28,78 @@ export function KidsTeam() {
                     <div className="ms-5 col">
                         <div className="row">
                             <h3>Timeline</h3>
-                            <p>2.5 years</p>
+                            <p>2.5 years, Team Projects</p>
                         </div>
                         <br/>
                         <div className="row">
                             <h3>Partner Organizations</h3>
-                            <p>Amazon, Google, SunSmart, University of Washington</p>
+                            <p>Amazon, SunSmart, University of Washington, and several others</p>
                         </div>
                         <br/>
                         <div className="row">
                             <h3>My Role</h3>
-                            <p>Undergraduate UX Research Assistant</p>
+                            <p>Design Researcher</p>
                         </div>
                         <br/>
                         <div className="row">
-                            <h3>Methods</h3>
-                            <p>Semi-Structured Interviews, Remote Research, Participatory Design, Qualitative Data Analysis, Working With Minors</p>
+                            <h3>Core Methods</h3>
+                            <p>Participatory Design, Semi-Structured Interviews</p>
                         </div>
                         <br/>
                         <div className="row">
-                            <h3>Mentors</h3>
-                            <p>Jason Yip, Kung Jin Lee, Wendy Roldan</p>
+                            <h3>Papers Co-Authored</h3>
+                            <p>
+                                <span>
+                                    <a className="btn btn-outline-secondary button" href="https://dl.acm.org/doi/abs/10.1145/3411764.3445715">CHI 2021</a>
+                                </span>
+                                <span className='p-3'/>
+                                <span>
+                                    <a className="btn btn-outline-secondary button" href="https://dl.acm.org/doi/abs/10.1145/3459990.3460708">IDC 2021</a>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <br/><br/><br/>
-
+            <div>
+                <img className="img-fluid" src="./img/kidsTeam/Frame 21.png" alt=""/>
+            </div>
 
             {/*Amazon*/}
             <div className='under'></div>
-            <div className="ucre-problem white">
+            <br/>
+            <br/>
+            <div>
+                <div className='px-5'>
+                    <strong>
+                        <h3 className='big_intro font-weight-bold'>THE OPPORTUNITIES</h3>
+                    </strong>
+                    <br/>
+                    <h3 className='highlight'>
+                        <mark>How might we employ participatory design to evaluate and design technologies for kids?</mark>
+                    </h3>
+                    <br/>
+                    <br/>
+                    <h3 className='highlight'>
+                        <mark>How do children collaborate and build relationships with their peers and adults, and modify design techniques in an online space?</mark>
+                    </h3>
+                    <br/>
+                    <br/>
+                    <div className="row">
+                        <div className="col align-middle align-self-center ps-5">
+                            <img className="ps-5" src="./img/kidsTeam/image 14.png" alt="google Assistant"/>
+                        </div>
+                        <div className="col align-middle align-self-center ps-5">
+                            <img className="ps-5" src="./img/kidsTeam/image 17.png" alt="google Assistant"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <div className="alexa-problem white">
 
                 <div className='px-5'>
                     <h3 className="big_intro problem-u white">PROJECT 1</h3>
@@ -94,7 +135,7 @@ export function KidsTeam() {
             <br/> <br/> <br/>
             <div className="px-5">
                 <strong>
-                    <h3 className='big_intro font-weight-bold'>KEY FINDINGS</h3>
+                    <h3 className='big_intro font-weight-bold'>WE LEARNED THAT</h3>
                 </strong>
                 <br/>
                 <br/>
@@ -104,7 +145,16 @@ export function KidsTeam() {
                             <img className="weary" alt="" src="./img/ucre/Group 8.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">Children need help understanding big words and sounding them out.</p>
+                            <p className="lead">Children need help understanding big words and sounding them out. Alexa should help to build confidence in the child’s reading and vocabulary. </p>
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="" src="./img/ucre/Group 8.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">There should be a stronger incentive to continue reading with Alexa in addition to more motivation to improve reading skills. Children suggested that there should be a reward system to encourage this and that Alexa should look more friendly and less like a robot.</p>
                         </div>
                     </div>
                     <br/>
@@ -113,27 +163,61 @@ export function KidsTeam() {
                             <img className="weary" alt="" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">There should be a reward system for child improvement.</p>
-                        </div>
-                    </div>
-                    <br/>
-                    <div className="row">
-                        <div className="ps-5 col-3">
-                            <img className="weary" alt="" src="./img/ucre/Group 16.png"/>
-                        </div>
-                        <div className="col align-middle align-self-center">
-                            <p className="lead">Children should take turns with Alexa while reading.</p>
+                            <p className="lead">Children should take turns with Alexa while reading and treat Alexa as a reading buddy. Alexa should listen to the child and assist and encourage them where necessary. </p>
                         </div>
                     </div>
                 </div>
             </div>
             <br/><br/><br/>
+            <div className="bgGrey">
+                <br/><br/>
+                <div className="px-5">
+                    <strong>
+                        <h3 className='big_intro font-weight-bold'>INTRODUCING...THE READING SIDEKICK! </h3>
+                    </strong>
+                </div>
+                <br/>
+                <p className="px-5 lead">
+                An Echo Dot feature that enables children to build confidence in their reading skills. Several of the suggestions made In KidsTeam sessions were implemented, such as:
+                </p>
+                <br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="1" src="./img/persuasive/Group 30.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">A more cordial looking device that can look like a tiger or a panda.</p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="2" src="./img/persuasive/Group 31.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">The ability to take turns with Alexa while reading and Alexa also helps the child build vocabulary while also encouraging them when they succeed.</p>
+                        </div>
+                    </div>
+                </div>
+                <br/> <br/>
+                <div className="row">
+                    <div className="px-5 col align-middle align-self-center">
+                        <span className="h3 ps-5">Read more <a className="black" href="https://techcrunch.com/2021/06/29/amazon-introduces-reading-sidekick-a-kids-reading-companion-for-alexa-and-voice-profiles-for-kids/">here!</a></span>
+                    </div>
+                    <div className="col align-middle align-self-center">
+                        <img className="pe-5" src="./img/kidsTeam/image tiger.png" alt="Amazon Alexa"/>
+                    </div>
+                </div>
+                <br/><br/>
+
+            </div>
 
 
 
              {/*Would You Rather*/}
             <div className='under'></div>
-            <div className="ucre-problem white">
+            <div className="wyr-problem white">
 
                 <div className='px-5'>
                     <h3 className="big_intro problem-u white">PROJECT 2</h3>
@@ -192,7 +276,7 @@ export function KidsTeam() {
                             <img className="weary" alt="" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">Confronting ambiguity generates design insights.</p>
+                            <p className="lead">Confronting ambiguity generates design insights, and children who went with 'I don't know still' conveyed useful insights.</p>
                         </div>
                     </div>
                     <br/>
@@ -201,7 +285,7 @@ export function KidsTeam() {
                             <img className="weary" alt="" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">Children who went with I don't know still conveyed useful insights.</p>
+                            <p className="lead">When explaining their reasoning for choosing a certain option participants tend to verbalize contextual details: resources, habits, routines, and experiences.</p>
                         </div>
                     </div>
                     <br/>
@@ -210,16 +294,7 @@ export function KidsTeam() {
                             <img className="weary" alt="" src="./img/ucre/Group 16.png"/>
                         </div>
                         <div className="col align-middle align-self-center">
-                            <p className="lead">When explaining their reasoning for choosing a certain option participants tend to verbalize contextual details: resources, habits, routines, and experiences</p>
-                        </div>
-                    </div>
-                    <br/>
-                    <div className="row">
-                        <div className="ps-5 col-3">
-                            <img className="weary" alt="" src="./img/ucre/Group 16.png"/>
-                        </div>
-                        <div className="col align-middle align-self-center">
-                            <p className="lead">Arguments for a WYR choice reveal mental models and participants sense of agency over technology, and choices and hesitations convey participants preferences and values</p>
+                            <p className="lead">Arguments for a WYR choice reveal mental models and participants sense of agency over technology, and choices and hesitations convey participants preferences and values.</p>
                         </div>
                     </div>
                 </div>
@@ -231,7 +306,7 @@ export function KidsTeam() {
 
             {/*KidsTeam Online*/}
             <div className='under'></div>
-            <div className="ucre-problem white">
+            <div className="kto-problem white">
 
                 <div className='px-5'>
                     <h3 className="big_intro problem-u white">PROJECT 3</h3>
@@ -295,14 +370,14 @@ export function KidsTeam() {
                     <br/><br/>
                 </div>
             </div>
-            <img className="center-img img-fluid" src="img/kidsTeam/conceptualModel.png" alt="the cover for KidsTeam" />
+            <img className="center-img img-fluid" src="img/kidsTeam/image 18.png" alt="the cover for KidsTeam" />
             <br/><br/><br/>
 
 
 
              {/*Master of Human-Computer Interaction + Design (MHCID) and KidsTeam*/}
             <div className='under'></div>
-            <div className="ucre-problem white">
+            <div className="mhcid-problem white">
 
                 <div className='px-5'>
                     <h3 className="big_intro problem-u white">PROJECT 4</h3>
@@ -350,11 +425,23 @@ export function KidsTeam() {
 
                     <br/><br/>
 
-                    Our findings are being currently written in a paper that will be submitted to the Design of Interactive Systems (DIS) 2022 conference, titled <em> Designing at a Distance: Involving Remote Users in HCI/Design Education</em>.
+                    Our findings are being currently written in a paper that will be submitted to the CHI 2023 conference, titled <em> Designing at a Distance: Involving Remote Users in HCI/Design Education</em>.
                
                 </p>
             </div>
             <br/><br/><br/>
+            <div className='under'></div>
+            <div>
+            <br/><br/>
+                <strong>
+                    <h3 className='px-5 big_intro font-weight-bold'>TAKEAWAYS: WHAT I LEARNED</h3>
+                </strong>
+               
+                <img className="px-5 img-fluid" src="./img/kidsTeam/Frame 29.png" alt=""/>
+                <br/><br/>
+            </div>
+            <p className='px-5 blockquote-footer'>Illustration credits: unDraw</p>
+            <br/><br/>
 
             <h3 className="px-5 big_intro">PUBLICATIONS</h3>
             <br/><br/>
