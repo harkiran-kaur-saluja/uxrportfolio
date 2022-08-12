@@ -4,10 +4,10 @@ import { useNavigate } from 'react-router';
 import "./Assets/css/style.css";
 import { NavBar, HomeBody, ProjectsView, About, Footer } from './Assets/js/components.js';
 import { Resume } from './Assets/js/resume.js';
-import { Persuasive } from './Assets/js/persuasive.js';
-import { HumaneOS } from './Assets/js/humaneos.js';
-import { UCRE } from './Assets/js/ucre.js';
-import { KidsTeam } from './Assets/js/kidsteam.js';
+import { Persuasive } from './Assets/js/persuasive1.js';
+import { HumaneOS } from './Assets/js/humaneos1.js';
+import { UCRE } from './Assets/js/ucre1.js';
+import { KidsTeam } from './Assets/js/kidsteam1.js';
 import 'animate.css';
 
 
@@ -20,12 +20,12 @@ function App(props) {
   let navigate = useNavigate();
 
   // event handling functions
-   function handleClickCollapse() {
+  function handleClickCollapse() {
     let coll = document.getElementsByClassName("collapsible");
     let i;
 
     for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
+      coll[i].addEventListener("click", function () {
         let content = this.nextElementSibling;
         if (content.style.display === "block") {
           content.style.display = "none";
@@ -110,16 +110,16 @@ function App(props) {
           } />
 
         <Route path="/01"
-          element={<UCRE handleClick={handleClickCollapse}/>} />
+          element={<UCRE handleClick={handleClickCollapse} />} />
 
         <Route path="/02"
-          element={<Persuasive handleClick={handleClickCollapse}/>} />
+          element={<Persuasive handleClick={handleClickCollapse} />} />
 
         <Route path="/03"
-          element={<KidsTeam handleClick={handleClickCollapse}/>} />
+          element={<KidsTeam handleClick={handleClickCollapse} />} />
 
         <Route path="/04"
-          element={<HumaneOS handleClick={handleClickCollapse}/>} />
+          element={<HumaneOS handleClick={handleClickCollapse} />} />
       </Routes>
       <Footer />
     </div>
