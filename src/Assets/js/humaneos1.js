@@ -1,7 +1,7 @@
 // renders the content for the Humane OS page
 import 'animate.css';
 export function HumaneOS (props) {
-    window.scrollTo(0, 0);
+   // window.scrollTo(0, 0);
     return (
         <div>
 
@@ -119,16 +119,15 @@ export function HumaneOS (props) {
             <br/><br/><br/>
 
             <div className="px-5">
-                <strong>
+                {/* <strong>
                     <h3 className='big_intro font-weight-bold'>CREATING OUR DESIGN LANGUAGE</h3>
-                </strong>
+                </strong> */}
                 <h3 className='highlight'>
-                    <mark>We wanted to create something that was not iOS, Android or Windows, but something entirely new.</mark>
+                    <span>We wanted to create something that was not iOS, Android or Windows, but something entirely new.</span>
                 </h3>
                 <br/>
 
             </div>
-            <br/>
             <div className="px-5">
                 <p className="lead">
                     As we began brainstorming our mobile design language principles, we started to ask ourselves: <strong className = "bolded-words">What is it? and often more importantly, what isn't it?</strong>
@@ -138,35 +137,53 @@ export function HumaneOS (props) {
                     First, we talked about what device we could have our OS and its features on. The idea of having an OS on wearables, such as an Apple Watch or Fitbit, was definitely on our list. One of our team members went so far as to talking about <em>Black Mirror</em>, and how our interface doesn't need to be on a physical screen. However, the rest of us realized that the more futuristic it was, the harder it would be to present. We then discussed the pros and cons of iOS and Android.
 
                     <br/> <br/>
-
+{/* 
                     About halfway through the sprint, the team member proposing the futuristic idea became a challenge for the rest of the team because they were pushing it hard and no one else wanted to go with it. For the scope of the project, we wanted to have our OS on a device that already exists, such as a wearable or a mobile phone. After a long discussion with the mentors regarding time and feasibility, everyone was on board and we all decided to have our OS on an iPhone, since that's what everyone had (except me, but I knew how they worked).<strong className = "bolded-words"> Here, I learned that being frustrated is part of the design struggle, </strong> whether it be with working in a team or with the designs themselves.
 
-                    <br/> <br/>
+                    <br/> <br/> */}
 
                     Going off of our brainstorming, we thought about 2 key aspects when deciding the principles of our OS: <strong className = "bolded-words"> self-actualization </strong> and <strong className = "bolded-words"> self-reflection. </strong> Thus, we came up with humane as our design language and defined our target audience as people who are actively pushing themselves toward their higher life goals               
                 </p>
             </div>
+            <br/>
+
             <br/><br/><br/>
-
             <div className="px-5">
-                <div className="col-sm-6">
-                    <strong>
-                        <h3 className='big_intro font-weight-bold'>OUR CHOICES</h3>
-                    </strong>
-                  
-                </div>
-                <br/>
-                <p className="lead">Humane is our design language. Our experience will foster goal-setting and achieving by using positive encouragement, because many existing goal-oriented devices can feel judgmental or naggy.Our moodboard and list of our design principles embody our design language.</p>
-
-                <div className="container ">
-                    <div className="row">
-                        <div className="col">
-                            <img src="img/humaneOS/designPrinciplesList.jpeg" alt="a sketch"/>
+                <div className='container'>
+                    <div className='row'>
+                        <div className="col align-middle align-self-center">
+                            <p className="highlight">
+                                <mark>Humane is our design language.</mark>
+                            </p>
                         </div>
+
                         <div className="col">
-                            <img src="img/humaneOS/moodboard.jpeg" alt="a sketch"/>
+                            <div className="row">
+                                
+                                <p className="lead">Our experience will foster goal-setting and achieving by using positive encouragement, because many existing goal-oriented devices can feel judgmental or naggy. Our moodboard and list of our design principles embody our design language.
+                                <br/> <br/>
+                                <span  style={{fontWeight: "bold"}}>These design principles included:</span>
+                                <br/>
+                                <ul>
+                                {/* self-reflection, adaptive feedback, goal support/encouragement, judgement-free, non-intrusive/mindful, and sustainable relationships with the self, others, and one's environment. */}
+                                    <li>self-reflection</li>
+                                    <li>adaptive feedback</li>
+                                    <li>goal support/encouragement</li>
+                                    <li>judgement-free</li>
+                                    <li>non-intrusive/mindful</li>
+                                    <li>sustainable relationships with the self, others, and one's environment</li>
+                                </ul>
+                               
+                                </p>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <br/>
+                <p className="lead"></p>
+
+                <div className="container">
+                    <img className="center-img img-fluid" src="./img/humaneOS/moodboard.jpeg" alt="moodboard"/>
                     <br/>
                     <br/>
                 </div>
@@ -175,67 +192,29 @@ export function HumaneOS (props) {
             <br/>
             <br/>
 
+{/* Purpose, personas, current state, sketches and initial design */}
 
-
-
-
-            <div className="px-5">
+            <div className='px-5'>
                 <strong>
-                    <h3 className='big_intro font-weight-bold'>DEFINING OUR UX + BEST PRACTICES</h3>
+                    <h3 className='big_intro font-weight-bold'>IDEATION AND PROTOTYPING</h3>
                 </strong>
-                <h3 className='highlight'>
-                    <mark>We wanted to create something that was not iOS, Android or Windows, but something entirely new.</mark>
-                </h3>
                 <br/>
-
-            </div>
-            <br/>
-            <div className="px-5">
-                <p className="lead">
-                    As we began brainstorming our mobile design language principles, we started to ask ourselves: <strong className = "bolded-words">What is it? and often more importantly, what isn't it?</strong>
-
-                    <br/> <br/>
-
-                    First, we talked about what device we could have our OS and its features on. The idea of having an OS on wearables, such as an Apple Watch or Fitbit, was definitely on our list. One of our team members went so far as to talking about <em>Black Mirror</em>, and how our interface doesn't need to be on a physical screen. However, the rest of us realized that the more futuristic it was, the harder it would be to present. We then discussed the pros and cons of iOS and Android.
-
-                    <br/> <br/>
-
-                    About halfway through the sprint, the team member proposing the futuristic idea became a challenge for the rest of the team because they were pushing it hard and no one else wanted to go with it. For the scope of the project, we wanted to have our OS on a device that already exists, such as a wearable or a mobile phone. After a long discussion with the mentors regarding time and feasibility, everyone was on board and we all decided to have our OS on an iPhone, since that's what everyone had (except me, but I knew how they worked).<strong className = "bolded-words"> Here, I learned that being frustrated is part of the design struggle, </strong> whether it be with working in a team or with the designs themselves.
-
-                    <br/> <br/>
-
-                    Going off of our brainstorming, we thought about 2 key aspects when deciding the principles of our OS: <strong className = "bolded-words"> self-actualization </strong> and <strong className = "bolded-words"> self-reflection. </strong> Thus, we came up with humane as our design language and defined our target audience as people who are actively pushing themselves toward their higher life goals               
-                </p>
-            </div>
-            <br/><br/><br/>
-
-            <div className="px-5">
-                <div className="col-sm-6">
-                    <strong>
-                        <h3 className='big_intro font-weight-bold'>OUR CHOICES</h3>
-                    </strong>
-                  
+                <div className='underline'>
+                    <h4 className='highlight'>Our next focus was to define the overall user experience principles and best practices that would be used for our OS and all of our apps.</h4>
                 </div>
                 <br/>
-                <p className="lead">Humane is our design language. Our experience will foster goal-setting and achieving by using positive encouragement, because many existing goal-oriented devices can feel judgmental or naggy.Our moodboard and list of our design principles embody our design language.</p>
-
-                <div className="container ">
-                    <div className="row">
-                        <div className="col">
-                            <img src="img/humaneOS/designPrinciplesList.jpeg" alt="a sketch"/>
-                        </div>
-                        <div className="col">
-                            <img src="img/humaneOS/moodboard.jpeg" alt="a sketch"/>
-                        </div>
-                    </div>
-                    <br/>
-                    <br/>
+                <p className="lead">We also discussed the consistent use of gestures, interactions and use of motion we wanted to enhance the experience of HumaneOS. Here, the intention was to define how users will interact with various screens, how motion will be used to provide users with a sense of place, and how gestures will be used to facilitate smooth transitions between tasks and modalities.
+                <br/><br/>
+                While we kept humane as our design language, our conversations and ideations during design studio led ux to change our description to this: 
+                <br/><br/>
+                <div>
+                <img className='img-fluid' src="./img/persuasive/balance_Title.png" alt="Maximizing productivity with efficient break-taking"/>
                 </div>
+                As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored 10+ apps, including apps like Reflectly, is a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.</p>
             </div>
-            <div className='under'></div>
             <br/>
             <br/>
-           
+
             <div className="collapsible" onClick={props.handleClick}>
                 <span className="px-4 section-title">sprint 2</span>
             </div>
@@ -247,10 +226,13 @@ export function HumaneOS (props) {
                 <li>Breakdown the journey steps into requirements for each app type, using user stories</li>
                 </ul>
                 <p />
-                <p>We also used a bit of this sprint to discuss the consistent use of gestures, interactions and use of motion we wanted to enhance the experience of HumaneOS. Here, the intention was to define how users will interact with various screens, how motion will be used to provide users with a sense of place, and how gestures will be used to facilitate smooth transitions between tasks and modalities.</p>
-                <p>While we kept humane as our design language, our conversations and ideations during design studio led ux to change our description to this: </p>
-                <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness and encouragement.</blockquote>
-                <p>As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored around 10+ apps, some of which can be seen below. An example is that Reflectly, is a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.</p>
+                <p>We also used a bit of this sprint to discuss the consistent use of gestures, interactions and use of motion we wanted to enhance the experience of HumaneOS. Here, the intention was to define how users will interact with various screens, how motion will be used to provide users with a sense of place, and how gestures will be used to facilitate smooth transitions between tasks and modalities.
+                <br/><br/>
+                While we kept humane as our design language, our conversations and ideations during design studio led ux to change our description to this: 
+                <br/><br/>
+                <blockquote className="px-5">Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness and encouragement.</blockquote>
+                <br/><br/>
+                As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored around 10+ apps, some of which can be seen below. An example is that Reflectly, is a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.</p>
                 <img className="px-5 justify-content-center center-img img-fluid" src="img/humaneOS/inspiration.png" alt="existing app inspiration for humaneOS"/>
                 <p>One of our biggest observations was that all those apps tend to use an earthy tone, very thin lines and fonts, and most importantly, illustrations. As a matter of fact, all of those apps above choose to use <strong className = "bolded-words">illustrations</strong> to present a cheerful mood and chill vibe. Besides illustrations, at most 3 options will be presented on the screen for user to choose at each step regardless scenarios. We think the philosophy behind this is great, reducing the distraction for users, and we try to follow this practice into our OS. Lastly, we noticed that <strong className = "bolded-words">animated transitions</strong> form a smoother use flow of the apps, a more intimate user experience, therefore making the user stick around.</p>
                 <p>After sprint 1 we had low-fidelity prototypes on pencil and paper for the lock screen, so after coming together we wanted to produce a high-fidelity design.</p>

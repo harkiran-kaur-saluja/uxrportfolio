@@ -119,7 +119,7 @@ export function Persuasive() {
                     <br/>
                     <div className='underline'>
                         <h3 className='highlight'>Who is our target audience and what is the current state of their relationship with work?
-                        </h3>
+                    </h3>
                     </div>
                 </div>
                 <br/><br/>
