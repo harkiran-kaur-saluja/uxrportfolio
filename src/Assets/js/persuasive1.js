@@ -55,7 +55,10 @@ export function Persuasive() {
                     </div>
                 </div>
             </div>
+
             <br/><br/><br/>
+
+
             <div>
                 <img className="img-fluid" src="./img/persuasive/Frame 9.png" alt="project process"/>
             </div>
@@ -107,6 +110,7 @@ export function Persuasive() {
                 <br/><br/>
                 <br/>
             </div>
+
             <div className="px-5">
                 <div className="col-sm-6">
                     <strong>
@@ -117,7 +121,6 @@ export function Persuasive() {
                         <h3 className='highlight'>Who is our target audience and what is the current state of their relationship with work?
                         </h3>
                     </div>
-
                 </div>
                 <br/><br/>
                 <p className="lead">After narrowing down our target audience to college students, we conducted a virtual focus group with twelve members from this demographic that focused on metaphors. Through this, we were able to gain perspectives on using a screen for work versus play, peer influence, refreshing the mind, taking breaks, and wellness and productivity.</p>

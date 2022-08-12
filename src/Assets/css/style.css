@@ -617,11 +617,19 @@ mark {
   backdrop-filter: opacity(70%);
   background-size: contain;
   background-repeat: no-repeat;
-  backdrop-filter: brightness(30%);
+  backdrop-filter: brightness(20%);
 }
 
 .persuasive-problem {
   background-image: url("../img/balance_problem_pic_bg.png");
+  backdrop-filter: opacity(70%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+}
+
+.humane-problem {
+  background-image: url("../img/humane.png");
   backdrop-filter: opacity(70%);
   background-size: contain;
   background-repeat: no-repeat;

@@ -57,9 +57,7 @@ export function HomeBody(props) {
         <div className="container">
             <div className="row">
                 <div className="intro col animate__animated animate__backInUp col-content">
-                    <h2>Hi! I'm
-                        <span className="firstName">harkiran</span>
-                    </h2>
+                    <h2>Hi! I'm <span className="firstName">harkiran</span></h2>
                     <br/>
                     <h5 className="quick-intro">
                         <strong className="bolded-words">User experience researcher</strong> eager to learn and grow.</h5>
@@ -337,7 +335,7 @@ export function Footer(props) {
                         <p className="footer_email">I'm always looking to learn from you!
                             <br/>
                             Feel free to reach out at
-                            <a href="mailto: harkiran.saluja@gmail.com" className="footer_email">harkiran.saluja@gmail.com</a>.</p>
+                            <a href="mailto: harkiran.saluja@gmail.com" className="footer_email"> harkiran.saluja@gmail.com</a>.</p>
                     </div>
                     <small>Copyright 2022 &nbsp; &copy; &nbsp; Harkiran Kaur Saluja</small>
 
