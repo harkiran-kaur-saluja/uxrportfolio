@@ -360,7 +360,7 @@ hr {
   text-decoration-color: #00ab4480;
   text-decoration-thickness: 10px;
   text-underline-position: above;
-  line-height: 1.5%;
+  /* line-height: 1.5%; */
 }
 
 .bgGrey {

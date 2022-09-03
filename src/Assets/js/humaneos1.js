@@ -351,10 +351,65 @@ export function HumaneOS (props) {
                 <br/><br/>
             </div>
             
+            <br/><br/><br/>
+            <div className='under'></div>
             
-            
-            
-          
+            <br/><br/>
+            <div className="px-5">
+                <strong>
+                    <h3 className='big_intro font-weight-bold'>SOLUTION IMPLICATIONS</h3>
+                </strong>
+                <div className=''>
+                <h4 className=''>Throughout the research and design process, we looked through more apps and softwares that provided inspiration for our OS, thus updating our moodboards. The project was quickly intensifying and expectations were getting higher. By the end of the two weeks, we intended to have: </h4>
+            </div>
+            </div>
+            <br/><br/><br/>
+            <div className="bgGrey">
+                <br/><br/><br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="1" src="./img/persuasive/Group 27.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Consistent UX patterns and UI components</p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="2" src="./img/persuasive/Group 27.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Consistent app layouts and evidence of componentized thinking</p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="2" src="./img/persuasive/Group 27.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Consistent methods of managing apps and system controls</p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div className="row">
+                        <div className="ps-5 col-3">
+                            <img className="weary" alt="2" src="./img/persuasive/Group 27.png"/>
+                        </div>
+                        <div className="col align-middle align-self-center">
+                            <p className="lead">Consistent use of gestures, interactions &amp; use of motion to enhance the experience</p>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+            </div> 
+            <div className='px-5'>
+                <p className='lead'>
+                    
+                </p>
+            </div>        
         
 
             
@@ -363,16 +418,7 @@ export function HumaneOS (props) {
                 <span className="px-4 section-title">sprint 3</span>
             </div>
             <div className="px-5 content">
-                <p>There were several goals we had for this particular sprint, as the project was quickly intensifying and expectations were getting higher. By the end of the two weeks, we intended to have: </p>
-                <ul>
-                    <li>Consistent UX patterns and UI components</li>
-                    <li>Consistent app layouts and evidence of componentized thinking</li>
-                    <li>Consistent methods of managing apps and system controls</li>
-                    <li>Consistent use of gestures, interactions &amp; use of motion to enhance the experience</li>
-                </ul>
-                <p>Our design language remained evolving! We decided to include clarity in our design language, meaning easy to use or transparent, because we felt this would be helpful for goal-setting.</p>
-                <blockquote>Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness, encouragement, and clarity.</blockquote>
-                <p>Throughout the research and design process, we looked through more apps and softwares that provided inspiration for our OS, thus updating our <strong className = "bolded-words">moodboards</strong> (see below).</p>
+               
                 
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard1.png" alt="improved moodboard featuring mercury and momentum extension"/>
                 <img className="px-5 center-img img-fluid" src="img/humaneOS/moodboard2.png" alt="improved moodboard featuring reflectly app"/>
