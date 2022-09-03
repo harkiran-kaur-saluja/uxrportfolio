@@ -137,7 +137,7 @@ export function HumaneOS (props) {
                     First, we talked about what device we could have our OS and its features on. The idea of having an OS on wearables, such as an Apple Watch or Fitbit, was definitely on our list. One of our team members went so far as to talking about <em>Black Mirror</em>, and how our interface doesn't need to be on a physical screen. However, the rest of us realized that the more futuristic it was, the harder it would be to present. We then discussed the pros and cons of iOS and Android.
 
                     <br/> <br/>
-{/* 
+                {/* 
                     About halfway through the sprint, the team member proposing the futuristic idea became a challenge for the rest of the team because they were pushing it hard and no one else wanted to go with it. For the scope of the project, we wanted to have our OS on a device that already exists, such as a wearable or a mobile phone. After a long discussion with the mentors regarding time and feasibility, everyone was on board and we all decided to have our OS on an iPhone, since that's what everyone had (except me, but I knew how they worked).<strong className = "bolded-words"> Here, I learned that being frustrated is part of the design struggle, </strong> whether it be with working in a team or with the designs themselves.
 
                     <br/> <br/> */}
@@ -192,7 +192,7 @@ export function HumaneOS (props) {
             <br/>
             <br/>
 
-{/* Purpose, personas, current state, sketches and initial design */}
+            {/* Purpose, personas, current state, sketches and initial design */}
 
             <div className='px-5'>
                 <strong>
@@ -205,69 +205,159 @@ export function HumaneOS (props) {
                 <br/>
                 <p className="lead">We also discussed the consistent use of gestures, interactions and use of motion we wanted to enhance the experience of HumaneOS. Here, the intention was to define how users will interact with various screens, how motion will be used to provide users with a sense of place, and how gestures will be used to facilitate smooth transitions between tasks and modalities.
                 <br/><br/>
-                While we kept humane as our design language, our conversations and ideations during design studio led ux to change our description to this: 
+                While we kept humane as our design language, our conversations and ideations during design studio led us to change our description to this: 
                 <br/><br/>
                 <div>
-                <img className='img-fluid' src="./img/persuasive/balance_Title.png" alt="Maximizing productivity with efficient break-taking"/>
+                <img className='img-fluid' src="./img/humaneOS/designLanguage2.0.png" alt="Maximizing productivity with efficient break-taking"/>
                 </div>
-                As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored 10+ apps, including apps like Reflectly, is a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.</p>
+                <br/>
+                As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored apps like Reflectly: a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.
+                
+                <br/>  <br/>
+                We also created <strong className = "bolded-words">three personas</strong> and user stories to help guide our design principles. The first was for the messages app, the second was for the health app, and the third was for the notes app.
+                <br/><br/>
+                
+                {/*2 column layout for each persona and journey*/}
+                <div className="row justify-content-center">
+                    <img className="col-6 imgLeft" src="img/humaneOS/persona1.png" alt="our first user persona"/>
+                    <img className="col-6 imgRight pu-4" src="img/humaneOS/journey1.png" alt="our first user journey"/>
+                </div>
+                <br/>
+                <div className="row justify-content-center">
+                    <img className="col-6 imgLeft" src="img/humaneOS/persona2.png" alt="our second user persona"/>
+                    <img className="col-6 imgRight pu-4" src="img/humaneOS/journey2.png" alt="our second user journey"/>
+                </div>
+                <br/>
+                <div className="row justify-content-center">
+                    <img className="col-6 imgLeft" src="img/humaneOS/persona3.png" alt="our third user persona"/>
+                    <img className="col-6 imgRight pu-4" src="img/humaneOS/journey3.png" alt="our third user journey"/>
+                </div></p>
             </div>
             <br/>
             <br/>
 
-            <div className="collapsible" onClick={props.handleClick}>
-                <span className="px-4 section-title">sprint 2</span>
+
+            <div className='under'></div>
+            <br/>
+            <br/>
+
+            <div className='px-5'>
+                <strong>
+                    <h3 className='big_intro font-weight-bold'>INITIAL DESIGNS</h3>
+                </strong>
+                <br/>
+                <div className='underline'>
+                    <h4 className='highlight'>Next, we focused on three main apps: Messaging, Health, and Notes. Our goal was ideate and refine our ideas into prototypes.</h4>
+                </div>
+                <br/>
             </div>
-            <div className="px-5 content">
-                <p>Our primary focus for this sprint was <strong className = "bolded-words">defining the overall user experience principles and best practices</strong> that will be used for our OS and all of our apps. To achieve this we had to: 
-                </p><ul>
-                <li>Define the target users contexts, typical behaviors and needs by developing personas</li>
-                <li>Define the users journey or steps needed to complete tasks for each app type, showing flows or diagrams</li>
-                <li>Breakdown the journey steps into requirements for each app type, using user stories</li>
-                </ul>
-                <p />
-                <p>We also used a bit of this sprint to discuss the consistent use of gestures, interactions and use of motion we wanted to enhance the experience of HumaneOS. Here, the intention was to define how users will interact with various screens, how motion will be used to provide users with a sense of place, and how gestures will be used to facilitate smooth transitions between tasks and modalities.
-                <br/><br/>
-                While we kept humane as our design language, our conversations and ideations during design studio led ux to change our description to this: 
-                <br/><br/>
-                <blockquote className="px-5">Humane is our design language. Our experience will foster goal-setting and achieving by relying on mindfulness and encouragement.</blockquote>
-                <br/><br/>
-                As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored around 10+ apps, some of which can be seen below. An example is that Reflectly, is a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.</p>
-                <img className="px-5 justify-content-center center-img img-fluid" src="img/humaneOS/inspiration.png" alt="existing app inspiration for humaneOS"/>
-                <p>One of our biggest observations was that all those apps tend to use an earthy tone, very thin lines and fonts, and most importantly, illustrations. As a matter of fact, all of those apps above choose to use <strong className = "bolded-words">illustrations</strong> to present a cheerful mood and chill vibe. Besides illustrations, at most 3 options will be presented on the screen for user to choose at each step regardless scenarios. We think the philosophy behind this is great, reducing the distraction for users, and we try to follow this practice into our OS. Lastly, we noticed that <strong className = "bolded-words">animated transitions</strong> form a smoother use flow of the apps, a more intimate user experience, therefore making the user stick around.</p>
-                <p>After sprint 1 we had low-fidelity prototypes on pencil and paper for the lock screen, so after coming together we wanted to produce a high-fidelity design.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/lockscreen.png" alt="the lockscreen for humaneOS"/>
-                <p>We also created <strong className = "bolded-words">three personas</strong> and user stories to help guide our design principles. The first was for the messages app, the second was for the health app, and the third was for the notes app.</p>
-                {/*2 column layout for each persona and journey*/}
-                <div className="row justify-content-center">
-                    <img className="col-6 imgLeft" src="img/humaneOS/persona1.png" alt="our first user persona"/>
-                    <img className="col-6 imgRight" src="img/humaneOS/journey1.png" alt="our first user journey"/>
+
+            
+            <br/><br/><br/>
+            <div className="px-5">
+                <div className='container'>
+                    <div className='row'>
+                        <div className="col align-middle align-self-center">
+                            <p className="highlight">
+                                <mark>Messaging</mark>
+                            </p>
+                        </div>
+
+                        <div className="col">
+                            <div className="row">
+                                
+                                <p className="lead">Among our top considerations was <strong className = "bolded-words">cognitive overload:</strong> the strain a user experiences when they have to think too much just to get something done. I used this information to my advantage along with the fact that people tend to spend most of their time on messaging and social media apps. During the ideation phase of the messages app, we came up with the idea of a <strong className = "bolded-words">"category bar,"</strong> in which there could be a way for users to organize things into different groups. A quick note that a similar concept to this <strong className = "bolded-words">came out in an Android update in summer 2020</strong> in the messages app.
+                                <br/> <br/>
+                                <span  style={{fontWeight: "bold"}}>Within the context of our messages app, we decided to give our users the ability to:</span>
+                                <br/> 
+                                <ul>
+                               
+                                    <li>Organize contacts into different groups.</li>
+                                    <li>Filter what messages they see to the people of a selected group.</li>
+                                    <li>Drag a user's profile bubble to a group or color to be added into that group.</li>
+                                    <li>Groups with more priority show up on notifications and leave the ones less important out.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="row justify-content-center">
-                    <img className="col-6 imgLeft" src="img/humaneOS/persona2.png" alt="our second user persona"/>
-                    <img className="col-6 imgRight" src="img/humaneOS/journey2.png" alt="our second user journey"/>
-                </div>
-                <div className="row justify-content-center">
-                    <img className="col-6 imgLeft" src="img/humaneOS/persona3.png" alt="our third user persona"/>
-                    <img className="col-6 imgRight" src="img/humaneOS/journey3.png" alt="our third user journey"/>
-                </div>
-                <h4>Current states + initial designs</h4>
-                <p>In order to design the <strong className = "bolded-words">messages</strong> app, we looked at the <strong className = "bolded-words">current state</strong> of this app on iOS, identified the problem, and presented our solution.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/messagesCurrentState.png" alt="a view of the messages function of our app"/>
-                <p>Looking at the above image, I noticed that there was a lot of information for the user to take in. Regarding UX design, <strong className = "bolded-words">cognitive overload</strong> is the strain a user experiences when they have to think too much just to get something done. Anything that requires users to stop and figure out what to do next is <strong className = "bolded-words">cognitive load</strong>. I used this information to my advantage along with the fact that people tend to spend most of their time on messaging and social media apps.</p>
-                <p>During the ideation phase of the messages app, we came up with the idea of a <strong className = "bolded-words">"category bar,"</strong> in which there could be a way for users to organize things into different groups. Below is the basic concept of it during the whiteboarding process. A quick note that a similar concept to this <strong className = "bolded-words">came out in an Android update in summer 2020</strong>, in the messages app.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/categoryBarIdea.jpg" alt="initial category bar drawing"/>
-                <p>In the context of the <strong className = "bolded-words">messages</strong> app, we decided to give our user a way to organize contacts into different groups (shown below). When the user first opens the app, they’ll be shown all of their recent messages as normal. If they see someone who’s not in a group, they can drag their profile bubble to a group or color to be added into that group, similar to dragging a file into a folder on a computer.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/messagesCategory1.png" alt="initial category bar concept for messages"/>
-                <p>Now that the user has organized their contacts into their own groups, they’re able to <strong className = "bolded-words">filter</strong> what messages they see to the people of a selected group (shown below). If they tap any of the groups on the top, the messages will filter to only messages from those people. It will also make groups with more priority show up on notifications and leave the ones less important out. Since our user wants to spend more time talking with family this was our way of addressing that issue and allowing them to focus on what’s important to them.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/messagesCategory2.png" alt="initial category bar flow for messages"/>
-                <p>After looking at the current version of the <strong className = "bolded-words">health</strong> app on iOS, we notices the colors were the same and there were no symbols, visualizations, or graphs. From this, we wanted to measure success in a clear and meaningful way provides valuable personal validation and created a basic version of a health app (both whiteboard ideation and higher fidelity concept shown below): </p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/healthFlow1.jpg" alt="low-fi flow for health"/>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/healthFlow2.png" alt="high-fi flow for health"/>
-                <p>A similar approach was taken with the <strong className = "bolded-words">notes</strong> app as the messages app. After looking at the current state of the notes app on iOS we found the same cognitive overload and clutter problems as with the messages app (shown below). This brought back our "category bar" idea for the design of the HumaneOS notes app.</p>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/notesCurrent.png" alt="cuurent state of the iOS notes app"/>
-                <img className="px-5 center-img img-fluid" src="img/humaneOS/notesFlow.png" alt="overall flow for the notes app"/>
+                
             </div>
+
+            <div className="under"/>
+            <br/><br/><br/>
+            <div className="px-5">
+                <div className='container'>
+                    <div className='row'>
+                        <div className="col align-middle align-self-center">
+                            <p className="highlight">
+                                <mark>Health</mark>
+                            </p>
+                        </div>
+
+                        <div className="col">
+                            <div className="row">
+                                
+                                <p className="lead">
+                                After looking at the current version of the <strong className = "bolded-words">health</strong> app on iOS, we notices the colors were the same and there were no symbols, visualizations, or graphs. From this, we wanted to measure success in a clear and meaningful way provides valuable personal validation and created a basic version of a health app.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <img className="col-6 imgLeft" src="img/humaneOS/healthFlow1.jpg" alt="low-fi flow for health"/>
+                        <img className="col-6 imgRight" src="img/humaneOS/healthFlow2.png" alt="high-fi flow for health"/>
+                    </div>
+                </div>
+                <br/><br/>
+               
+               
+            </div>
+
+         
+            <div className="under"/>
+            <br/><br/><br/>
+            <div className="px-5">
+                <div className='container'>
+                    <div className='row'>
+                        <div className="col align-middle align-self-center">
+                            <p className="highlight">
+                                <mark>Notes</mark>
+                            </p>
+                        </div>
+
+                        <div className="col">
+                            <div className="row">
+                                
+                                <p className="lead">
+                                A similar approach was taken with the <strong className = "bolded-words">notes</strong> app as the messages app. After looking at the current state of the notes app on iOS we found the same cognitive overload and clutter problems as with the messages app. This brought back our "category bar" idea for the design of the HumaneOS notes app. As designers, we looked to existing apps similar to the concept for our OS to help spark design ideas and the creative side within us. We explored apps like Reflectly: a journal-like app that helps you live better by intentionally reflecting on your experiences. The app encourages you to jot down how you feel in daily by asking gentle follow up questions.
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <img className="col-6 imgLeft" src="img/humaneOS/notesCurrent.png" alt="curent state of the iOS notes app"/>
+                        <img className="col-6 imgRight" src="img/humaneOS/notesFlow.png" alt="overall flow for the notes app"/>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+            
+            
+            
+            
+          
+        
+
+            
 
             <div className="collapsible" onClick={props.handleClick}>
                 <span className="px-4 section-title">sprint 3</span>
