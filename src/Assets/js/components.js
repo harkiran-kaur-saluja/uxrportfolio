@@ -61,7 +61,7 @@ export function HomeBody(props) {
                     <br/>
                     <h5 className="quick-intro">
                         <strong className="bolded-words">User experience researcher</strong> eager to learn and grow.</h5>
-                    <h5 className="quick-intro">Master's student at Carnegie Mellon University.</h5>
+                    <h5 className="quick-intro">Passionate about educational and entertainment experiences.</h5>
                     <h5 className="quick-intro">Pun enthusiast.</h5>
                     <br/>
                     <button className="btn btn-outline-secondary button"
@@ -275,7 +275,7 @@ export function About(props) {
         <div>
             <div className="aboutText">
                 <h2>about
-                    <span className="me">me</span>
+                    <span className="me"> me</span>
                 </h2>
                 <br/>
 
@@ -299,12 +299,12 @@ export function About(props) {
                                 In 2018, I moved to Seattle to pursue my passion for technology. My college experience enabled me to find a love for HCI, research, and teaching/mentoring. For two years, I conducted participatory design activities with children. I graduated from the University of Washington with a Bachelor of Science in Informatics and a minor in Gender, Women, &amp; Sexuality Studies.
                                 <br/><br/>
 
-                                Currently, I am pursuing my
+                                I recently graduated from the
                                 <strong className="bolded-words"> Master of Human-Computer Interaction</strong>
-                                at Carnegie Mellon University, where I conduct research on the voices of underrepresented minorities in the HCI community. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=3XzUUr8AAAAJ&hl=en&oi=ao">here</a>.
+                                program at Carnegie Mellon University, where I conducted research on the voices of underrepresented minorities in the HCI community. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=3XzUUr8AAAAJ&hl=en&oi=ao">here</a>.
                                 <br/><br/>
 
-                                Outside of research, I love to watch tennis and basketball, play word games, and make puns.<br/><br/>
+                                Outside of research, I love to watch tennis and basketball, work out, and make puns.<br/><br/>
 
                                 I'm always looking to learn from and collaborate with others. Feel free to reach out and let's chat!</p>
                         </div>
@@ -334,10 +334,10 @@ export function Footer(props) {
 
                         <p className="footer_email">I'm always looking to learn from you!
                             <br/>
-                            Feel free to reach out at
-                            <a href="mailto: harkiran.saluja@gmail.com" className="footer_email"> harkiran.saluja@gmail.com</a>.</p>
+                            Feel free to reach out at 
+                            <a href="mailto: harkiran.saluja@gmail.com" className="footer_email">harkiran.saluja@gmail.com</a>.</p>
                     </div>
-                    <small>Copyright 2022 &nbsp; &copy; &nbsp; Harkiran Kaur Saluja</small>
+                    <small>Copyright 2023 &nbsp; &copy; &nbsp; Harkiran Kaur Saluja</small>
 
                 </div>
             </footer>

@@ -13,7 +13,7 @@ export function Resume(props) {
                         <strong className="bolded-words">UX Researcher</strong>
                     </h4>
                     <br/>
-                    <a className="btn btn-outline-secondary button" href="https://drive.google.com/file/d/1MqqagyaZZHlzQO9kpCr4CSjnJSiatULL/view?usp=sharing">Download Resume</a>&emsp;
+                    <a className="btn btn-outline-secondary button" href="https://docs.google.com/document/d/1B8t7iwTQ_5t3fz647ygYS9snp5ykDjMZJGQzENwE5jg/edit?usp=sharing">Download Resume</a>&emsp;
                     <a className="btn btn-outline-secondary button" href="https://www.linkedin.com/in/harkiran-kaur-saluja/">LinkedIn</a>
                     <br/>
                 </div>
@@ -27,24 +27,24 @@ export function Resume(props) {
                         </div>
                         <div className='row'>
                             <p>
-                                <strong>Graduate Research Assistant
-                                </strong>/ Carnegie Mellon Social AI Group
+                                <strong>UX Researcher II
+                                </strong>/ Key Lime Interactive
                                 <ul>
-                                    <li>February 2022 - Present / Pittsburgh, PA</li>
-                                    {/*<li>Driving inclusion and representation of queer voices in HCI by conducting a 
-                                literature review of 500+ papers to better understand how underrepresented 
-                                communities are described in HCI research.
+                                    <li>November 2022 - April 2023 / Remote</li>
+                                    {/*<li>Partnered with 2 large-scale clients to identify business goals and objectives, and ensured research studies aligned with client needs while delivering insights to drive actionable design decisions.
                                     </li>
-                                    <li>Publishing and presenting findings at the CHI 2023 conference
+                                    <li>Generated 75+ qualitative and quantitative data points from 500+ survey participants, providing insights into user feature preferences and informing design decisions for future-release products.
+                                    </li>
+                                    <li> Moderated 16 evaluative sessions to identify key user decision-making points for a proposed app
                                     </li> */} </ul>
                             </p>
                         </div>
                         <div className='row'>
                             <p>
-                                <strong>User Researcher
+                                <strong>UX Researcher
                                 </strong>/ Young Adult Survivors United
                                 <ul>
-                                    <li>January 2022 - Present / Pittsburgh, PA</li>
+                                    <li>January 2022 - August 2022 / Pittsburgh, PA</li>
                                     {/*<li>Streamlining nonprofit operations and tools to enable organizational growth.
                                     </li>
                                     <li>Executing and analyzing 15 interviews and 12 field observations to understand 
@@ -55,7 +55,7 @@ and enhance member engagement as well as cancer survivor experiences
                         <div className='row'>
                             <p>
                                 <strong>Design Researcher
-                                </strong>/ CTRL + F Lab
+                                </strong>/ Children, Technology, Research, Learning & Families Lab
                                 <ul>
                                     <li>April 2019 - September 2021 / Seattle, WA</li>
                                     {/*<li>DFacilitated co-design activities for 30 children in KidsTeam that focused on 
