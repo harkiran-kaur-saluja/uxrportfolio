@@ -274,8 +274,8 @@ export function About(props) {
     return (
         <div>
             <div className="aboutText">
-                <h2>about
-                    <span className="me"> me</span>
+                <h2>about 
+                    <span className="me">me</span>
                 </h2>
                 <br/>
 
@@ -290,7 +290,7 @@ export function About(props) {
                         <div className="col">
                             <br/>
                             <p>Hi there! I’m
-                                <strong className="bolded-words"> Harkiran</strong>
+                                <strong className="bolded-words"> Harkiran </strong>
                                 (she/her, pronounced harr-KI-run) - a UX specialist hoping to further my career in the research space.<br/><br/>
 
                                 I grew up in Southern California, which allowed me to have an idiosyncratic perspective on the world as a Sikh-American. I learned that different individials have different stories that we can take inspiration and new ideas from.
@@ -300,7 +300,7 @@ export function About(props) {
                                 <br/><br/>
 
                                 I recently graduated from the
-                                <strong className="bolded-words"> Master of Human-Computer Interaction</strong>
+                                <strong className="bolded-words"> Master of Human-Computer Interaction </strong>
                                 program at Carnegie Mellon University, where I conducted research on the voices of underrepresented minorities in the HCI community. Feel free to check out my publications <a href="https://scholar.google.com/citations?user=3XzUUr8AAAAJ&hl=en&oi=ao">here</a>.
                                 <br/><br/>
 
