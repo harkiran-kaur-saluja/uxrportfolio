@@ -316,7 +316,7 @@ export function About(props) {
     );
 }
 
-export function Footer(props) {
+export function Footer() {
     return (
         <div>
             <footer id="sticky-footer" class="flex-shrink-0 py-3 text-white">
