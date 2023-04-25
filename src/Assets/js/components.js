@@ -274,7 +274,7 @@ export function About(props) {
     return (
         <div>
             <div className="aboutText">
-                <h2>about 
+                <h2>about&#32;
                     <span className="me">me</span>
                 </h2>
                 <br/>
@@ -334,7 +334,7 @@ export function Footer() {
 
                         <p className="footer_email">I'm always looking to learn from you!
                             <br/>
-                            Feel free to reach out at 
+                            Feel free to reach out at &#32;
                             <a href="mailto: harkiran.saluja@gmail.com" className="footer_email">harkiran.saluja@gmail.com</a>.</p>
                     </div>
                     <small>Copyright 2023 &nbsp; &copy; &nbsp; Harkiran Kaur Saluja</small>

@@ -145,6 +145,10 @@ inform research methods for children.
                             <br/>
                             Empathy Maps
                             <br/>
+                            Concept Testing
+                            <br/>
+                            Diary Studies
+                            <br/>
                             "Speed Dating"
                         </p>
                     </div>
@@ -160,6 +164,20 @@ inform research methods for children.
                             InVision
                             <br/>
                             Miro
+                            <br/>
+                            Qualtrix
+                            <br/>
+                            SurveyMonkey
+                            <br/>
+                            User Interviews
+                            <br/>
+                            Balsamiq
+                            <br/>
+                            VoiceFlow
+                            <br/>
+                            Optimal Workshop
+                            <br/>
+                            InVision
                         </p>
 
                     </div>
