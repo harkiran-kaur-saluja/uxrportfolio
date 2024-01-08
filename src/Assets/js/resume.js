@@ -30,7 +30,7 @@ export function Resume(props) {
                                 <strong>UXR Rolling Researcher
                                 </strong> / Duolingo (via UpWork)
                                 <ul>
-                                    <li>October 2023 - PRESENT / Remote</li>
+                                    <li>October 2023 - Present / Remote</li>
                                     {/*<li>description</li>*/} </ul>
                             </p>
                         </div>
