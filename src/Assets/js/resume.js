@@ -27,8 +27,17 @@ export function Resume(props) {
                         </div>
                         <div className='row'>
                             <p>
+                                <strong>UXR Rolling Researcher
+                                </strong> / Duolingo (via UpWork)
+                                <ul>
+                                    <li>October 2023 - PRESENT / Remote</li>
+                                    {/*<li>description</li>*/} </ul>
+                            </p>
+                        </div>
+                        <div className='row'>
+                            <p>
                                 <strong>UX Researcher II
-                                </strong>/ Key Lime Interactive
+                                </strong> / Key Lime Interactive
                                 <ul>
                                     <li>November 2022 - April 2023 / Remote</li>
                                     {/*<li>Partnered with 2 large-scale clients to identify business goals and objectives, and ensured research studies aligned with client needs while delivering insights to drive actionable design decisions.
@@ -42,7 +51,7 @@ export function Resume(props) {
                         <div className='row'>
                             <p>
                                 <strong>UX Researcher
-                                </strong>/ Young Adult Survivors United
+                                </strong> / Young Adult Survivors United
                                 <ul>
                                     <li>January 2022 - August 2022 / Pittsburgh, PA</li>
                                     {/*<li>Streamlining nonprofit operations and tools to enable organizational growth.
@@ -55,7 +64,7 @@ and enhance member engagement as well as cancer survivor experiences
                         <div className='row'>
                             <p>
                                 <strong>Design Researcher
-                                </strong>/ Children, Technology, Research, Learning & Families Lab
+                                </strong> / Children, Technology, Research, Learning & Families Lab
                                 <ul>
                                     <li>April 2019 - September 2021 / Seattle, WA</li>
                                     {/*<li>DFacilitated co-design activities for 30 children in KidsTeam that focused on 
@@ -80,7 +89,7 @@ inform research methods for children.
                                 <strong>Master of Human Computer Interaction
                                 </strong>
                                 <ul>
-                                    <li>Carnegie Mellon University - August 2022</li>
+                                    <li>Carnegie Mellon University</li>
                                 </ul>
                             </p>
                         </div>
@@ -89,21 +98,8 @@ inform research methods for children.
                                 <strong>Bachelor of Science in Informatics</strong>
                                 <i>, cum laude, Phi Beta Kappa</i>
                                 <ul>
-                                    <li>University of Washington - June 2021</li>
+                                    <li>University of Washington</li>
                                 </ul>
-                            </p>
-                        </div>
-                        <hr/>
-                        <div className='row'>
-                            <h4>
-                                <strong className='bolded-words'>Awards</strong>
-                            </h4>
-                        </div>
-                        <div className='row'>
-                            <p>Faculty Award for Student Excellence in Informatics</p>
-                        </div>
-                        <div className='row'>
-                            <p>CHI 2021 Best Paper Award
                             </p>
                         </div>
                     </div>
@@ -118,7 +114,7 @@ inform research methods for children.
                     </div>
                     <div className='row'>
                         <h5>
-                            <strong>UX Methods</strong>
+                            <strong>Research Methods</strong>
                         </h5>
                         <p>
                             In-Depth Interviews
@@ -137,8 +133,6 @@ inform research methods for children.
                             <br/>
                             Heuristic Evaluations
                             <br/>
-                            Affinity Mapping
-                            <br/>
                             Persona Creation
                             <br/>
                             Customer Journey Maps
@@ -149,7 +143,7 @@ inform research methods for children.
                             <br/>
                             Diary Studies
                             <br/>
-                            "Speed Dating"
+                            Reporting
                         </p>
                     </div>
                     <div className='row'>
@@ -159,31 +153,48 @@ inform research methods for children.
                         <p>
                             Figma
                             <br/>
-                            Adobe Creative Suite
+                            Adobe Creative Cloud
                             <br/>
                             InVision
                             <br/>
                             Miro
                             <br/>
-                            Qualtrix
+                            Qualtrics
                             <br/>
                             SurveyMonkey
                             <br/>
-                            User Interviews
+                            UserInterviews
                             <br/>
                             Balsamiq
                             <br/>
-                            VoiceFlow
+                            dScout
                             <br/>
                             Optimal Workshop
                             <br/>
                             InVision
+                            <br/>
+                            Reduct.video
                         </p>
-
+                    </div>
+                    <div className='row'>
+                        <h5>
+                            <strong>Key Strengths</strong>
+                        </h5>
+                        <p>
+                            Adaptability
+                            <br/>
+                            Big-Picture Thinking
+                            <br/>
+                            Active Listening
+                            <br/>
+                            Self-Directed Learning
+                            <br/>
+                            Data Storytelling
+                        </p>
                     </div>
 
                     <hr/>
-                    <div className='row'>
+                    {/* <div className='row'>
                         <h4>
                             <strong className='bolded-words'>Publications</strong>
                         </h4>
@@ -191,25 +202,25 @@ inform research methods for children.
                     <div className='row'>
                         <p>
                             Simko, L., Chin, B., Na, S.,
-                            <strong>Saluja, H.K.</strong>, Zhu, T.Q., Hiniker, A., Yip, J.C., & Cobb, C. (2021). 
+                            <strong> Saluja, H.K.</strong>, Zhu, T.Q., Hiniker, A., Yip, J.C., & Cobb, C. (2021). 
                                                             Would You Rather: A focus group method for eliciting and discussing formative 
                                                             design insights with children.
-                            <em>Proceedings of the 2021 IDC Interaction Design and 
+                            <em> Proceedings of the 2021 IDC Interaction Design and 
                                                             Children.</em>
-                            Association for Computing Machinery.
+                            Association for Computing Machinery. <strong>Received CHI Best Paper Award</strong>
                         </p>
                         <br/>
                         <p>
                             Lee, K.J., Roldan, W., Zhu, T.Q.,
-                            <strong>Saluja, H.K.</strong>, Na, S., Chin, B., Zeng, Y., Lee, J.H., & Yip, 
+                            <strong> Saluja, H.K.</strong>, Na, S., Chin, B., Zeng, Y., Lee, J.H., & Yip, 
                                                         J.C., (2021). The Show Must Go On: A conceptual model of conducting synchronous 
                                                         participatory design with children online.
-                            <em>Proceedings of the 2021 CHI Conference 
+                            <em> Proceedings of the 2021 CHI Conference 
                                                         on Human Factors in Computing Systems.</em>
                             Association for Computing Machinery.
                         </p>
 
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
