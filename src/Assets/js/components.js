@@ -60,8 +60,8 @@ export function HomeBody(props) {
                     <h2>Hi! I'm <span className="firstName">harkiran</span></h2>
                     <br/>
                     <h5 className="quick-intro">
-                        <strong className="bolded-words">User experience researcher</strong> eager to learn and grow.</h5>
-                    <h5 className="quick-intro">Passionate about educational and entertainment experiences.</h5>
+                        <strong className="bolded-words">User experience researcher and designer</strong> eager to learn and grow.</h5>
+                    <h5 className="quick-intro">Passionate about improving learning experiences.</h5>
                     <h5 className="quick-intro">Pun enthusiast.</h5>
                     <br/>
                     <button className="btn btn-outline-secondary button"
@@ -280,7 +280,7 @@ export function About(props) {
                 <br/>
 
                 <h1 className="big_intro animate__animated animate__backInUp">Originally from Southern California.<br/>
-                    Currently in Pittsburgh, Pennsylvania.</h1>
+                    Most recently in Pittsburgh, Pennsylvania.</h1>
 
                 <div className="container">
                     <div className="row">
