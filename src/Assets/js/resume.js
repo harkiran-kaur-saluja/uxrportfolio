@@ -86,7 +86,7 @@ inform research methods for children.
                         </div>
                         <div className='row'>
                             <p>
-                                <strong>Master of Human Computer Interaction
+                                <strong>Master of Human-Computer Interaction
                                 </strong>
                                 <ul>
                                     <li>Carnegie Mellon University</li>
